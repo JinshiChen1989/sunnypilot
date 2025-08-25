@@ -637,7 +637,14 @@ class CarInterfaceBase(ABC):
       (cs_out.seatbeltUnlatched and cs_out.gearShifter != GearShifter.park):
       gear_allowed = False
 
+    # Lateral active gating
     cs_out.latActive = gear_allowed
+    # BrownPanda: initialize and allow steering control to be toggled via altButton2 (btnLaneEn)
+    if getattr(self.CP, 'carName', '') == 'BrownPanda':
+      # Initialize once from cluster state (statLnEn) via CarState.lane_enabled_status
+      if not hasattr(CS, 'lane_control_enabled'):
+        CS.lane_control_enabled = getattr(CS, 'lane_enabled_status', True)
+      cs_out.latActive = cs_out.latActive and CS.lane_control_enabled
 
     if not CS.control_initialized:
       CS.control_initialized = True
@@ -693,8 +700,8 @@ class CarInterfaceBase(ABC):
         elif not self.cruise_cancelled_btn:
           self.cruise_cancelled_btn = True
           events.add(EventName.manualLongitudinalRequired)
-      # do disable on MADS button if ACC is disabled
-      if b.type == ButtonType.altButton1 and b.pressed and self.enable_mads:
+      # do disable on MADS button if ACC is disabled (altButton1 only)
+      if b.pressed and self.enable_mads and b.type == ButtonType.altButton1:
         if not cs_out.madsEnabled:  # disabled MADS
           if not cs_out.cruiseState.enabled:
             events.add(EventName.buttonCancel)
@@ -703,6 +710,11 @@ class CarInterfaceBase(ABC):
         else:  # enabled MADS
           if not cs_out.cruiseState.enabled:
             enable_pressed = True
+      # BrownPanda: altButton2 toggles steering control (LKAS enable/disable)
+      if b.type == ButtonType.altButton2 and b.pressed and getattr(self.CP, 'carName', '') == 'BrownPanda':
+        if not hasattr(CS, 'lane_control_enabled'):
+          CS.lane_control_enabled = True
+        CS.lane_control_enabled = not CS.lane_control_enabled
     if self.CP.pcmCruise:
       # do disable on button down
       if main_enabled:

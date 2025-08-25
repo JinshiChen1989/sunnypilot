@@ -88,15 +88,15 @@
     </message>
     <message>
         <source>Retain hotspot/tethering state</source>
-        <translation type="unfinished"></translation>
+        <translation>保留熱點/網路分享狀態</translation>
     </message>
     <message>
         <source>Enabling this toggle will retain the hotspot/tethering toggle state across reboots.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此開關將在重新啟動後保留熱點/網路分享的狀態。</translation>
     </message>
     <message>
         <source>Ngrok Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Ngrok 服務</translation>
     </message>
 </context>
 <context>
@@ -126,85 +126,86 @@
     <name>AutoLaneChangeTimer</name>
     <message>
         <source>Auto Lane Change by Blinker</source>
-        <translation type="unfinished"></translation>
+        <translation>打方向燈自動變換車道</translation>
     </message>
     <message>
         <source>Set a timer to delay the auto lane change operation when the blinker is used. No nudge on the steering wheel is required to auto lane change if a timer is set. Default is Nudge.
 Please use caution when using this feature. Only use the blinker when traffic and road conditions permit.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定一個計時器，在使用方向燈時延遲自動變換車道操作。如果設定了計時器，則無需輕推方向盤即可自動變換車道。預設為「輕推」。
+請謹慎使用此功能。僅在交通和路況允許時使用方向燈。</translation>
     </message>
     <message>
         <source>s</source>
-        <translation type="unfinished"></translation>
+        <translation>秒</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Nudge</source>
-        <translation type="unfinished"></translation>
+        <translation>輕推</translation>
     </message>
     <message>
         <source>Nudgeless</source>
-        <translation type="unfinished"></translation>
+        <translation>全自動</translation>
     </message>
 </context>
 <context>
     <name>BackupSettings</name>
     <message>
         <source>Settings backed up for sunnylink Device ID:</source>
-        <translation type="unfinished"></translation>
+        <translation>設定已備份至 sunnylink 裝置 ID：</translation>
     </message>
     <message>
         <source>Settings updated successfully, but no additional data was returned by the server.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定更新成功，但伺服器未返回任何額外資料。</translation>
     </message>
     <message>
         <source>OOPS! We made a booboo.</source>
-        <translation type="unfinished"></translation>
+        <translation>哎呀！我們出錯了。</translation>
     </message>
     <message>
         <source>Please try again later.</source>
-        <translation type="unfinished"></translation>
+        <translation>請稍後再試。</translation>
     </message>
     <message>
         <source>Settings restored. Confirm to restart the interface.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定已還原。請確認以重新啟動介面。</translation>
     </message>
     <message>
         <source>No settings found to restore.</source>
-        <translation type="unfinished"></translation>
+        <translation>找不到要還原的設定。</translation>
     </message>
 </context>
 <context>
     <name>BrightnessControl</name>
     <message>
         <source>Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>螢幕亮度</translation>
     </message>
     <message>
         <source>Manually adjusts the global brightness of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>手動調整螢幕的亮度。</translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>自動</translation>
     </message>
 </context>
 <context>
     <name>CameraOffset</name>
     <message>
         <source>Camera Offset - Laneful Only</source>
-        <translation type="unfinished"></translation>
+        <translation>相機偏移（僅限車道線模式）</translation>
     </message>
     <message>
         <source>Hack to trick vehicle to be left or right biased in its lane. Decreasing the value will make the car keep more left, increasing will make it keep more right. Changes take effect immediately. Default: +4 cm</source>
-        <translation type="unfinished"></translation>
+        <translation>此設定可讓車輛在車道內向左或向右偏移。減小數值會使車輛更靠左，增加數值則會更靠右。變更會立即生效。預設值：+4 公分</translation>
     </message>
     <message>
         <source> cm</source>
-        <translation type="unfinished"></translation>
+        <translation> 公分</translation>
     </message>
 </context>
 <context>
@@ -222,14 +223,14 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <name>CustomOffsetsSettings</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished">回上頁</translation>
+        <translation>回上頁</translation>
     </message>
 </context>
 <context>
     <name>DeclinePage</name>
     <message>
-        <source>You must accept the Terms and Conditions in order to use openpilot.</source>
-        <translation type="vanished">您必須先接受條款和條件才能使用 openpilot。</translation>
+        <source>You must accept the Terms and Conditions in order to use sunnypilot.</source>
+        <translation>您必須接受條款和條件才能使用 sunnypilot。</translation>
     </message>
     <message>
         <source>Back</source>
@@ -238,10 +239,6 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <message>
         <source>Decline, uninstall %1</source>
         <translation>拒絕並解除安裝 %1</translation>
-    </message>
-    <message>
-        <source>You must accept the Terms and Conditions in order to use sunnypilot.</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -318,10 +315,6 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation>觀看</translation>
     </message>
     <message>
-        <source>Review the rules, features, and limitations of openpilot</source>
-        <translation type="vanished">觀看 openpilot 的使用規則、功能和限制</translation>
-    </message>
-    <message>
         <source>Are you sure you want to review the training guide?</source>
         <translation>您確定要觀看使用教學嗎？</translation>
     </message>
@@ -352,10 +345,6 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <message>
         <source>Power Off</source>
         <translation>關機</translation>
-    </message>
-    <message>
-        <source>openpilot requires the device to be mounted within 4° left or right and within 5° up or 9° down. openpilot is continuously calibrating, resetting is rarely required.</source>
-        <translation type="vanished">openpilot 需要將裝置固定在左右偏差 4° 以內，朝上偏差 5° 以內或朝下偏差 9° 以內。鏡頭在後台會持續自動校準，很少有需要重置的情況。</translation>
     </message>
     <message>
         <source> Your device is pointed %1° %2 and %3° %4.</source>
@@ -415,149 +404,149 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>TOGGLE</source>
-        <translation type="unfinished"></translation>
+        <translation>切換</translation>
     </message>
     <message>
         <source>Enable or disable PIN requirement for Fleet Manager access.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用或禁用車隊管理者訪問的 PIN 碼要求。</translation>
     </message>
     <message>
         <source>Are you sure you want to turn off PIN requirement?</source>
-        <translation type="unfinished"></translation>
+        <translation>您確定要關閉 PIN 碼要求嗎？</translation>
     </message>
     <message>
         <source>Turn Off</source>
-        <translation type="unfinished"></translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Error Troubleshoot</source>
-        <translation type="unfinished"></translation>
+        <translation>錯誤排查</translation>
     </message>
     <message>
         <source>Display error from the tmux session when an error has occurred from a system process.</source>
-        <translation type="unfinished"></translation>
+        <translation>當系統進程出錯時，顯示 tmux 會話中的錯誤。</translation>
     </message>
     <message>
         <source>Reset Access Tokens for Map Services</source>
-        <translation type="unfinished"></translation>
+        <translation>重設地圖服務的訪問權杖</translation>
     </message>
     <message>
         <source>Reset self-service access tokens for Mapbox, Amap, and Google Maps.</source>
-        <translation type="unfinished"></translation>
+        <translation>重設 Mapbox、高德地圖和 Google 地圖的自助訪問權杖。</translation>
     </message>
     <message>
         <source>Are you sure you want to reset access tokens for all map services?</source>
-        <translation type="unfinished"></translation>
+        <translation>您確定要重設所有地圖服務的訪問權杖嗎？</translation>
     </message>
     <message>
         <source>Reset sunnypilot Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>重設 sunnypilot 設定</translation>
     </message>
     <message>
         <source>Are you sure you want to reset all sunnypilot settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>您確定要重設所有 sunnypilot 的設定嗎？</translation>
     </message>
     <message>
         <source>Review the rules, features, and limitations of sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>查看 sunnypilot 的規則、功能和限制</translation>
     </message>
     <message>
         <source>Toggle Onroad/Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>切換上線/離線狀態</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation type="unfinished"></translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down. sunnypilot is continuously calibrating, resetting is rarely required.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot 需要將裝置固定在左右偏差 4° 以內，朝上偏差 5° 以內或朝下偏差 9° 以內。sunnypilot 會持續自動校準，很少需要重置。</translation>
     </message>
     <message>
         <source>Are you sure you want to unforce offroad?</source>
-        <translation type="unfinished"></translation>
+        <translation>您確定要取消強制離線嗎？</translation>
     </message>
     <message>
         <source>Unforce</source>
-        <translation type="unfinished"></translation>
+        <translation>取消強制</translation>
     </message>
     <message>
         <source>Are you sure you want to force offroad?</source>
-        <translation type="unfinished"></translation>
+        <translation>您確定要強制離線嗎？</translation>
     </message>
     <message>
         <source>Force</source>
-        <translation type="unfinished"></translation>
+        <translation>強制</translation>
     </message>
     <message>
         <source>Disengage to Force Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>請先取消控車才能強制離線</translation>
     </message>
     <message>
         <source>Unforce Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>取消強制離線</translation>
     </message>
     <message>
         <source>Force Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>強制離線</translation>
     </message>
     <message>
         <source>Fleet Manager PIN:</source>
-        <translation type="unfinished"></translation>
+        <translation>車隊管理者 PIN 碼：</translation>
     </message>
 </context>
 <context>
     <name>DisplayPanel</name>
     <message>
         <source>Driving Screen Off: Non-Critical Events</source>
-        <translation type="unfinished"></translation>
+        <translation>行駛畫面關閉：非關鍵事件</translation>
     </message>
     <message>
         <source>When &lt;b&gt;Driving Screen Off Timer&lt;/b&gt; is not set to &lt;b&gt;&quot;Always On&quot;&lt;/b&gt;:</source>
-        <translation type="unfinished"></translation>
+        <translation>當&lt;b&gt;行駛畫面關閉計時器&lt;/b&gt;未設定為&lt;b&gt;「永遠開啟」&lt;/b&gt;時：</translation>
     </message>
     <message>
         <source>Enabled: Wake the brightness of the screen to display all events.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用：喚醒螢幕以顯示所有事件。</translation>
     </message>
     <message>
         <source>Disabled: Wake the brightness of the screen to display critical events.</source>
-        <translation type="unfinished"></translation>
+        <translation>關閉：僅在關鍵事件時喚醒螢幕。</translation>
     </message>
     <message>
         <source>Enable Screen Recorder</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用螢幕錄影</translation>
     </message>
     <message>
         <source>Enable this will display a button on the onroad screen to toggle on or off real-time screen recording with UI elements.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此功能將在行駛畫面上顯示一個按鈕，用於開啟或關閉帶有使用者介面元素的即時螢幕錄影。</translation>
     </message>
 </context>
 <context>
     <name>DriveStats</name>
     <message>
         <source>Drives</source>
-        <translation type="unfinished"></translation>
+        <translation>趟</translation>
     </message>
     <message>
         <source>Hours</source>
-        <translation type="unfinished"></translation>
+        <translation>小時</translation>
     </message>
     <message>
         <source>ALL TIME</source>
-        <translation type="unfinished"></translation>
+        <translation>所有時間</translation>
     </message>
     <message>
         <source>PAST WEEK</source>
-        <translation type="unfinished"></translation>
+        <translation>過去一週</translation>
     </message>
     <message>
         <source>KM</source>
-        <translation type="unfinished"></translation>
+        <translation>公里</translation>
     </message>
     <message>
         <source>Miles</source>
-        <translation type="unfinished"></translation>
+        <translation>英里</translation>
     </message>
 </context>
 <context>
@@ -602,73 +591,76 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <name>LaneChangeSettings</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished">回上頁</translation>
+        <translation>回上頁</translation>
     </message>
     <message>
         <source>Pause Lateral Below Speed with Blinker</source>
-        <translation type="unfinished"></translation>
+        <translation>低速時使用方向燈暫停橫向控制</translation>
     </message>
     <message>
         <source>Enable this toggle to pause lateral actuation with blinker when traveling below the desired speed selected below.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此開關，當車速低於下面選擇的速度時，使用方向燈會暫停橫向控制。</translation>
     </message>
     <message>
         <source>Auto Lane Change: Delay with Blind Spot</source>
-        <translation type="unfinished"></translation>
+        <translation>自動變換車道：盲點延遲</translation>
     </message>
     <message>
         <source>Toggle to enable a delay timer for seamless lane changes when blind spot monitoring (BSM) detects a obstructing vehicle, ensuring safe maneuvering.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此開關，當盲點偵測（BSM）偵測到有障礙物時，啟用延遲計時器以實現無縫變換車道，確保安全操作。</translation>
     </message>
     <message>
         <source>Block Lane Change: Road Edge Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>禁止變換車道：路邊偵測</translation>
     </message>
     <message>
         <source>Enable this toggle to block lane change when road edge is detected on the stalk actuated side.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此開關，當在方向燈撥桿一側偵測到路邊時，禁止變換車道。</translation>
     </message>
 </context>
 <context>
     <name>MadsSettings</name>
     <message>
         <source>Enable ACC+MADS with RES+/SET-</source>
-        <translation type="unfinished"></translation>
+        <translation>使用 RES+/SET- 啟用 ACC+MADS</translation>
     </message>
     <message>
         <source>Engage both M.A.D.S. and ACC with a single press of RES+ or SET- button.</source>
-        <translation type="unfinished"></translation>
+        <translation>單獨按下 RES+ 或 SET- 按鈕即可同時啟用 M.A.D.S. 和 ACC。</translation>
     </message>
     <message>
         <source>Note: Once M.A.D.S. is engaged via this mode, it will remain engaged until it is manually disabled via the M.A.D.S. button or car shut off.</source>
-        <translation type="unfinished"></translation>
+        <translation>注意：一旦通過此模式啟用 M.A.D.S.，它將保持啟用狀態，直到通過 M.A.D.S. 按鈕手動禁用或車輛關閉。</translation>
     </message>
     <message>
         <source>Toggle M.A.D.S. with Cruise Main</source>
-        <translation type="unfinished"></translation>
+        <translation>使用巡航主按鈕切換 M.A.D.S.</translation>
     </message>
     <message>
         <source>Allows M.A.D.S. engagement/disengagement with &quot;Cruise Main&quot; cruise control button from the steering wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>允許使用方向盤上的「巡航主」巡航控制按鈕啟用/停用 M.A.D.S.。</translation>
     </message>
     <message>
         <source>Remain Active</source>
-        <translation type="unfinished"></translation>
+        <translation>保持啟用</translation>
     </message>
     <message>
         <source>Pause Steering</source>
-        <translation type="unfinished"></translation>
+        <translation>暫停轉向</translation>
     </message>
     <message>
         <source>Steering Mode After Braking</source>
-        <translation type="unfinished"></translation>
+        <translation>煞車後的轉向模式</translation>
     </message>
     <message>
         <source>Choose how Automatic Lane Centering (ALC) behaves after the brake pedal is manually pressed in sunnypilot.
 
 Remain Active: ALC will remain active even after the brake pedal is pressed.
 Pause Steering: ALC will be paused after the brake pedal is manually pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇在 sunnypilot 中手動踩下煞車踏板後，自動車道置中（ALC）的行為。
+
+保持啟用：即使踩下煞車踏板，ALC 仍將保持啟用。
+暫停轉向：手動踩下煞車踏板後，ALC 將暫停。</translation>
     </message>
 </context>
 <context>
@@ -716,42 +708,42 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     <name>MaxTimeOffroad</name>
     <message>
         <source>Max Time Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>離線最長關機時間</translation>
     </message>
     <message>
         <source>Device is automatically turned off after a set time when the engine is turned off (off-road) after driving (on-road).</source>
-        <translation type="unfinished"></translation>
+        <translation>車輛熄火（離線）後，裝置在設定的時間後自動關機。</translation>
     </message>
     <message>
         <source>s</source>
-        <translation type="unfinished"></translation>
+        <translation>秒</translation>
     </message>
     <message>
         <source>m</source>
-        <translation type="unfinished">m</translation>
+        <translation>分</translation>
     </message>
     <message>
         <source>hr</source>
-        <translation type="unfinished">小時</translation>
+        <translation>小時</translation>
     </message>
     <message>
         <source>Always On</source>
-        <translation type="unfinished"></translation>
+        <translation>永遠開啟</translation>
     </message>
     <message>
         <source>Immediate</source>
-        <translation type="unfinished"></translation>
+        <translation>立即</translation>
     </message>
 </context>
 <context>
     <name>MonitoringPanel</name>
     <message>
         <source>Enable Hands on Wheel Monitoring</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用方向盤手握監測</translation>
     </message>
     <message>
         <source>Monitor and alert when driver is not keeping the hands on the steering wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>監測並在駕駛員未將手放在方向盤上時發出警報。</translation>
     </message>
 </context>
 <context>
@@ -785,11 +777,11 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     </message>
     <message>
         <source>Scan</source>
-        <translation type="unfinished"></translation>
+        <translation>掃描</translation>
     </message>
     <message>
         <source>Scanning...</source>
-        <translation type="unfinished"></translation>
+        <translation>掃描中...</translation>
     </message>
 </context>
 <context>
@@ -848,11 +840,13 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
         <source>OpenStreetMap database is out of date. New maps must be downloaded if you wish to continue using OpenStreetMap data for Enhanced Speed Control and road name display.
 
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenStreetMap 資料庫已過期。如果您希望繼續使用 OpenStreetMap 資料進行增強速度控制和路名顯示，則必須下載新地圖。
+
+%1</translation>
     </message>
     <message>
         <source>sunnypilot is now in Forced Offroad mode. sunnypilot won&apos;t start until Forced Offroad mode is disabled. Go to &quot;Settings&quot; -&gt; &quot;Device&quot; -&gt; &quot;Unforce Offroad&quot; to exit Force Offroad mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot 現在處於強制離線模式。在禁用強制離線模式之前，sunnypilot 不會啟動。請前往「設定」-&gt;「裝置」-&gt;「取消強制離線」以退出強制離線模式。</translation>
     </message>
 </context>
 <context>
@@ -897,180 +891,184 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     <name>OnroadScreenOff</name>
     <message>
         <source>Driving Screen Off Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>行駛中關閉螢幕計時器</translation>
     </message>
     <message>
         <source>Turn off the device screen or reduce brightness to protect the screen after driving starts. It automatically brightens or turns on when a touch or event occurs.</source>
-        <translation type="unfinished"></translation>
+        <translation>駕駛開始後，關閉裝置螢幕或降低亮度以保護螢幕。當發生觸摸或事件時，它會自動變亮或打開。</translation>
     </message>
     <message>
         <source>s</source>
-        <translation type="unfinished"></translation>
+        <translation>秒</translation>
     </message>
     <message>
         <source>min</source>
-        <translation type="unfinished">分鐘</translation>
+        <translation>分鐘</translation>
     </message>
     <message>
         <source>Always On</source>
-        <translation type="unfinished"></translation>
+        <translation>永遠開啟</translation>
     </message>
 </context>
 <context>
     <name>OnroadScreenOffBrightness</name>
     <message>
         <source>Driving Screen Off Brightness (%)</source>
-        <translation type="unfinished"></translation>
+        <translation>行駛中關閉螢幕亮度 (%)</translation>
     </message>
     <message>
         <source>When using the Driving Screen Off feature, the brightness is reduced according to the automatic brightness ratio.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用行駛中關閉螢幕功能時，亮度會根據自動亮度比例降低。</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>暗</translation>
     </message>
 </context>
 <context>
     <name>OnroadSettings</name>
     <message>
         <source>ONROAD OPTIONS</source>
-        <translation type="unfinished"></translation>
+        <translation>行車選項</translation>
     </message>
     <message>
         <source>&lt;b&gt;ONROAD SETTINGS | SUNNYPILOT&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;行車設定 | SUNNYPILOT&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>OsmPanel</name>
     <message>
         <source>Mapd Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapd 版本</translation>
     </message>
     <message>
         <source>Offline Maps ETA</source>
-        <translation type="unfinished"></translation>
+        <translation>離線地圖預計到達時間</translation>
     </message>
     <message>
         <source>Time Elapsed</source>
-        <translation type="unfinished"></translation>
+        <translation>經過時間</translation>
     </message>
     <message>
         <source>Downloaded Maps</source>
-        <translation type="unfinished"></translation>
+        <translation>已下載地圖</translation>
     </message>
     <message>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <source>This will delete ALL downloaded maps
 
 Are you sure you want to delete all the maps?</source>
-        <translation type="unfinished"></translation>
+        <translation>這將刪除所有已下載的地圖
+
+您確定要刪除所有地圖嗎？</translation>
     </message>
     <message>
         <source>Yes, delete all the maps.</source>
-        <translation type="unfinished"></translation>
+        <translation>是的，刪除所有地圖。</translation>
     </message>
     <message>
         <source>Database Update</source>
-        <translation type="unfinished"></translation>
+        <translation>資料庫更新</translation>
     </message>
     <message>
         <source>CHECK</source>
-        <translation type="unfinished">檢查</translation>
+        <translation>檢查</translation>
     </message>
     <message>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>國家</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished">選取</translation>
+        <translation>選取</translation>
     </message>
     <message>
         <source>Fetching Country list...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在獲取國家列表...</translation>
     </message>
     <message>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation>州/省</translation>
     </message>
     <message>
         <source>Fetching State list...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在獲取州/省列表...</translation>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>全部</translation>
     </message>
     <message>
         <source>REFRESH</source>
-        <translation type="unfinished"></translation>
+        <translation>重新整理</translation>
     </message>
     <message>
         <source>UPDATE</source>
-        <translation type="unfinished">更新</translation>
+        <translation>更新</translation>
     </message>
     <message>
         <source>Download starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>下載開始...</translation>
     </message>
     <message>
         <source>Error: Invalid download. Retry.</source>
-        <translation type="unfinished"></translation>
+        <translation>錯誤：下載無效。重試。</translation>
     </message>
     <message>
         <source>Download complete!</source>
-        <translation type="unfinished"></translation>
+        <translation>下載完成！</translation>
     </message>
     <message>
         <source>
 
 Warning: You are on a metered connection!</source>
-        <translation type="unfinished"></translation>
+        <translation>
+
+警告：您正在使用計量連線！</translation>
     </message>
     <message>
         <source>This will start the download process and it might take a while to complete.</source>
-        <translation type="unfinished"></translation>
+        <translation>這將開始下載過程，可能需要一段時間才能完成。</translation>
     </message>
     <message>
         <source>Continue on Metered</source>
-        <translation type="unfinished"></translation>
+        <translation>在計量連線上繼續</translation>
     </message>
     <message>
         <source>Start Download</source>
-        <translation type="unfinished"></translation>
+        <translation>開始下載</translation>
     </message>
     <message>
         <source>m </source>
-        <translation type="unfinished"></translation>
+        <translation>分 </translation>
     </message>
     <message>
         <source>s</source>
-        <translation type="unfinished"></translation>
+        <translation>秒</translation>
     </message>
     <message>
         <source>Calculating...</source>
-        <translation type="unfinished"></translation>
+        <translation>計算中...</translation>
     </message>
     <message>
         <source>Downloaded</source>
-        <translation type="unfinished"></translation>
+        <translation>已下載</translation>
     </message>
     <message>
         <source>Calculating ETA...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在計算預計到達時間...</translation>
     </message>
     <message>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>準備就緒</translation>
     </message>
     <message>
         <source>Time remaining: </source>
-        <translation type="unfinished"></translation>
+        <translation>剩餘時間：</translation>
     </message>
 </context>
 <context>
@@ -1107,34 +1105,34 @@ Warning: You are on a metered connection!</source>
     <name>PathOffset</name>
     <message>
         <source>Path Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>路徑偏移</translation>
     </message>
     <message>
         <source>Hack to trick the model path to be left or right biased of the lane. Decreasing the value will shift the model more left, increasing will shift the model more right. Changes take effect immediately.</source>
-        <translation type="unfinished"></translation>
+        <translation>此設定可讓模型路徑在車道內向左或向右偏移。減小數值會使路徑更靠左，增加數值則會更靠右。變更會立即生效。</translation>
     </message>
     <message>
         <source> cm</source>
-        <translation type="unfinished"></translation>
+        <translation> 公分</translation>
     </message>
 </context>
 <context>
     <name>PauseLateralSpeed</name>
     <message>
         <source>Pause lateral actuation with blinker when traveling below the desired speed selected. Default is 20 MPH or 32 km/h.</source>
-        <translation type="unfinished"></translation>
+        <translation>當車速低於設定值時，打方向燈將暫停橫向控制。預設值為 20 MPH 或 32 km/h。</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>預設</translation>
     </message>
     <message>
         <source>km/h</source>
-        <translation type="unfinished">km/h</translation>
+        <translation>km/h</translation>
     </message>
     <message>
         <source>mph</source>
-        <translation type="unfinished">mph</translation>
+        <translation>mph</translation>
     </message>
 </context>
 <context>
@@ -1190,8 +1188,8 @@ Warning: You are on a metered connection!</source>
         <translation>離開</translation>
     </message>
     <message>
-        <source>openpilot</source>
-        <translation type="vanished">openpilot</translation>
+        <source>sunnypilot</source>
+        <translation>sunnypilot</translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s) ago</source>
@@ -1230,10 +1228,6 @@ Warning: You are on a metered connection!</source>
     <message>
         <source>now</source>
         <translation>現在</translation>
-    </message>
-    <message>
-        <source>sunnypilot</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1281,79 +1275,79 @@ This may take up to a minute.</source>
     <name>SPVehiclesTogglesPanel</name>
     <message>
         <source>Hyundai/Kia/Genesis</source>
-        <translation type="unfinished"></translation>
+        <translation>現代/起亞/捷尼賽思</translation>
     </message>
     <message>
         <source>HKG CAN: Smoother Stopping Performance (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>HKG CAN：更平穩的煞車性能（測試版）</translation>
     </message>
     <message>
         <source>Smoother stopping behind a stopped car or desired stopping event. This is only applicable to HKG CAN platforms using openpilot longitudinal control.</source>
-        <translation type="unfinished"></translation>
+        <translation>在停止的車輛後方或期望的停車事件中實現更平穩的停車。這僅適用於使用 openpilot 縱向控制的 HKG CAN 平台。</translation>
     </message>
     <message>
         <source>Subaru</source>
-        <translation type="unfinished"></translation>
+        <translation>速霸陸</translation>
     </message>
     <message>
         <source>Manual Parking Brake: Stop and Go (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>手動駐車煞車：停止和前進（測試版）</translation>
     </message>
     <message>
         <source>Experimental feature to enable stop and go for Subaru Global models with manual handbrake. Models with electric parking brake should keep this disabled. Thanks to martinl for this implementation!</source>
-        <translation type="unfinished"></translation>
+        <translation>為配備手動駐車煞車的速霸陸全球車型啟用停止和前進的實驗性功能。配備電子駐車煞車的車型應禁用此功能。感謝 martinl 的實現！</translation>
     </message>
     <message>
         <source>Toyota/Lexus</source>
-        <translation type="unfinished"></translation>
+        <translation>豐田/凌志</translation>
     </message>
     <message>
         <source>Enable Stock Toyota Longitudinal Control</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用原廠豐田縱向控制</translation>
     </message>
     <message>
         <source>sunnypilot will &lt;b&gt;not&lt;/b&gt; take over control of gas and brakes. Stock Toyota longitudinal control will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot 將&lt;b&gt;不會&lt;/b&gt;接管油門和煞車。將使用原廠豐田縱向控制。</translation>
     </message>
     <message>
         <source>Allow M.A.D.S. toggling w/ LKAS Button (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>允許使用 LKAS 按鈕切換 M.A.D.S.（測試版）</translation>
     </message>
     <message>
         <source>Allows M.A.D.S. engagement/disengagement with &quot;LKAS&quot; button from the steering wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>允許使用方向盤上的「LKAS」按鈕啟用/停用 M.A.D.S.。</translation>
     </message>
     <message>
         <source>Note: Enabling this toggle may have unexpected behavior with steering control. It is the driver&apos;s responsibility to observe their environment and make decisions accordingly.</source>
-        <translation type="unfinished"></translation>
+        <translation>注意：啟用此切換可能會導致轉向控制出現意外行為。駕駛員有責任觀察周圍環境並做出相應的決定。</translation>
     </message>
     <message>
         <source>Toyota TSS2 Longitudinal: Custom Tuning</source>
-        <translation type="unfinished"></translation>
+        <translation>豐田 TSS2 縱向：自訂調整</translation>
     </message>
     <message>
         <source>Smoother longitudinal performance for Toyota/Lexus TSS2/LSS2 cars. Big thanks to dragonpilot-community for this implementation.</source>
-        <translation type="unfinished"></translation>
+        <translation>為豐田/凌志 TSS2/LSS2 車輛提供更平穩的縱向性能。非常感謝 dragonpilot-community 的實現。</translation>
     </message>
     <message>
         <source>Enable Toyota Stop and Go Hack</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用豐田停止和前進駭客</translation>
     </message>
     <message>
         <source>sunnypilot will allow some Toyota/Lexus cars to auto resume during stop and go traffic. This feature is only applicable to certain models. Use at your own risk.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot 將允許一些豐田/凌志汽車在走走停停的交通中自動恢復。此功能僅適用於某些型號。使用風險自負。</translation>
     </message>
     <message>
         <source>Volkswagen</source>
-        <translation type="unfinished"></translation>
+        <translation>福斯</translation>
     </message>
     <message>
         <source>Enable CC Only support</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用僅 CC 支援</translation>
     </message>
     <message>
         <source>sunnypilot supports Volkswagen MQB CC only platforms with this toggle enabled. Only enable this toggle if your car does not have ACC from the factory.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此切換後，sunnypilot 僅支援福斯 MQB CC 平台。僅當您的汽車出廠時未配備 ACC 時才啟用此切換。</translation>
     </message>
 </context>
 <context>
@@ -1380,35 +1374,35 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>sunnylink</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnylink</translation>
     </message>
     <message>
         <source>sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot</translation>
     </message>
     <message>
         <source>OSM</source>
-        <translation type="unfinished"></translation>
+        <translation>OSM</translation>
     </message>
     <message>
         <source>Monitoring</source>
-        <translation type="unfinished"></translation>
+        <translation>駕駛監控</translation>
     </message>
     <message>
         <source>Visuals</source>
-        <translation type="unfinished"></translation>
+        <translation>視覺</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示</translation>
     </message>
     <message>
         <source>Trips</source>
-        <translation type="unfinished"></translation>
+        <translation>行程</translation>
     </message>
     <message>
         <source>Vehicle</source>
-        <translation type="unfinished"></translation>
+        <translation>車輛</translation>
     </message>
 </context>
 <context>
@@ -1605,66 +1599,66 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>DISABLED</source>
-        <translation type="unfinished"></translation>
+        <translation>已禁用</translation>
     </message>
     <message>
         <source>REGIST...</source>
-        <translation type="unfinished"></translation>
+        <translation>註冊中...</translation>
     </message>
     <message>
         <source>SUNNYLINK</source>
-        <translation type="unfinished"></translation>
+        <translation>SUNNYLINK</translation>
     </message>
 </context>
 <context>
     <name>SlcSettings</name>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>自動</translation>
     </message>
     <message>
         <source>User Confirm</source>
-        <translation type="unfinished"></translation>
+        <translation>使用者確認</translation>
     </message>
     <message>
         <source>Engage Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用模式</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>預設</translation>
     </message>
     <message>
         <source>Fixed</source>
-        <translation type="unfinished"></translation>
+        <translation>固定</translation>
     </message>
     <message>
         <source>Percentage</source>
-        <translation type="unfinished"></translation>
+        <translation>百分比</translation>
     </message>
     <message>
         <source>Limit Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>速限偏移</translation>
     </message>
     <message>
         <source>Set speed limit slightly higher than actual speed limit for a more natural drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>將速限設定為略高於實際速限，以實現更自然的駕駛。</translation>
     </message>
     <message>
         <source>This platform defaults to &lt;b&gt;Auto&lt;/b&gt; mode. &lt;b&gt;User Confirm&lt;/b&gt; mode is not supported on this platform.</source>
-        <translation type="unfinished"></translation>
+        <translation>此平台預設為&lt;b&gt;自動&lt;/b&gt;模式。此平台不支援&lt;b&gt;使用者確認&lt;/b&gt;模式。</translation>
     </message>
     <message>
         <source>Select the desired mode to set the cruising speed to the speed limit:</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇所需模式以將巡航速度設定為速限：</translation>
     </message>
     <message>
         <source>Auto: Automatic speed adjustment on motorways based on speed limit data.</source>
-        <translation type="unfinished"></translation>
+        <translation>自動：根據速限資料在高速公路上自動調整速度。</translation>
     </message>
     <message>
         <source>User Confirm: Inform the driver to change set speed of Adaptive Cruise Control to help the driver stay within the speed limit.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用者確認：通知駕駛員更改主動巡航控制的設定速度，以幫助駕駛員保持在速限內。</translation>
     </message>
 </context>
 <context>
@@ -1743,234 +1737,234 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>駕駛模型</translation>
     </message>
 </context>
 <context>
     <name>SoftwarePanelSP</name>
     <message>
         <source>Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>駕駛模型</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished">選取</translation>
+        <translation>選取</translation>
     </message>
     <message>
         <source>PENDING</source>
-        <translation type="unfinished"></translation>
+        <translation>待定</translation>
     </message>
     <message>
         <source>Downloading Driving model</source>
-        <translation type="unfinished"></translation>
+        <translation>正在下載駕駛模型</translation>
     </message>
     <message>
         <source>(CACHED)</source>
-        <translation type="unfinished"></translation>
+        <translation>（已快取）</translation>
     </message>
     <message>
         <source>Driving model</source>
-        <translation type="unfinished"></translation>
+        <translation>駕駛模型</translation>
     </message>
     <message>
         <source>downloaded</source>
-        <translation type="unfinished"></translation>
+        <translation>已下載</translation>
     </message>
     <message>
         <source>Downloading Navigation model</source>
-        <translation type="unfinished"></translation>
+        <translation>正在下載導航模型</translation>
     </message>
     <message>
         <source>Navigation model</source>
-        <translation type="unfinished"></translation>
+        <translation>導航模型</translation>
     </message>
     <message>
         <source>Downloading Metadata model</source>
-        <translation type="unfinished"></translation>
+        <translation>正在下載元數據模型</translation>
     </message>
     <message>
         <source>Metadata model</source>
-        <translation type="unfinished"></translation>
+        <translation>元數據模型</translation>
     </message>
     <message>
         <source>Downloads have failed, please try swapping the model!</source>
-        <translation type="unfinished"></translation>
+        <translation>下載失敗，請嘗試更換模型！</translation>
     </message>
     <message>
         <source>Failed:</source>
-        <translation type="unfinished"></translation>
+        <translation>失敗：</translation>
     </message>
     <message>
         <source>Fetching models...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在獲取模型...</translation>
     </message>
     <message>
         <source>Select a Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇一個駕駛模型</translation>
     </message>
     <message>
         <source>Download has started in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>下載已在背景開始。</translation>
     </message>
     <message>
         <source>We STRONGLY suggest you to reset calibration. Would you like to do that now?</source>
-        <translation type="unfinished"></translation>
+        <translation>我們強烈建議您重設校準。您想現在就做嗎？</translation>
     </message>
     <message>
         <source>Reset Calibration</source>
-        <translation type="unfinished">重設校準</translation>
+        <translation>重設校準</translation>
     </message>
     <message>
         <source>Warning: You are on a metered connection!</source>
-        <translation type="unfinished"></translation>
+        <translation>警告：您正在使用計量連線！</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation type="unfinished">繼續</translation>
+        <translation>繼續</translation>
     </message>
     <message>
         <source>on Metered</source>
-        <translation type="unfinished"></translation>
+        <translation>在計量連線上</translation>
     </message>
 </context>
 <context>
     <name>SpeedLimitPolicySettings</name>
     <message>
         <source>Speed Limit Source Policy</source>
-        <translation type="unfinished"></translation>
+        <translation>速限來源策略</translation>
     </message>
     <message>
         <source>Nav</source>
-        <translation type="unfinished"></translation>
+        <translation>導航</translation>
     </message>
     <message>
         <source>Only</source>
-        <translation type="unfinished"></translation>
+        <translation>僅</translation>
     </message>
     <message>
         <source>Map</source>
-        <translation type="unfinished"></translation>
+        <translation>地圖</translation>
     </message>
     <message>
         <source>Car</source>
-        <translation type="unfinished"></translation>
+        <translation>車輛</translation>
     </message>
     <message>
         <source>First</source>
-        <translation type="unfinished"></translation>
+        <translation>優先</translation>
     </message>
     <message>
         <source>Select the precedence order of sources. Utilized by Speed Limit Control and Speed Limit Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇來源的優先順序。由速限控制和速限警告使用。</translation>
     </message>
     <message>
         <source>Nav Only: Data from Mapbox active navigation only.</source>
-        <translation type="unfinished"></translation>
+        <translation>僅導航：僅來自 Mapbox 主動導航的資料。</translation>
     </message>
     <message>
         <source>Map Only: Data from OpenStreetMap only.</source>
-        <translation type="unfinished"></translation>
+        <translation>僅地圖：僅來自 OpenStreetMap 的資料。</translation>
     </message>
     <message>
         <source>Car Only: Data from the car&apos;s built-in sources (if available).</source>
-        <translation type="unfinished"></translation>
+        <translation>僅車輛：僅來自車輛內建來源的資料（如果可用）。</translation>
     </message>
     <message>
         <source>Nav First: Nav -&gt; Map -&gt; Car</source>
-        <translation type="unfinished"></translation>
+        <translation>導航優先：導航 -&gt; 地圖 -&gt; 車輛</translation>
     </message>
     <message>
         <source>Map First: Map -&gt; Nav -&gt; Car</source>
-        <translation type="unfinished"></translation>
+        <translation>地圖優先：地圖 -&gt; 導航 -&gt; 車輛</translation>
     </message>
     <message>
         <source>Car First: Car -&gt; Nav -&gt; Map</source>
-        <translation type="unfinished"></translation>
+        <translation>車輛優先：車輛 -&gt; 導航 -&gt; 地圖</translation>
     </message>
 </context>
 <context>
     <name>SpeedLimitValueOffset</name>
     <message>
         <source>km/h</source>
-        <translation type="unfinished">km/h</translation>
+        <translation>km/h</translation>
     </message>
     <message>
         <source>mph</source>
-        <translation type="unfinished">mph</translation>
+        <translation>mph</translation>
     </message>
 </context>
 <context>
     <name>SpeedLimitWarningSettings</name>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示</translation>
     </message>
     <message>
         <source>Chime</source>
-        <translation type="unfinished"></translation>
+        <translation>鈴聲</translation>
     </message>
     <message>
         <source>Speed Limit Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>速限警告</translation>
     </message>
     <message>
         <source>Warning with speed limit flash</source>
-        <translation type="unfinished"></translation>
+        <translation>速限閃爍警告</translation>
     </message>
     <message>
         <source>When Speed Limit Warning is enabled, the speed limit sign will alert the driver when the cruising speed is faster than then speed limit plus the offset.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用速限警告後，當巡航速度高於速限加上偏移量時，速限標誌將會提醒駕駛員。</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>預設</translation>
     </message>
     <message>
         <source>Fixed</source>
-        <translation type="unfinished"></translation>
+        <translation>固定</translation>
     </message>
     <message>
         <source>Percentage</source>
-        <translation type="unfinished"></translation>
+        <translation>百分比</translation>
     </message>
     <message>
         <source>Warning Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>警告偏移</translation>
     </message>
     <message>
         <source>Select the desired offset to warn the driver when the vehicle is driving faster than the speed limit.</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇所需的偏移量，以便在車輛行駛速度超過速限時警告駕駛員。</translation>
     </message>
     <message>
         <source>Off: When the cruising speed is faster than the speed limit plus the offset, there will be no warning.</source>
-        <translation type="unfinished"></translation>
+        <translation>關閉：當巡航速度高於速限加上偏移量時，將不會有警告。</translation>
     </message>
     <message>
         <source>Display: The speed on the speed limit sign turns red to alert the driver when the cruising speed is faster than the speed limit plus the offset.</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示：當巡航速度高於速限加上偏移量時，速限標誌上的速度會變為紅色以提醒駕駛員。</translation>
     </message>
     <message>
         <source>Chime: The speed on the speed limit sign turns red and chimes to alert the driver when the cruising speed is faster than the speed limit plus the offset.</source>
-        <translation type="unfinished"></translation>
+        <translation>鈴聲：當巡航速度高於速限加上偏移量時，速限標誌上的速度會變為紅色並發出鈴聲以提醒駕駛員。</translation>
     </message>
 </context>
 <context>
     <name>SpeedLimitWarningValueOffset</name>
     <message>
         <source>N/A</source>
-        <translation type="unfinished">無法使用</translation>
+        <translation>無法使用</translation>
     </message>
     <message>
         <source>km/h</source>
-        <translation type="unfinished">km/h</translation>
+        <translation>km/h</translation>
     </message>
     <message>
         <source>mph</source>
-        <translation type="unfinished">mph</translation>
+        <translation>mph</translation>
     </message>
 </context>
 <context>
@@ -2023,393 +2017,393 @@ This may take up to a minute.</source>
     <name>SunnylinkPanel</name>
     <message>
         <source>Enable sunnylink</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用 sunnylink</translation>
     </message>
     <message>
         <source>Device ID </source>
-        <translation type="unfinished"></translation>
+        <translation>裝置 ID </translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished">無法使用</translation>
+        <translation>無法使用</translation>
     </message>
     <message>
         <source>This is the master switch, it will allow you to cutoff any sunnylink requests should you want to do that.</source>
-        <translation type="unfinished"></translation>
+        <translation>這是主開關，如果您想切斷任何 sunnylink 請求，它將允許您這樣做。</translation>
     </message>
     <message>
         <source>🎉Welcome back! We&apos;re excited to see you&apos;ve enabled sunnylink again! 🚀</source>
-        <translation type="unfinished"></translation>
+        <translation>🎉歡迎回來！我們很高興看到您再次啟用 sunnylink！🚀</translation>
     </message>
     <message>
         <source>👋Not going to lie, it&apos;s sad to see you disabled sunnylink 😢, but we&apos;ll be here when you&apos;re ready to come back 🎉.</source>
-        <translation type="unfinished"></translation>
+        <translation>👋不騙你，看到你禁用 sunnylink 很難過 😢，但當你準備好回來時，我們會在​​這裡 🎉。</translation>
     </message>
     <message>
         <source>Sponsor Status</source>
-        <translation type="unfinished"></translation>
+        <translation>贊助商狀態</translation>
     </message>
     <message>
         <source>SPONSOR</source>
-        <translation type="unfinished"></translation>
+        <translation>贊助</translation>
     </message>
     <message>
         <source>Become a sponsor of sunnypilot to get early access to sunnylink features when they become available.</source>
-        <translation type="unfinished"></translation>
+        <translation>成為 sunnypilot 的贊助商，以便在 sunnylink 功能可用時搶先體驗。</translation>
     </message>
     <message>
         <source>Pair GitHub Account</source>
-        <translation type="unfinished"></translation>
+        <translation>配對 GitHub 帳戶</translation>
     </message>
     <message>
         <source>PAIR</source>
-        <translation type="unfinished">配對</translation>
+        <translation>配對</translation>
     </message>
     <message>
         <source>Pair your GitHub account to grant your device sponsor benefits, including API access on sunnylink.</source>
-        <translation type="unfinished"></translation>
+        <translation>配對您的 GitHub 帳戶以授予您的裝置贊助商權益，包括 sunnylink 上的 API 訪問權限。</translation>
     </message>
     <message>
         <source>sunnylink Dongle ID not found. This may be due to weak internet connection or sunnylink registration issue. Please reboot and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>找不到 sunnylink Dongle ID。這可能是由於網路連線較弱或 sunnylink 註冊問題所致。請重新啟動並再試一次。</translation>
     </message>
     <message>
         <source>Manage Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>管理設定</translation>
     </message>
     <message>
         <source>Backup Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>備份設定</translation>
     </message>
     <message>
         <source>Are you sure you want to backup sunnypilot settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>您確定要備份 sunnypilot 設定嗎？</translation>
     </message>
     <message>
         <source>Back Up</source>
-        <translation type="unfinished"></translation>
+        <translation>備份</translation>
     </message>
     <message>
         <source>Restore Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>還原設定</translation>
     </message>
     <message>
         <source>Are you sure you want to restore the last backed up sunnypilot settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>您確定要還原上次備份的 sunnypilot 設定嗎？</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished"></translation>
+        <translation>還原</translation>
     </message>
     <message>
         <source>THANKS</source>
-        <translation type="unfinished"></translation>
+        <translation>謝謝</translation>
     </message>
     <message>
         <source>Not Sponsor</source>
-        <translation type="unfinished"></translation>
+        <translation>非贊助商</translation>
     </message>
     <message>
         <source>Paired</source>
-        <translation type="unfinished"></translation>
+        <translation>已配對</translation>
     </message>
     <message>
         <source>Not Paired</source>
-        <translation type="unfinished"></translation>
+        <translation>未配對</translation>
     </message>
     <message>
         <source>Backing up...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在備份...</translation>
     </message>
     <message>
         <source>Restoring...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在還原...</translation>
     </message>
 </context>
 <context>
     <name>SunnylinkSponsorPopup</name>
     <message>
         <source>Scan the QR code to login to your GitHub account</source>
-        <translation type="unfinished"></translation>
+        <translation>掃描 QR 碼登入您的 GitHub 帳戶</translation>
     </message>
     <message>
         <source>Follow the prompts to complete the pairing process</source>
-        <translation type="unfinished"></translation>
+        <translation>按照提示完成配對過程</translation>
     </message>
     <message>
         <source>Re-enter the &quot;sunnylink&quot; panel to verify sponsorship status</source>
-        <translation type="unfinished"></translation>
+        <translation>重新進入「sunnylink」面板以驗證贊助商狀態</translation>
     </message>
     <message>
         <source>If sponsorship status was not updated, please contact a moderator on Discord at https://discord.gg/sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>如果贊助商狀態未更新，請在 Discord 上聯繫版主：https://discord.gg/sunnypilot</translation>
     </message>
     <message>
         <source>Scan the QR code to visit sunnyhaibin&apos;s GitHub Sponsors page</source>
-        <translation type="unfinished"></translation>
+        <translation>掃描 QR 碼訪問 sunnyhaibin 的 GitHub 贊助商頁面</translation>
     </message>
     <message>
         <source>Choose your sponsorship tier and confirm your support</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇您的贊助等級並確認您的支持</translation>
     </message>
     <message>
         <source>Join our community on Discord at https://discord.gg/sunnypilot and reach out to a moderator to confirm your sponsor status</source>
-        <translation type="unfinished"></translation>
+        <translation>加入我們的 Discord 社群 https://discord.gg/sunnypilot 並聯繫版主以確認您的贊助商狀態</translation>
     </message>
     <message>
         <source>Pair your GitHub account</source>
-        <translation type="unfinished"></translation>
+        <translation>配對您的 GitHub 帳戶</translation>
     </message>
     <message>
         <source>Early Access: Become a sunnypilot Sponsor</source>
-        <translation type="unfinished"></translation>
+        <translation>搶先體驗：成為 sunnypilot 贊助商</translation>
     </message>
 </context>
 <context>
     <name>SunnypilotPanel</name>
     <message>
         <source>Enable M.A.D.S.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用 M.A.D.S.</translation>
     </message>
     <message>
         <source>Enable the beloved M.A.D.S. feature. Disable toggle to revert back to stock openpilot engagement/disengagement.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用備受喜愛的 M.A.D.S. 功能。禁用切換以恢復到原廠 openpilot 的啟用/停用方式。</translation>
     </message>
     <message>
         <source>Laneless for Curves in &quot;Auto&quot; Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>「自動」模式下彎道無車道線模式</translation>
     </message>
     <message>
         <source>While in Auto Lane, switch to Laneless for current/future curves.</source>
-        <translation type="unfinished"></translation>
+        <translation>在自動車道模式下，為目前/未來的彎道切換到無車道線模式。</translation>
     </message>
     <message>
         <source>Speed Limit Control (SLC)</source>
-        <translation type="unfinished"></translation>
+        <translation>速限控制 (SLC)</translation>
     </message>
     <message>
         <source>When you engage ACC, you will be prompted to set the cruising speed to the speed limit of the road adjusted by the Offset and Source Policy specified, or the current driving speed. The maximum cruising speed will always be the MAX set speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>當您啟用 ACC 時，系統會提示您將巡航速度設定為根據指定的偏移和來源策略調整的道路速限，或目前的行駛速度。最大巡航速度永遠是設定的最高速度。</translation>
     </message>
     <message>
         <source>Enable Vision-based Turn Speed Control (V-TSC)</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用基於視覺的彎道速度控制 (V-TSC)</translation>
     </message>
     <message>
         <source>Use vision path predictions to estimate the appropriate speed to drive through turns ahead.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用視覺路徑預測來估計通過前方彎道的適當速度。</translation>
     </message>
     <message>
         <source>Enable Map Data Turn Speed Control (M-TSC) (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用基於地圖資料的彎道速度控制 (M-TSC) (測試版)</translation>
     </message>
     <message>
         <source>Use curvature information from map data to define speed limits to take turns ahead.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用地圖資料中的曲率資訊來定義前方彎道的速限。</translation>
     </message>
     <message>
         <source>ACC +/-: Long Press Reverse</source>
-        <translation type="unfinished"></translation>
+        <translation>ACC +/-：長按反向</translation>
     </message>
     <message>
         <source>Change the ACC +/- buttons behavior with cruise speed change in sunnypilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>在 sunnypilot 中變更 ACC +/- 按鈕的巡航速度變更行為。</translation>
     </message>
     <message>
         <source>Disabled (Stock): Short=1, Long = 5 (imperial) / 10 (metric)</source>
-        <translation type="unfinished"></translation>
+        <translation>禁用（原廠）：短按=1，長按=5（英制）/ 10（公制）</translation>
     </message>
     <message>
         <source>Enabled: Short = 5 (imperial) / 10 (metric), Long=1</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用：短按=5（英制）/ 10（公制），長按=1</translation>
     </message>
     <message>
         <source>Custom Offsets</source>
-        <translation type="unfinished"></translation>
+        <translation>自訂偏移</translation>
     </message>
     <message>
         <source>Neural Network Lateral Control (NNLC)</source>
-        <translation type="unfinished"></translation>
+        <translation>神經網路橫向控制 (NNLC)</translation>
     </message>
     <message>
         <source>Enforce Torque Lateral Control</source>
-        <translation type="unfinished"></translation>
+        <translation>強制扭矩橫向控制</translation>
     </message>
     <message>
         <source>Enable this to enforce sunnypilot to steer with Torque lateral control.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此項以強制 sunnypilot 使用扭矩橫向控制進行轉向。</translation>
     </message>
     <message>
         <source>Enable Self-Tune</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用自我調整</translation>
     </message>
     <message>
         <source>Enables self-tune for Torque lateral control for platforms that do not use Torque lateral control by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>為預設不使用扭矩橫向控制的平台啟用扭矩橫向控制的自我調整功能。</translation>
     </message>
     <message>
         <source>Less Restrict Settings for Self-Tune (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>自我調整的較少限制設定（測試版）</translation>
     </message>
     <message>
         <source>Less strict settings when using Self-Tune. This allows torqued to be more forgiving when learning values.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用自我調整時採用較不嚴格的設定。這使得 torqued 在學習數值時更具容錯性。</translation>
     </message>
     <message>
         <source>Enable Custom Tuning</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用自訂調整</translation>
     </message>
     <message>
         <source>Enables custom tuning for Torque lateral control. Modifying FRICTION and LAT_ACCEL_FACTOR below will override the offline values indicated in the YAML files within &quot;selfdrive/torque_data&quot;. The values will also be used live when &quot;Override Self-Tune&quot; toggle is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用扭矩橫向控制的自訂調整。修改下方的摩擦力和橫向加速度因子將覆蓋 &quot;selfdrive/torque_data&quot; 中 YAML 檔案所指示的離線值。當啟用「覆蓋自我調整」切換時，這些值也將即時使用。</translation>
     </message>
     <message>
         <source>Manual Real-Time Tuning</source>
-        <translation type="unfinished"></translation>
+        <translation>手動即時調整</translation>
     </message>
     <message>
         <source>Enforces the torque lateral controller to use the fixed values instead of the learned values from Self-Tune. Enabling this toggle overrides Self-Tune values.</source>
-        <translation type="unfinished"></translation>
+        <translation>強制扭矩橫向控制器使用固定值，而不是從自我調整中學習的值。啟用此切換將覆蓋自我調整值。</translation>
     </message>
     <message>
         <source>Quiet Drive 🤫</source>
-        <translation type="unfinished"></translation>
+        <translation>安靜駕駛 🤫</translation>
     </message>
     <message>
         <source>sunnypilot will display alerts but only play the most important warning sounds. This feature can be toggled while the car is on.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot 將顯示警報，但只播放最重要的警告聲音。此功能可在車輛開啟時切換。</translation>
     </message>
     <message>
         <source>Green Traffic Light Chime (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>綠燈鈴聲（測試版）</translation>
     </message>
     <message>
         <source>A chime will play when the traffic light you are waiting for turns green and you have no vehicle in front of you. If you are waiting behind another vehicle, the chime will play once the vehicle advances unless ACC is engaged.</source>
-        <translation type="unfinished"></translation>
+        <translation>當您等待的紅綠燈變綠且前方沒有車輛時，將會播放鈴聲。如果您在另一輛車後面等待，除非啟用 ACC，否則一旦車輛前進，鈴聲就會響起。</translation>
     </message>
     <message>
         <source>Note: This chime is only designed as a notification. It is the driver&apos;s responsibility to observe their environment and make decisions accordingly.</source>
-        <translation type="unfinished"></translation>
+        <translation>注意：此鈴聲僅為通知之用。駕駛員有責任觀察周圍環境並做出相應的決定。</translation>
     </message>
     <message>
         <source>Lead Vehicle Departure Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>前車駛離警報</translation>
     </message>
     <message>
         <source>Enable this will notify when the leading vehicle drives away.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此功能將在前方車輛駛離時通知您。</translation>
     </message>
     <message>
         <source>Customize M.A.D.S.</source>
-        <translation type="unfinished"></translation>
+        <translation>自訂 M.A.D.S.</translation>
     </message>
     <message>
         <source>Customize Lane Change</source>
-        <translation type="unfinished"></translation>
+        <translation>自訂車道變換</translation>
     </message>
     <message>
         <source>Customize Offsets</source>
-        <translation type="unfinished"></translation>
+        <translation>自訂偏移</translation>
     </message>
     <message>
         <source>Customize Speed Limit Control</source>
-        <translation type="unfinished"></translation>
+        <translation>自訂速限控制</translation>
     </message>
     <message>
         <source>Customize Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>自訂警告</translation>
     </message>
     <message>
         <source>Customize Source</source>
-        <translation type="unfinished"></translation>
+        <translation>自訂來源</translation>
     </message>
     <message>
         <source>Laneful</source>
-        <translation type="unfinished"></translation>
+        <translation>車道線模式</translation>
     </message>
     <message>
         <source>Laneless</source>
-        <translation type="unfinished"></translation>
+        <translation>無車道線模式</translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>自動</translation>
     </message>
     <message>
         <source>Dynamic Lane Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>動態車道設定</translation>
     </message>
     <message>
         <source>Speed Limit Assist</source>
-        <translation type="unfinished"></translation>
+        <translation>速限輔助</translation>
     </message>
     <message>
         <source>Real-time and Offline</source>
-        <translation type="unfinished"></translation>
+        <translation>即時和離線</translation>
     </message>
     <message>
         <source>Offline Only</source>
-        <translation type="unfinished"></translation>
+        <translation>僅離線</translation>
     </message>
     <message>
         <source>Dynamic Lane Profile is not available with the current Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>目前的駕駛模型不支援動態車道設定</translation>
     </message>
     <message>
         <source>Custom Offsets is not available with the current Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>目前的駕駛模型不支援自訂偏移</translation>
     </message>
     <message>
         <source>NNLC is currently not available on this platform.</source>
-        <translation type="unfinished"></translation>
+        <translation>NNLC 目前在此平台上不可用。</translation>
     </message>
     <message>
         <source>Match: &quot;Exact&quot; is ideal, but &quot;Fuzzy&quot; is fine too. Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server if there are any issues: </source>
-        <translation type="unfinished"></translation>
+        <translation>匹配：「精確」是理想的，但「模糊」也可以。如果出現任何問題，請在 sunnypilot Discord 伺服器的以下頻道中聯繫 sunnypilot 團隊：</translation>
     </message>
     <message>
         <source>Start the car to check car compatibility</source>
-        <translation type="unfinished"></translation>
+        <translation>啟動汽車以檢查車輛相容性</translation>
     </message>
     <message>
         <source>NNLC Not Loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>NNLC 未載入</translation>
     </message>
     <message>
         <source>NNLC Loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>NNLC 已載入</translation>
     </message>
     <message>
         <source>Fuzzy</source>
-        <translation type="unfinished"></translation>
+        <translation>模糊</translation>
     </message>
     <message>
         <source>Exact</source>
-        <translation type="unfinished"></translation>
+        <translation>精確</translation>
     </message>
     <message>
         <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server and donate logs to get NNLC loaded for your car: </source>
-        <translation type="unfinished"></translation>
+        <translation>請在 sunnypilot Discord 伺服器的以下頻道中聯繫 sunnypilot 團隊，並捐贈日誌以讓您的汽車載入 NNLC：</translation>
     </message>
     <message>
         <source>Match</source>
-        <translation type="unfinished"></translation>
+        <translation>匹配</translation>
     </message>
     <message>
         <source>Formerly known as &lt;b&gt;&quot;NNFF&quot;&lt;/b&gt;, this replaces the lateral &lt;b&gt;&quot;torque&quot;&lt;/b&gt; controller with one using a neural network trained on each car&apos;s (actually, each separate EPS firmware) driving data for increased controls accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>以前稱為&lt;b&gt;「NNFF」&lt;/b&gt;，它用一個在每輛車（實際上是每個獨立的 EPS 韌體）的駕駛數據上訓練的神經網路取代了橫向&lt;b&gt;「扭矩」&lt;/b&gt;控制器，以提高控制精度。</translation>
     </message>
     <message>
         <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server with feedback, or to provide log data for your car if your car is currently unsupported: </source>
-        <translation type="unfinished"></translation>
+        <translation>如果您的汽車目前不受支援，請在 sunnypilot Discord 伺服器的以下頻道中聯繫 sunnypilot 團隊提供回饋，或為您的汽車提供日誌數據：</translation>
     </message>
     <message>
         <source>Add custom offsets to Camera and Path in sunnypilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>在 sunnypilot 中為相機和路徑添加自訂偏移。</translation>
     </message>
     <message>
         <source>Default is Laneless. In Auto mode, sunnnypilot dynamically chooses between Laneline or Laneless model based on lane recognition confidence level on road and certain conditions.</source>
-        <translation type="unfinished"></translation>
+        <translation>預設為無車道線模式。在自動模式下，sunnypilot 會根據道路上的車道辨識信賴等級和某些條件，動態選擇車道線或無車道線模型。</translation>
     </message>
 </context>
 <context>
@@ -2433,14 +2427,6 @@ This may take up to a minute.</source>
 </context>
 <context>
     <name>TogglesPanel</name>
-    <message>
-        <source>Enable openpilot</source>
-        <translation type="vanished">啟用 openpilot</translation>
-    </message>
-    <message>
-        <source>Use the openpilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off.</source>
-        <translation type="vanished">使用 openpilot 的主動式巡航和車道保持功能，開啟後您需要持續集中注意力，設定變更在重新啟動車輛後生效。</translation>
-    </message>
     <message>
         <source>Enable Lane Departure Warnings</source>
         <translation>啟用車道偏離警告</translation>
@@ -2530,10 +2516,6 @@ This may take up to a minute.</source>
         <translation>積極</translation>
     </message>
     <message>
-        <source>Standard</source>
-        <translation type="vanished">標準</translation>
-    </message>
-    <message>
         <source>Relaxed</source>
         <translation>舒適</translation>
     </message>
@@ -2554,10 +2536,6 @@ This may take up to a minute.</source>
         <translation>端到端縱向控制</translation>
     </message>
     <message>
-        <source>Standard is recommended. In aggressive mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
-        <translation type="vanished">建議使用標準模式。在積極模式下，openpilot 會更接近前車並更積極地使用油門和剎車。在輕鬆模式下，openpilot 會與前車保持較遠距離。對於支援的汽車，您可以使用方向盤上的距離按鈕來切換這些駕駛風格。</translation>
-    </message>
-    <message>
         <source>The driving visualization will transition to the road-facing wide-angle camera at low speeds to better show some turns. The Experimental mode logo will also be shown in the top right corner.</source>
         <translation>在低速時，駕駛可視化將切換至道路朝向的廣角攝影機，以更好地顯示某些彎道。在右上角還會顯示「實驗模式」的標誌。</translation>
     </message>
@@ -2571,86 +2549,87 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>Enable sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用 sunnypilot</translation>
     </message>
     <message>
         <source>Use the sunnypilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用 sunnypilot 系統進行主動巡航控制和車道維持駕駛員輔助。使用此功能時，您需要始終保持專注。此設定的變更在車輛關閉時生效。</translation>
     </message>
     <message>
         <source>Custom Stock Longitudinal Control</source>
-        <translation type="unfinished"></translation>
+        <translation>自訂原廠縱向控制</translation>
     </message>
     <message>
         <source>When enabled, sunnypilot will attempt to control stock longitudinal control with ACC button presses.
 This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用後，sunnypilot 將嘗試透過 ACC 按鈕按下來控制原廠縱向控制。
+此功能必須與 SLC、V-TSC 和/或 M-TSC 一起使用。</translation>
     </message>
     <message>
         <source>Enable Dynamic Experimental Control</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用動態實驗控制</translation>
     </message>
     <message>
         <source>Enable toggle to allow the model to determine when to use openpilot ACC or openpilot End to End Longitudinal.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用切換以允許模型確定何時使用 openpilot ACC 或 openpilot 端到端縱向控制。</translation>
     </message>
     <message>
         <source>Disable Onroad Uploads</source>
-        <translation type="unfinished"></translation>
+        <translation>停用行車時上傳</translation>
     </message>
     <message>
         <source>Disable uploads completely when onroad. Necessary to avoid high data usage when connected to Wi-Fi hotspot. Turn on this feature if you are looking to utilize map-based features, such as Speed Limit Control (SLC) and Map-based Turn Speed Control (MTSC).</source>
-        <translation type="unfinished"></translation>
+        <translation>行車時完全停用上傳。連接到 Wi-Fi 熱點時，必須避免高數據使用量。如果您希望使用基於地圖的功能，例如速限控制 (SLC) 和基於地圖的轉彎速度控制 (MTSC)，請開啟此功能。</translation>
     </message>
     <message>
         <source>Maniac</source>
-        <translation type="unfinished"></translation>
+        <translation>瘋狂</translation>
     </message>
     <message>
         <source>Stock</source>
-        <translation type="unfinished"></translation>
+        <translation>原廠</translation>
     </message>
     <message>
         <source>Stock is recommended. In aggressive/maniac mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
-        <translation type="unfinished"></translation>
+        <translation>建議使用原廠模式。在積極/瘋狂模式下，openpilot 會更靠近前車，並在油門和煞車方面更具侵略性。在輕鬆模式下，openpilot 會與前車保持較遠的距離。在支援的汽車上，您可以使用方向盤上的距離按鈕來切換這些駕駛風格。</translation>
     </message>
 </context>
 <context>
     <name>TorqueFriction</name>
     <message>
         <source>FRICTION</source>
-        <translation type="unfinished"></translation>
+        <translation>摩擦力</translation>
     </message>
     <message>
         <source>Adjust Friction for the Torque Lateral Controller. &lt;b&gt;Live&lt;/b&gt;: Override self-tune values; &lt;b&gt;Offline&lt;/b&gt;: Override self-tune offline values at car restart.</source>
-        <translation type="unfinished"></translation>
+        <translation>調整扭矩橫向控制器的摩擦力。&lt;b&gt;即時&lt;/b&gt;：覆蓋自我調整值；&lt;b&gt;離線&lt;/b&gt;：在汽車重新啟動時覆蓋自我調整離線值。</translation>
     </message>
     <message>
         <source>Real-time and Offline</source>
-        <translation type="unfinished"></translation>
+        <translation>即時和離線</translation>
     </message>
     <message>
         <source>Offline Only</source>
-        <translation type="unfinished"></translation>
+        <translation>僅離線</translation>
     </message>
 </context>
 <context>
     <name>TorqueMaxLatAccel</name>
     <message>
         <source>LAT_ACCEL_FACTOR</source>
-        <translation type="unfinished"></translation>
+        <translation>橫向加速度因子</translation>
     </message>
     <message>
         <source>Adjust Max Lateral Acceleration for the Torque Lateral Controller. &lt;b&gt;Live&lt;/b&gt;: Override self-tune values; &lt;b&gt;Offline&lt;/b&gt;: Override self-tune offline values at car restart.</source>
-        <translation type="unfinished"></translation>
+        <translation>調整扭矩橫向控制器的最大橫向加速度。&lt;b&gt;即時&lt;/b&gt;：覆蓋自我調整值；&lt;b&gt;離線&lt;/b&gt;：在汽車重新啟動時覆蓋自我調整離線值。</translation>
     </message>
     <message>
         <source>Real-time and Offline</source>
-        <translation type="unfinished"></translation>
+        <translation>即時和離線</translation>
     </message>
     <message>
         <source>Offline Only</source>
-        <translation type="unfinished"></translation>
+        <translation>僅離線</translation>
     </message>
 </context>
 <context>
@@ -2692,159 +2671,160 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     <name>VehiclePanel</name>
     <message>
         <source>Updating this setting takes effect when the car is powered off.</source>
-        <translation type="unfinished"></translation>
+        <translation>此設定的變更在車輛關閉時生效。</translation>
     </message>
     <message>
         <source>Select your car</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇您的車輛</translation>
     </message>
 </context>
 <context>
     <name>VisualsPanel</name>
     <message>
         <source>Display Braking Status</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示煞車狀態</translation>
     </message>
     <message>
         <source>Enable this will turn the current speed value to red while the brake is used.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此功能後，使用煞車時目前速度值會變為紅色。</translation>
     </message>
     <message>
         <source>Display Stand Still Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示靜止計時器</translation>
     </message>
     <message>
         <source>Enable this will display time spent at a stop (i.e., at a stop lights, stop signs, traffic congestions).</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此功能將顯示在停車時花費的時間（例如，在紅綠燈、停止標誌、交通擁堵處）。</translation>
     </message>
     <message>
         <source>Display DM Camera in Reverse Gear</source>
-        <translation type="unfinished"></translation>
+        <translation>在倒車檔時顯示駕駛員監控攝影機</translation>
     </message>
     <message>
         <source>Show Driver Monitoring camera while the car is in reverse gear.</source>
-        <translation type="unfinished"></translation>
+        <translation>在車輛處於倒車檔時顯示駕駛員監控攝影機。</translation>
     </message>
     <message>
         <source>OSM: Show debug UI elements</source>
-        <translation type="unfinished"></translation>
+        <translation>OSM：顯示除錯介面元素</translation>
     </message>
     <message>
         <source>OSM: Show UI elements that aid debugging.</source>
-        <translation type="unfinished"></translation>
+        <translation>OSM：顯示有助於除錯的介面元素。</translation>
     </message>
     <message>
         <source>Display Feature Status</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示功能狀態</translation>
     </message>
     <message>
         <source>Display the statuses of certain features on the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>在駕駛畫面上顯示某些功能的狀態。</translation>
     </message>
     <message>
         <source>Enable Onroad Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用行車設定</translation>
     </message>
     <message>
         <source>Display the Onroad Settings button on the driving screen to adjust feature options on the driving screen, without navigating into the settings menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>在駕駛畫面上顯示行車設定按鈕，以在駕駛畫面上調整功能選項，而無需導航到設定選單。</translation>
     </message>
     <message>
         <source>Speedometer: Display True Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>速度計：顯示真實速度</translation>
     </message>
     <message>
         <source>Display the true vehicle current speed from wheel speed sensors.</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示來自輪速感應器的真實車輛目前速度。</translation>
     </message>
     <message>
         <source>Speedometer: Hide from Onroad Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>速度計：在行車畫面上隱藏</translation>
     </message>
     <message>
         <source>Display End-to-end Longitudinal Status (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示端到端縱向狀態（測試版）</translation>
     </message>
     <message>
         <source>Enable this will display an icon that appears when the End-to-end model decides to start or stop.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此功能將顯示一個圖示，當端到端模型決定啟動或停止時出現。</translation>
     </message>
     <message>
         <source>Navigation: Display in Full Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>導航：全螢幕顯示</translation>
     </message>
     <message>
         <source>Enable this will display the built-in navigation in full screen.&lt;br&gt;To switch back to driving view, &lt;font color=&apos;yellow&apos;&gt;tap on the border edge&lt;/font&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用此功能將全螢幕顯示內建導航。&lt;br&gt;要切換回駕駛視圖，&lt;font color=&apos;yellow&apos;&gt;請點擊邊框邊緣&lt;/font&gt;。</translation>
     </message>
     <message>
         <source>Map: Display 3D Buildings</source>
-        <translation type="unfinished"></translation>
+        <translation>地圖：顯示 3D 建築物</translation>
     </message>
     <message>
         <source>Parse and display 3D buildings on map. Thanks to jakethesnake420 for this implementation.</source>
-        <translation type="unfinished"></translation>
+        <translation>在地圖上解析並顯示 3D 建築物。感謝 jakethesnake420 的實現。</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>5 Metrics</source>
-        <translation type="unfinished"></translation>
+        <translation>5 個指標</translation>
     </message>
     <message>
         <source>10 Metrics</source>
-        <translation type="unfinished"></translation>
+        <translation>10 個指標</translation>
     </message>
     <message>
         <source>Developer UI</source>
-        <translation type="unfinished"></translation>
+        <translation>開發者介面</translation>
     </message>
     <message>
         <source>Display real-time parameters and metrics from various sources.</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示來自各種來源的即時參數和指標。</translation>
     </message>
     <message>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>距離</translation>
     </message>
     <message>
         <source>Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>速度</translation>
     </message>
     <message>
         <source>Distance
 Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>距離
+速度</translation>
     </message>
     <message>
         <source>Display Metrics Below Chevron</source>
-        <translation type="unfinished"></translation>
+        <translation>在箭頭下方顯示指標</translation>
     </message>
     <message>
         <source>Display useful metrics below the chevron that tracks the lead car (only applicable to cars with openpilot longitudinal control).</source>
-        <translation type="unfinished"></translation>
+        <translation>在追蹤前車的箭頭下方顯示有用的指標（僅適用於具有 openpilot 縱向控制的汽車）。</translation>
     </message>
     <message>
         <source>RAM</source>
-        <translation type="unfinished"></translation>
+        <translation>記憶體</translation>
     </message>
     <message>
         <source>CPU</source>
-        <translation type="unfinished"></translation>
+        <translation>處理器</translation>
     </message>
     <message>
         <source>GPU</source>
-        <translation type="unfinished"></translation>
+        <translation>圖形處理器</translation>
     </message>
     <message>
         <source>Max</source>
-        <translation type="unfinished"></translation>
+        <translation>最大</translation>
     </message>
     <message>
         <source>Display Temperature on Sidebar</source>
-        <translation type="unfinished"></translation>
+        <translation>在側邊欄顯示溫度</translation>
     </message>
 </context>
 <context>

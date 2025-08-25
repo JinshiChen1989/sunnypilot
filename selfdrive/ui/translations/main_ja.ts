@@ -68,35 +68,35 @@
     </message>
     <message>
         <source>Hidden Network</source>
-        <translation type="unfinished"></translation>
+        <translation>非表示ネットワーク</translation>
     </message>
     <message>
         <source>CONNECT</source>
-        <translation type="unfinished">接続</translation>
+        <translation>接続</translation>
     </message>
     <message>
         <source>Enter SSID</source>
-        <translation type="unfinished">SSID を入力</translation>
+        <translation>SSID を入力</translation>
     </message>
     <message>
         <source>Enter password</source>
-        <translation type="unfinished">パスワードを入力</translation>
+        <translation>パスワードを入力</translation>
     </message>
     <message>
         <source>for &quot;%1&quot;</source>
-        <translation type="unfinished">ﾈｯﾄﾜｰｸ名：%1</translation>
+        <translation>ﾈｯﾄﾜｰｸ名：%1</translation>
     </message>
     <message>
         <source>Retain hotspot/tethering state</source>
-        <translation type="unfinished"></translation>
+        <translation>ホットスポット/テザリングの状態を保持</translation>
     </message>
     <message>
         <source>Enabling this toggle will retain the hotspot/tethering toggle state across reboots.</source>
-        <translation type="unfinished"></translation>
+        <translation>このトグルを有効にすると、再起動後もホットスポット/テザリングのトグル状態が保持されます。</translation>
     </message>
     <message>
         <source>Ngrok Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Ngrokサービス</translation>
     </message>
 </context>
 <context>
@@ -126,85 +126,86 @@
     <name>AutoLaneChangeTimer</name>
     <message>
         <source>s</source>
-        <translation type="unfinished"></translation>
+        <translation>秒</translation>
     </message>
     <message>
         <source>Nudge</source>
-        <translation type="unfinished"></translation>
+        <translation>ナッジ</translation>
     </message>
     <message>
         <source>Nudgeless</source>
-        <translation type="unfinished"></translation>
+        <translation>ナッジレス</translation>
     </message>
     <message>
         <source>Auto Lane Change by Blinker</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンカーによる自動レーンチェンジ</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>オフ</translation>
     </message>
     <message>
         <source>Set a timer to delay the auto lane change operation when the blinker is used. No nudge on the steering wheel is required to auto lane change if a timer is set. Default is Nudge.
 Please use caution when using this feature. Only use the blinker when traffic and road conditions permit.</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンカーを使用する際の自動レーンチェンジ操作を遅延させるタイマーを設定します。タイマーが設定されている場合、自動レーンチェンジにハンドルをナッジする必要はありません。デフォルトはナッジです。
+この機能を使用する際は注意してください。交通状況や道路状況が許す場合にのみウィンカーを使用してください。</translation>
     </message>
 </context>
 <context>
     <name>BackupSettings</name>
     <message>
         <source>Settings backed up for sunnylink Device ID:</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnylinkデバイスIDの設定がバックアップされました：</translation>
     </message>
     <message>
         <source>Settings updated successfully, but no additional data was returned by the server.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定は正常に更新されましたが、サーバーから追加データは返されませんでした。</translation>
     </message>
     <message>
         <source>OOPS! We made a booboo.</source>
-        <translation type="unfinished"></translation>
+        <translation>おっと！エラーが発生しました。</translation>
     </message>
     <message>
         <source>Please try again later.</source>
-        <translation type="unfinished"></translation>
+        <translation>後でもう一度お試しください。</translation>
     </message>
     <message>
         <source>Settings restored. Confirm to restart the interface.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定が復元されました。インターフェースを再起動して確定してください。</translation>
     </message>
     <message>
         <source>No settings found to restore.</source>
-        <translation type="unfinished"></translation>
+        <translation>復元する設定が見つかりません。</translation>
     </message>
 </context>
 <context>
     <name>BrightnessControl</name>
     <message>
         <source>Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>明るさ</translation>
     </message>
     <message>
         <source>Manually adjusts the global brightness of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>画面全体の明るさを手動で調整します。</translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>自動</translation>
     </message>
 </context>
 <context>
     <name>CameraOffset</name>
     <message>
         <source>Camera Offset - Laneful Only</source>
-        <translation type="unfinished"></translation>
+        <translation>カメラオフセット（レーンフルのみ）</translation>
     </message>
     <message>
         <source>Hack to trick vehicle to be left or right biased in its lane. Decreasing the value will make the car keep more left, increasing will make it keep more right. Changes take effect immediately. Default: +4 cm</source>
-        <translation type="unfinished"></translation>
+        <translation>車両をレーン内で左または右に偏らせるためのハック。値を小さくすると車はより左に、大きくするとより右に寄ります。変更はすぐに有効になります。デフォルト：+4 cm</translation>
     </message>
     <message>
         <source> cm</source>
-        <translation type="unfinished"></translation>
+        <translation> cm</translation>
     </message>
 </context>
 <context>
@@ -222,7 +223,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <name>CustomOffsetsSettings</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished">戻る</translation>
+        <translation>戻る</translation>
     </message>
 </context>
 <context>
@@ -248,27 +249,27 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <name>DestinationWidget</name>
     <message>
         <source>Home</source>
-        <translation type="unfinished"></translation>
+        <translation>自宅</translation>
     </message>
     <message>
         <source>Work</source>
-        <translation type="unfinished"></translation>
+        <translation>職場</translation>
     </message>
     <message>
         <source>No destination set</source>
-        <translation type="unfinished"></translation>
+        <translation>目的地が設定されていません</translation>
     </message>
     <message>
         <source>No %1 location set</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 の場所が設定されていません</translation>
     </message>
     <message>
         <source>home</source>
-        <translation type="unfinished"></translation>
+        <translation>自宅</translation>
     </message>
     <message>
         <source>work</source>
-        <translation type="unfinished"></translation>
+        <translation>職場</translation>
     </message>
 </context>
 <context>
@@ -407,157 +408,157 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Pair Device</source>
-        <translation type="unfinished"></translation>
+        <translation>デバイスをペアリング</translation>
     </message>
     <message>
         <source>PAIR</source>
-        <translation type="unfinished"></translation>
+        <translation>ペアリング</translation>
     </message>
     <message>
         <source>TOGGLE</source>
-        <translation type="unfinished"></translation>
+        <translation>切り替え</translation>
     </message>
     <message>
         <source>Enable or disable PIN requirement for Fleet Manager access.</source>
-        <translation type="unfinished"></translation>
+        <translation>フリートマネージャーのアクセスにPIN要件を有効または無効にします。</translation>
     </message>
     <message>
         <source>Are you sure you want to turn off PIN requirement?</source>
-        <translation type="unfinished"></translation>
+        <translation>PIN要件をオフにしてもよろしいですか？</translation>
     </message>
     <message>
         <source>Turn Off</source>
-        <translation type="unfinished"></translation>
+        <translation>オフにする</translation>
     </message>
     <message>
         <source>Error Troubleshoot</source>
-        <translation type="unfinished"></translation>
+        <translation>エラーのトラブルシューティング</translation>
     </message>
     <message>
         <source>Display error from the tmux session when an error has occurred from a system process.</source>
-        <translation type="unfinished"></translation>
+        <translation>システムプロセスからエラーが発生した場合にtmuxセッションからのエラーを表示します。</translation>
     </message>
     <message>
         <source>Reset Access Tokens for Map Services</source>
-        <translation type="unfinished"></translation>
+        <translation>マップサービスのアクセストークンをリセット</translation>
     </message>
     <message>
         <source>Reset self-service access tokens for Mapbox, Amap, and Google Maps.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapbox、Amap、Googleマップのセルフサービスアクセストークンをリセットします。</translation>
     </message>
     <message>
         <source>Are you sure you want to reset access tokens for all map services?</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのマップサービスのアクセストークンをリセットしてもよろしいですか？</translation>
     </message>
     <message>
         <source>Reset sunnypilot Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot設定をリセット</translation>
     </message>
     <message>
         <source>Are you sure you want to reset all sunnypilot settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのsunnypilot設定をリセットしてもよろしいですか？</translation>
     </message>
     <message>
         <source>Review the rules, features, and limitations of sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilotのルール、機能、制限を確認する</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation type="unfinished"></translation>
+        <translation>オフ</translation>
     </message>
     <message>
         <source>sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down. sunnypilot is continuously calibrating, resetting is rarely required.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilotは、デバイスを左右4°以内、上5°、下9°以内の角度で取り付ける必要があります。sunnypilotは継続的にキャリブレーションを行っているため、リセットはほとんど必要ありません。</translation>
     </message>
     <message>
         <source>Fleet Manager PIN:</source>
-        <translation type="unfinished"></translation>
+        <translation>フリートマネージャーPIN：</translation>
     </message>
     <message>
         <source>Toggle Onroad/Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>オンロード/オフロードの切り替え</translation>
     </message>
     <message>
         <source>Are you sure you want to unforce offroad?</source>
-        <translation type="unfinished"></translation>
+        <translation>オフロード強制を解除してもよろしいですか？</translation>
     </message>
     <message>
         <source>Unforce</source>
-        <translation type="unfinished"></translation>
+        <translation>強制解除</translation>
     </message>
     <message>
         <source>Are you sure you want to force offroad?</source>
-        <translation type="unfinished"></translation>
+        <translation>オフロードを強制してもよろしいですか？</translation>
     </message>
     <message>
         <source>Force</source>
-        <translation type="unfinished"></translation>
+        <translation>強制</translation>
     </message>
     <message>
         <source>Disengage to Force Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>オフロードを強制するには、エンゲージを解除してください</translation>
     </message>
     <message>
         <source>Unforce Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>オフロード強制解除</translation>
     </message>
     <message>
         <source>Force Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>オフロード強制</translation>
     </message>
 </context>
 <context>
     <name>DisplayPanel</name>
     <message>
         <source>Driving Screen Off: Non-Critical Events</source>
-        <translation type="unfinished"></translation>
+        <translation>運転画面オフ：重要でないイベント</translation>
     </message>
     <message>
         <source>When &lt;b&gt;Driving Screen Off Timer&lt;/b&gt; is not set to &lt;b&gt;&quot;Always On&quot;&lt;/b&gt;:</source>
-        <translation type="unfinished"></translation>
+        <translation>運転画面オフタイマーが「常時オン」に設定されていない場合：</translation>
     </message>
     <message>
         <source>Enabled: Wake the brightness of the screen to display all events.</source>
-        <translation type="unfinished"></translation>
+        <translation>有効：すべてのイベントを表示するために画面の明るさを復帰させます。</translation>
     </message>
     <message>
         <source>Disabled: Wake the brightness of the screen to display critical events.</source>
-        <translation type="unfinished"></translation>
+        <translation>無効：重要なイベントを表示するために画面の明るさを復帰させます。</translation>
     </message>
     <message>
         <source>Enable Screen Recorder</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリーンレコーダーを有効にする</translation>
     </message>
     <message>
         <source>Enable this will display a button on the onroad screen to toggle on or off real-time screen recording with UI elements.</source>
-        <translation type="unfinished"></translation>
+        <translation>これを有効にすると、オンロード画面にボタンが表示され、UI要素を含むリアルタイムの画面録画をオン/オフに切り替えることができます。</translation>
     </message>
 </context>
 <context>
     <name>DriveStats</name>
     <message>
         <source>Drives</source>
-        <translation type="unfinished"></translation>
+        <translation>ドライブ</translation>
     </message>
     <message>
         <source>Hours</source>
-        <translation type="unfinished"></translation>
+        <translation>時間</translation>
     </message>
     <message>
         <source>ALL TIME</source>
-        <translation type="unfinished"></translation>
+        <translation>全期間</translation>
     </message>
     <message>
         <source>PAST WEEK</source>
-        <translation type="unfinished"></translation>
+        <translation>過去1週間</translation>
     </message>
     <message>
         <source>KM</source>
-        <translation type="unfinished"></translation>
+        <translation>km</translation>
     </message>
     <message>
         <source>Miles</source>
-        <translation type="unfinished"></translation>
+        <translation>マイル</translation>
     </message>
 </context>
 <context>
@@ -602,73 +603,76 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <name>LaneChangeSettings</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished">戻る</translation>
+        <translation>戻る</translation>
     </message>
     <message>
         <source>Auto Lane Change: Delay with Blind Spot</source>
-        <translation type="unfinished"></translation>
+        <translation>自動レーンチェンジ：死角での遅延</translation>
     </message>
     <message>
         <source>Toggle to enable a delay timer for seamless lane changes when blind spot monitoring (BSM) detects a obstructing vehicle, ensuring safe maneuvering.</source>
-        <translation type="unfinished"></translation>
+        <translation>死角監視（BSM）が障害物を検出したときに、シームレスなレーンチェンジのための遅延タイマーを有効にするトグル。安全な操作を保証します。</translation>
     </message>
     <message>
         <source>Block Lane Change: Road Edge Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>レーンチェンジブロック：路肩検出</translation>
     </message>
     <message>
         <source>Enable this toggle to block lane change when road edge is detected on the stalk actuated side.</source>
-        <translation type="unfinished"></translation>
+        <translation>このトグルを有効にすると、ストーク作動側で路肩が検出されたときにレーンチェンジをブロックします。</translation>
     </message>
     <message>
         <source>Pause Lateral Below Speed with Blinker</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンカー使用時の低速での横方向作動の一時停止</translation>
     </message>
     <message>
         <source>Enable this toggle to pause lateral actuation with blinker when traveling below the desired speed selected below.</source>
-        <translation type="unfinished"></translation>
+        <translation>このトグルを有効にすると、以下で選択した希望速度より下で走行中にウィンカーを使用すると、横方向の作動が一時停止します。</translation>
     </message>
 </context>
 <context>
     <name>MadsSettings</name>
     <message>
         <source>Enable ACC+MADS with RES+/SET-</source>
-        <translation type="unfinished"></translation>
+        <translation>RES+/SET-でACC+MADSを有効にする</translation>
     </message>
     <message>
         <source>Engage both M.A.D.S. and ACC with a single press of RES+ or SET- button.</source>
-        <translation type="unfinished"></translation>
+        <translation>RES+またはSET-ボタンを1回押すだけで、M.A.D.S.とACCの両方を有効にします。</translation>
     </message>
     <message>
         <source>Note: Once M.A.D.S. is engaged via this mode, it will remain engaged until it is manually disabled via the M.A.D.S. button or car shut off.</source>
-        <translation type="unfinished"></translation>
+        <translation>注意：このモードでM.A.D.S.が有効になると、M.A.D.S.ボタンまたは車の電源がオフになるまで手動で無効にされるまで有効のままになります。</translation>
     </message>
     <message>
         <source>Toggle M.A.D.S. with Cruise Main</source>
-        <translation type="unfinished"></translation>
+        <translation>クルーズメインでM.A.D.S.を切り替える</translation>
     </message>
     <message>
         <source>Allows M.A.D.S. engagement/disengagement with &quot;Cruise Main&quot; cruise control button from the steering wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>ハンドルの「クルーズメイン」クルーズコントロールボタンでM.A.D.S.の有効/無効を切り替えることができます。</translation>
     </message>
     <message>
         <source>Remain Active</source>
-        <translation type="unfinished"></translation>
+        <translation>アクティブのまま</translation>
     </message>
     <message>
         <source>Pause Steering</source>
-        <translation type="unfinished"></translation>
+        <translation>ステアリングを一時停止</translation>
     </message>
     <message>
         <source>Steering Mode After Braking</source>
-        <translation type="unfinished"></translation>
+        <translation>ブレーキ後のステアリングモード</translation>
     </message>
     <message>
         <source>Choose how Automatic Lane Centering (ALC) behaves after the brake pedal is manually pressed in sunnypilot.
 
 Remain Active: ALC will remain active even after the brake pedal is pressed.
 Pause Steering: ALC will be paused after the brake pedal is manually pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilotでブレーキペダルを手動で踏んだ後、自動レーンセンタリング（ALC）がどのように動作するかを選択します。
+
+アクティブのまま：ブレーキペダルを踏んだ後もALCはアクティブのままです。
+ステアリングを一時停止：ブレーキペダルを手動で踏んだ後、ALCは一時停止します。</translation>
     </message>
 </context>
 <context>
@@ -690,11 +694,11 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     <name>MapSettings</name>
     <message>
         <source>NAVIGATION</source>
-        <translation type="unfinished"></translation>
+        <translation>ナビゲーション</translation>
     </message>
     <message>
         <source>Manage at connect.comma.ai</source>
-        <translation type="unfinished"></translation>
+        <translation>connect.comma.aiで管理</translation>
     </message>
 </context>
 <context>
@@ -709,38 +713,38 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     </message>
     <message>
         <source>Waiting for route</source>
-        <translation type="unfinished"></translation>
+        <translation>ルートを待機中</translation>
     </message>
 </context>
 <context>
     <name>MaxTimeOffroad</name>
     <message>
         <source>Max Time Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>オフロード最大時間</translation>
     </message>
     <message>
         <source>Device is automatically turned off after a set time when the engine is turned off (off-road) after driving (on-road).</source>
-        <translation type="unfinished"></translation>
+        <translation>運転後（オンロード）、エンジンがオフ（オフロード）になると、設定された時間の後にデバイスは自動的にオフになります。</translation>
     </message>
     <message>
         <source>s</source>
-        <translation type="unfinished"></translation>
+        <translation>秒</translation>
     </message>
     <message>
         <source>m</source>
-        <translation type="unfinished">ﾒｰﾄﾙ</translation>
+        <translation>分</translation>
     </message>
     <message>
         <source>hr</source>
-        <translation type="unfinished">時間</translation>
+        <translation>時間</translation>
     </message>
     <message>
         <source>Always On</source>
-        <translation type="unfinished"></translation>
+        <translation>常時オン</translation>
     </message>
     <message>
         <source>Immediate</source>
-        <translation type="unfinished"></translation>
+        <translation>即時</translation>
     </message>
 </context>
 <context>

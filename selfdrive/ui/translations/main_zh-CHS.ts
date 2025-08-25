@@ -115,11 +115,11 @@
     </message>
     <message>
         <source>SPEED</source>
-        <translation>SPEED</translation>
+        <translation>速度</translation>
     </message>
     <message>
         <source>LIMIT</source>
-        <translation>LIMIT</translation>
+        <translation>限制</translation>
     </message>
 </context>
 <context>
@@ -251,7 +251,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>You must accept the Terms and Conditions in order to use sunnypilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>您必须接受条款和条件才能使用 sunnypilot。</translation>
     </message>
 </context>
 <context>
@@ -457,7 +457,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down. sunnypilot is continuously calibrating, resetting is rarely required.</source>
-        <translation>sunnypilot要求设备安装的偏航角在左4°和右4°之间，俯仰角在上5°和下9°之间。一般来说，openpilot会持续更新校准，很少需要重置。</translation>
+        <translation>sunnypilot要求设备安装的偏航角在左4°和右4°之间，俯仰角在上5°和下9°之间。一般来说，sunnypilot会持续更新校准，很少需要重置。</translation>
     </message>
     <message>
         <source>OFF</source>
@@ -548,7 +548,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Enable this will display a button on the onroad screen to toggle on or off real-time screen recording with UI elements.</source>
-        <translation>打开次开关将进行屏幕录像。</translation>
+        <translation>启用此功能后，屏幕上将出现一个按钮，用于打开或关闭包含界面元素的实时屏幕录制。</translation>
     </message>
 </context>
 <context>
@@ -652,7 +652,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Enable this toggle to pause lateral actuation with blinker when traveling below the desired speed selected below.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用此开关后，当车速低于下方选择的速度时，打转向灯会暂停横向控制。</translation>
     </message>
 </context>
 <context>
@@ -1159,7 +1159,7 @@ Warning: You are on a metered connection!</source>
     <name>PauseLateralSpeed</name>
     <message>
         <source>Pause lateral actuation with blinker when traveling below the desired speed selected. Default is 20 MPH or 32 km/h.</source>
-        <translation type="unfinished"></translation>
+        <translation>当车速低于设定值时，打转向灯将暂停横向控制。默认值为 20 MPH 或 32 km/h。</translation>
     </message>
     <message>
         <source>Default</source>
@@ -1194,7 +1194,7 @@ Warning: You are on a metered connection!</source>
     </message>
     <message>
         <source>24/7 LTE connectivity</source>
-        <translation>全天候 LTE 連線</translation>
+        <translation>全天候 LTE 连接</translation>
     </message>
     <message>
         <source>Turn-by-turn navigation</source>
@@ -1374,7 +1374,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>sunnypilot will &lt;b&gt;not&lt;/b&gt; take over control of gas and brakes. Stock Toyota longitudinal control will be used.</source>
-        <translation>sunnypilot并&lt;b&gt;不会&lt;/b&gt;控制车辆的横向和纵向。保留使用丰田原车的纵向控制。</translation>
+        <translation>sunnypilot 将&lt;b&gt;不会&lt;/b&gt;接管油门和刹车。将使用原车自带的丰田纵向控制。</translation>
     </message>
     <message>
         <source>Toyota TSS2 Longitudinal: Custom Tuning</source>
@@ -1650,7 +1650,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>REGIST...</source>
-        <translation type="unfinished"></translation>
+        <translation>注册中...</translation>
     </message>
 </context>
 <context>

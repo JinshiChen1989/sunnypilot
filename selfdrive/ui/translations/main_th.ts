@@ -60,7 +60,7 @@
     </message>
     <message>
         <source>Cellular Metered</source>
-        <translation>ลดการส่งข้อมูลผ่านเซลลูล่าร์</translation>
+        <translation>เซลลูลาร์แบบจำกัดข้อมูล</translation>
     </message>
     <message>
         <source>Prevent large data uploads when on a metered connection</source>
@@ -88,15 +88,15 @@
     </message>
     <message>
         <source>Retain hotspot/tethering state</source>
-        <translation type="unfinished"></translation>
+        <translation>คงสถานะฮอตสปอต/การเชื่อมต่อ</translation>
     </message>
     <message>
         <source>Enabling this toggle will retain the hotspot/tethering toggle state across reboots.</source>
-        <translation type="unfinished"></translation>
+        <translation>การเปิดใช้งานตัวเลือกนี้จะคงสถานะฮอตสปอต/การเชื่อมต่อไว้หลังจากรีบูต</translation>
     </message>
     <message>
         <source>Ngrok Service</source>
-        <translation type="unfinished"></translation>
+        <translation>บริการ Ngrok</translation>
     </message>
 </context>
 <context>
@@ -126,85 +126,86 @@
     <name>AutoLaneChangeTimer</name>
     <message>
         <source>s</source>
-        <translation type="unfinished"></translation>
+        <translation>วิ</translation>
     </message>
     <message>
         <source>Nudge</source>
-        <translation type="unfinished"></translation>
+        <translation>สะกิด</translation>
     </message>
     <message>
         <source>Nudgeless</source>
-        <translation type="unfinished"></translation>
+        <translation>ไร้การสะกิด</translation>
     </message>
     <message>
         <source>Auto Lane Change by Blinker</source>
-        <translation type="unfinished"></translation>
+        <translation>เปลี่ยนเลนอัตโนมัติด้วยไฟเลี้ยว</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิด</translation>
     </message>
     <message>
         <source>Set a timer to delay the auto lane change operation when the blinker is used. No nudge on the steering wheel is required to auto lane change if a timer is set. Default is Nudge.
 Please use caution when using this feature. Only use the blinker when traffic and road conditions permit.</source>
-        <translation type="unfinished"></translation>
+        <translation>ตั้งเวลาเพื่อหน่วงการเปลี่ยนเลนอัตโนมัติเมื่อเปิดไฟเลี้ยว ไม่จำเป็นต้องสะกิดพวงมาลัยเพื่อเปลี่ยนเลนหากตั้งเวลาไว้ ค่าเริ่มต้นคือ "ต้องสะกิด"
+โปรดใช้ความระมัดระวังเมื่อใช้คุณสมบัตินี้ และใช้ไฟเลี้ยวเมื่อสภาพจราจรเอื้ออำนวยเท่านั้น</translation>
     </message>
 </context>
 <context>
     <name>BackupSettings</name>
     <message>
         <source>Settings backed up for sunnylink Device ID:</source>
-        <translation type="unfinished"></translation>
+        <translation>การตั้งค่าถูกสำรองข้อมูลสำหรับหมายเลขอุปกรณ์ sunnylink:</translation>
     </message>
     <message>
         <source>Settings updated successfully, but no additional data was returned by the server.</source>
-        <translation type="unfinished"></translation>
+        <translation>อัปเดตการตั้งค่าเรียบร้อยแล้ว แต่เซิร์ฟเวอร์ไม่ได้ส่งข้อมูลเพิ่มเติมกลับมา</translation>
     </message>
     <message>
         <source>OOPS! We made a booboo.</source>
-        <translation type="unfinished"></translation>
+        <translation>อ๊บส์! เกิดข้อผิดพลาดขึ้น</translation>
     </message>
     <message>
         <source>Please try again later.</source>
-        <translation type="unfinished"></translation>
+        <translation>โปรดลองใหม่อีกครั้ง</translation>
     </message>
     <message>
         <source>Settings restored. Confirm to restart the interface.</source>
-        <translation type="unfinished"></translation>
+        <translation>คืนค่าการตั้งค่าแล้ว ยืนยันเพื่อรีสตาร์ตอินเตอร์เฟซ</translation>
     </message>
     <message>
         <source>No settings found to restore.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่พบการตั้งค่าที่จะคืนค่า</translation>
     </message>
 </context>
 <context>
     <name>BrightnessControl</name>
     <message>
         <source>Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>ความสว่าง</translation>
     </message>
     <message>
         <source>Manually adjusts the global brightness of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับความสว่างโดยรวมของหน้าจอด้วยตนเอง</translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>อัตโนมัติ</translation>
     </message>
 </context>
 <context>
     <name>CameraOffset</name>
     <message>
         <source>Camera Offset - Laneful Only</source>
-        <translation type="unfinished"></translation>
+        <translation>การชดเชยกล้อง - เฉพาะโหมด Laneful เท่านั้น</translation>
     </message>
     <message>
         <source>Hack to trick vehicle to be left or right biased in its lane. Decreasing the value will make the car keep more left, increasing will make it keep more right. Changes take effect immediately. Default: +4 cm</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับตำแหน่งรถในเลนให้ชิดไปทางซ้ายหรือขวา ลดค่าจะทำให้รถชิดซ้ายมากขึ้น และเพิ่มค่าจะทำให้รถชิดขวามากขึ้น การเปลี่ยนแปลงมีผลทันที ค่าเริ่มต้น: +4 ซม.</translation>
     </message>
     <message>
         <source> cm</source>
-        <translation type="unfinished"></translation>
+        <translation> ซม.</translation>
     </message>
 </context>
 <context>
@@ -222,7 +223,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <name>CustomOffsetsSettings</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished">ย้อนกลับ</translation>
+        <translation>ย้อนกลับ</translation>
     </message>
 </context>
 <context>
@@ -241,7 +242,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>You must accept the Terms and Conditions in order to use sunnypilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>คุณต้องยอมรับข้อตกลงและเงื่อนไขก่อนที่จะใช้ sunnypilot</translation>
     </message>
 </context>
 <context>
@@ -375,7 +376,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>right</source>
-        <translation>ด้านขวา</translation>
+        <translation>ขวา</translation>
     </message>
     <message>
         <source>Are you sure you want to reboot?</source>
@@ -415,149 +416,149 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>TOGGLE</source>
-        <translation type="unfinished"></translation>
+        <translation>สลับ</translation>
     </message>
     <message>
         <source>Enable or disable PIN requirement for Fleet Manager access.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดหรือปิดการกำหนดให้ต้องมีรหัส PIN สำหรับเข้าถึง Fleet Manager</translation>
     </message>
     <message>
         <source>Are you sure you want to turn off PIN requirement?</source>
-        <translation type="unfinished"></translation>
+        <translation>คุณแน่ใจว่าต้องการปิดการกำหนดให้ต้องมีรหัส PIN หรือไม่?</translation>
     </message>
     <message>
         <source>Turn Off</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิด</translation>
     </message>
     <message>
         <source>Error Troubleshoot</source>
-        <translation type="unfinished"></translation>
+        <translation>แก้ไขข้อผิดพลาด</translation>
     </message>
     <message>
         <source>Display error from the tmux session when an error has occurred from a system process.</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงข้อผิดพลาดจากเซสชั่น tmux เมื่อเกิดข้อผิดพลาดจากกระบวนการของระบบ</translation>
     </message>
     <message>
         <source>Reset Access Tokens for Map Services</source>
-        <translation type="unfinished"></translation>
+        <translation>รีเซ็ตโทเคนการเข้าถึงสำหรับบริการแผนที่</translation>
     </message>
     <message>
         <source>Reset self-service access tokens for Mapbox, Amap, and Google Maps.</source>
-        <translation type="unfinished"></translation>
+        <translation>รีเซ็ตโทเคนการเข้าถึงแบบบริการตนเองสำหรับ Mapbox, Amap และ Google Maps</translation>
     </message>
     <message>
         <source>Are you sure you want to reset access tokens for all map services?</source>
-        <translation type="unfinished"></translation>
+        <translation>คุณแน่ใจว่าต้องการรีเซ็ตโทเคนการเข้าถึงสำหรับบริการแผนที่ทั้งหมดหรือไม่?</translation>
     </message>
     <message>
         <source>Reset sunnypilot Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>รีเซ็ตการตั้งค่า sunnypilot</translation>
     </message>
     <message>
         <source>Are you sure you want to reset all sunnypilot settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>คุณแน่ใจว่าต้องการรีเซ็ตการตั้งค่า sunnypilot ทั้งหมดหรือไม่?</translation>
     </message>
     <message>
         <source>Review the rules, features, and limitations of sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>ทบทวนกฎเกณฑ์ คุณสมบัติ และข้อจำกัดของ sunnypilot</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิด</translation>
     </message>
     <message>
         <source>sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down. sunnypilot is continuously calibrating, resetting is rarely required.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot ต้องการให้ติดตั้งอุปกรณ์ภายใน 4° ซ้ายหรือขวา และภายใน 5° ขึ้นหรือ 9° ลง sunnypilot จะมีการปรับเทียบอย่างต่อเนื่อง การรีเซ็ตไม่ค่อยจำเป็น</translation>
     </message>
     <message>
         <source>Fleet Manager PIN:</source>
-        <translation type="unfinished"></translation>
+        <translation>รหัส PIN สำหรับ Fleet Manager:</translation>
     </message>
     <message>
         <source>Toggle Onroad/Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>สลับสถานะบนถนน/นอกถนน</translation>
     </message>
     <message>
         <source>Are you sure you want to unforce offroad?</source>
-        <translation type="unfinished"></translation>
+        <translation>คุณแน่ใจว่าต้องการยกเลิกการบังคับสถานะนอกถนนหรือไม่?</translation>
     </message>
     <message>
         <source>Unforce</source>
-        <translation type="unfinished"></translation>
+        <translation>ยกเลิกการบังคับ</translation>
     </message>
     <message>
         <source>Are you sure you want to force offroad?</source>
-        <translation type="unfinished"></translation>
+        <translation>คุณแน่ใจว่าต้องการบังคับให้อยู่ในสถานะนอกถนนหรือไม่?</translation>
     </message>
     <message>
         <source>Force</source>
-        <translation type="unfinished"></translation>
+        <translation>บังคับ</translation>
     </message>
     <message>
         <source>Disengage to Force Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>ปลดการทำงานเพื่อบังคับให้อยู่นอกถนน</translation>
     </message>
     <message>
         <source>Unforce Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>ยกเลิกการบังคับนอกถนน</translation>
     </message>
     <message>
         <source>Force Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>บังคับให้อยู่นอกถนน</translation>
     </message>
 </context>
 <context>
     <name>DisplayPanel</name>
     <message>
         <source>Driving Screen Off: Non-Critical Events</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิดหน้าจอขณะขับขี่: เหตุการณ์ที่ไม่สำคัญ</translation>
     </message>
     <message>
         <source>When &lt;b&gt;Driving Screen Off Timer&lt;/b&gt; is not set to &lt;b&gt;&quot;Always On&quot;&lt;/b&gt;:</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อ &lt;b&gt;ตัวจับเวลาปิดหน้าจอขณะขับขี่&lt;/b&gt; ไม่ได้ตั้งค่าเป็น &lt;b&gt;&quot;เปิดตลอดเวลา&quot;&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Enabled: Wake the brightness of the screen to display all events.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้งาน: ปลุกความสว่างของหน้าจอเพื่อแสดงเหตุการณ์ทั้งหมด</translation>
     </message>
     <message>
         <source>Disabled: Wake the brightness of the screen to display critical events.</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิดใช้งาน: ปลุกความสว่างของหน้าจอเพื่อแสดงเหตุการณ์ที่สำคัญเท่านั้น</translation>
     </message>
     <message>
         <source>Enable Screen Recorder</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้งานการบันทึกหน้าจอ</translation>
     </message>
     <message>
         <source>Enable this will display a button on the onroad screen to toggle on or off real-time screen recording with UI elements.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้งานนี้จะแสดงปุ่มบนหน้าจอระหว่างขับขี่เพื่อเปิดปิดการบันทึกหน้าจอแบบเรียลไทม์รวมกับอินเตอร์เฟซ</translation>
     </message>
 </context>
 <context>
     <name>DriveStats</name>
     <message>
         <source>Drives</source>
-        <translation type="unfinished"></translation>
+        <translation>การขับขี่</translation>
     </message>
     <message>
         <source>Hours</source>
-        <translation type="unfinished"></translation>
+        <translation>ชั่วโมง</translation>
     </message>
     <message>
         <source>ALL TIME</source>
-        <translation type="unfinished"></translation>
+        <translation>ตลอดเวลา</translation>
     </message>
     <message>
         <source>PAST WEEK</source>
-        <translation type="unfinished"></translation>
+        <translation>สัปดาห์ที่แล้ว</translation>
     </message>
     <message>
         <source>KM</source>
-        <translation type="unfinished"></translation>
+        <translation>กิโลเมตร</translation>
     </message>
     <message>
         <source>Miles</source>
-        <translation type="unfinished"></translation>
+        <translation>ไมล์</translation>
     </message>
 </context>
 <context>
@@ -602,73 +603,74 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <name>LaneChangeSettings</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished">ย้อนกลับ</translation>
+        <translation>ย้อนกลับ</translation>
     </message>
     <message>
         <source>Auto Lane Change: Delay with Blind Spot</source>
-        <translation type="unfinished"></translation>
+        <translation>เปลี่ยนเลนอัตโนมัติ: หน่วงเวลาเมื่อมีรถในจุดอับสายตา</translation>
     </message>
     <message>
         <source>Toggle to enable a delay timer for seamless lane changes when blind spot monitoring (BSM) detects a obstructing vehicle, ensuring safe maneuvering.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้การหน่วงเวลาเพื่อการเปลี่ยนเลนที่ราบรื่นขึ้น เมื่อระบบตรวจจับจุดอับสายตา (BSM) พบรถในเลนข้างๆ เพื่อให้การเปลี่ยนเลนปลอดภัย</translation>
     </message>
     <message>
         <source>Block Lane Change: Road Edge Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>ป้องกันการเปลี่ยนเลน: การตรวจหาขอบถนน</translation>
     </message>
     <message>
         <source>Enable this toggle to block lane change when road edge is detected on the stalk actuated side.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้งานนี้เพื่อป้องกันการเปลี่ยนเลนเมื่อตรวจพบขอบถนนในด้านที่เปิดไฟเลี้ยว</translation>
     </message>
     <message>
         <source>Pause Lateral Below Speed with Blinker</source>
-        <translation type="unfinished"></translation>
+        <translation>หยุดชั่วคราวการควบคุมด้านข้างเมื่อความเร็วต่ำพร้อมไฟเลี้ยว</translation>
     </message>
     <message>
         <source>Enable this toggle to pause lateral actuation with blinker when traveling below the desired speed selected below.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้งานนี้เพื่อหยุดชั่วคราวการควบคุมด้านข้างพร้อมไฟเลี้ยวเมื่อเดินทางด้วยความเร็วที่ต่ำกว่าที่เลือกไว้ด้านล่าง</translation>
     </message>
 </context>
 <context>
     <name>MadsSettings</name>
     <message>
         <source>Enable ACC+MADS with RES+/SET-</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้งาน ACC+MADS ด้วย RES+/SET-</translation>
     </message>
     <message>
         <source>Engage both M.A.D.S. and ACC with a single press of RES+ or SET- button.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้งานทั้ง M.A.D.S. และ ACC ด้วยการกดปุ่ม RES+ หรือ SET- เพียงครั้งเดียว</translation>
     </message>
     <message>
         <source>Note: Once M.A.D.S. is engaged via this mode, it will remain engaged until it is manually disabled via the M.A.D.S. button or car shut off.</source>
-        <translation type="unfinished"></translation>
+        <translation>หมายเหตุ: เมื่อเปิดใช้งาน M.A.D.S. ผ่านโหมดนี้แล้ว มันจะยังคงทำงานต่อไปจนกว่าจะปิดด้วยตนเองผ่านปุ่ม M.A.D.S. หรือปิดรถยนต์</translation>
     </message>
     <message>
         <source>Toggle M.A.D.S. with Cruise Main</source>
-        <translation type="unfinished"></translation>
+        <translation>สลับ M.A.D.S. ด้วย Cruise Main</translation>
     </message>
     <message>
         <source>Allows M.A.D.S. engagement/disengagement with &quot;Cruise Main&quot; cruise control button from the steering wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>อนุญาตให้เปิด/ปิด M.A.D.S. ด้วยปุ่ม &quot;Cruise Main&quot; ควบคุมครูซจากพวงมาลัย</translation>
     </message>
     <message>
         <source>Remain Active</source>
-        <translation type="unfinished"></translation>
+        <translation>ยังคงทำงานต่อไป</translation>
     </message>
     <message>
         <source>Pause Steering</source>
-        <translation type="unfinished"></translation>
+        <translation>หยุดชั่วคราวการควบคุมพวงมาลัย</translation>
     </message>
     <message>
         <source>Steering Mode After Braking</source>
-        <translation type="unfinished"></translation>
+        <translation>โหมดการควบคุมพวงมาลัยหลังจากเบรก</translation>
     </message>
     <message>
         <source>Choose how Automatic Lane Centering (ALC) behaves after the brake pedal is manually pressed in sunnypilot.
 
 Remain Active: ALC will remain active even after the brake pedal is pressed.
 Pause Steering: ALC will be paused after the brake pedal is manually pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Remain Active: ALC จะทำงานต่อไปแม้หลังจากเหยียบเบรกแล้ว
+Pause Steering: ALC จะหยุดทำงานชั่วคราวหลังจากเหยียบเบรกด้วยตนเอง</translation>
     </message>
 </context>
 <context>
@@ -716,42 +718,42 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     <name>MaxTimeOffroad</name>
     <message>
         <source>Max Time Offroad</source>
-        <translation type="unfinished"></translation>
+        <translation>เวลาสูงสุดนอกถนน</translation>
     </message>
     <message>
         <source>Device is automatically turned off after a set time when the engine is turned off (off-road) after driving (on-road).</source>
-        <translation type="unfinished"></translation>
+        <translation>อุปกรณ์จะปิดโดยอัตโนมัติหลังจากเวลาที่กำหนดเมื่อปิดเครื่องยนต์ (นอกถนน) หลังจากการขับขี่ (บนถนน)</translation>
     </message>
     <message>
         <source>s</source>
-        <translation type="unfinished"></translation>
+        <translation>วิ</translation>
     </message>
     <message>
         <source>m</source>
-        <translation type="unfinished">ม.</translation>
+        <translation>ม.</translation>
     </message>
     <message>
         <source>hr</source>
-        <translation type="unfinished">ชม.</translation>
+        <translation>ชม.</translation>
     </message>
     <message>
         <source>Always On</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดตลอดเวลา</translation>
     </message>
     <message>
         <source>Immediate</source>
-        <translation type="unfinished"></translation>
+        <translation>ทันที</translation>
     </message>
 </context>
 <context>
     <name>MonitoringPanel</name>
     <message>
         <source>Enable Hands on Wheel Monitoring</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้งานการตรวจสอบมือบนพวงมาลัย</translation>
     </message>
     <message>
         <source>Monitor and alert when driver is not keeping the hands on the steering wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>ตรวจสอบและเตือนเมื่อผู้ขับขี่ไม่ได้วางมือบนพวงมาลัย</translation>
     </message>
 </context>
 <context>
@@ -785,11 +787,11 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     </message>
     <message>
         <source>Scan</source>
-        <translation type="unfinished"></translation>
+        <translation>สแกน</translation>
     </message>
     <message>
         <source>Scanning...</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังสแกน...</translation>
     </message>
 </context>
 <context>
@@ -848,11 +850,13 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
         <source>OpenStreetMap database is out of date. New maps must be downloaded if you wish to continue using OpenStreetMap data for Enhanced Speed Control and road name display.
 
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ฐานข้อมูล OpenStreetMap ล้าสมัยแล้ว จำเป็นต้องดาวน์โหลดแผนที่ใหม่หากต้องการใช้ข้อมูล OpenStreetMap สำหรับการควบคุมความเร็วแบบปรับปรุงและการแสดงชื่อถนนต่อไป
+
+%1</translation>
     </message>
     <message>
         <source>sunnypilot is now in Forced Offroad mode. sunnypilot won&apos;t start until Forced Offroad mode is disabled. Go to &quot;Settings&quot; -&gt; &quot;Device&quot; -&gt; &quot;Unforce Offroad&quot; to exit Force Offroad mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot อยู่ในโหมดบังคับนอกถนนในขณะนี้ sunnypilot จะไม่เริ่มทำงานจนกว่าจะปิดโหมดบังคับนอกถนน ไปที่ &quot;การตั้งค่า&quot; -&gt; &quot;อุปกรณ์&quot; -&gt; &quot;ยกเลิกการบังคับนอกถนน&quot; เพื่อออกจากโหมดบังคับนอกถนน</translation>
     </message>
 </context>
 <context>
@@ -897,180 +901,184 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     <name>OnroadScreenOff</name>
     <message>
         <source>Driving Screen Off Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>ตัวจับเวลาปิดหน้าจอขณะขับขี่</translation>
     </message>
     <message>
         <source>Turn off the device screen or reduce brightness to protect the screen after driving starts. It automatically brightens or turns on when a touch or event occurs.</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิดหน้าจออุปกรณ์หรือลดความสว่างเพื่อป้องกันหน้าจอหลังจากเริ่มขับขี่ จะสว่างขึ้นหรือเปิดโดยอัตโนมัติเมื่อมีการสัมผัสหรือเหตุการณ์เกิดขึ้น</translation>
     </message>
     <message>
         <source>s</source>
-        <translation type="unfinished"></translation>
+        <translation>วิ</translation>
     </message>
     <message>
         <source>min</source>
-        <translation type="unfinished">นาที</translation>
+        <translation>นาที</translation>
     </message>
     <message>
         <source>Always On</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดตลอดเวลา</translation>
     </message>
 </context>
 <context>
     <name>OnroadScreenOffBrightness</name>
     <message>
         <source>Driving Screen Off Brightness (%)</source>
-        <translation type="unfinished"></translation>
+        <translation>ความสว่างหน้าจอขณะขับขี่ (%)</translation>
     </message>
     <message>
         <source>When using the Driving Screen Off feature, the brightness is reduced according to the automatic brightness ratio.</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อใช้คุณสมบัติปิดหน้าจอขณะขับขี่ ความสว่างจะลดลงตามอัตราส่วนความสว่างอัตโนมัติ</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>มืด</translation>
     </message>
 </context>
 <context>
     <name>OnroadSettings</name>
     <message>
         <source>ONROAD OPTIONS</source>
-        <translation type="unfinished"></translation>
+        <translation>ตัวเลือกบนถนน</translation>
     </message>
     <message>
         <source>&lt;b&gt;ONROAD SETTINGS | SUNNYPILOT&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;การตั้งค่าบนถนน | SUNNYPILOT&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>OsmPanel</name>
     <message>
         <source>Mapd Version</source>
-        <translation type="unfinished"></translation>
+        <translation>เวอร์ชั่น Mapd</translation>
     </message>
     <message>
         <source>Offline Maps ETA</source>
-        <translation type="unfinished"></translation>
+        <translation>เวลาที่คาดการณ์แผนที่ออฟไลน์</translation>
     </message>
     <message>
         <source>Time Elapsed</source>
-        <translation type="unfinished"></translation>
+        <translation>เวลาที่ผ่านไป</translation>
     </message>
     <message>
         <source>Downloaded Maps</source>
-        <translation type="unfinished"></translation>
+        <translation>แผนที่ที่ดาวน์โหลดแล้ว</translation>
     </message>
     <message>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบ</translation>
     </message>
     <message>
         <source>This will delete ALL downloaded maps
 
 Are you sure you want to delete all the maps?</source>
-        <translation type="unfinished"></translation>
+        <translation>การกระทำนี้จะลบแผนที่ที่ดาวน์โหลดทั้งหมด
+
+คุณแน่ใจหรือไม่ว่าต้องการลบแผนที่ทั้งหมด?</translation>
     </message>
     <message>
         <source>Yes, delete all the maps.</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช่ ลบแผนที่ทั้งหมด</translation>
     </message>
     <message>
         <source>Database Update</source>
-        <translation type="unfinished"></translation>
+        <translation>อัปเดตฐานข้อมูล</translation>
     </message>
     <message>
         <source>CHECK</source>
-        <translation type="unfinished">ตรวจสอบ</translation>
+        <translation>ตรวจสอบ</translation>
     </message>
     <message>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>ประเทศ</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished">เลือก</translation>
+        <translation>เลือก</translation>
     </message>
     <message>
         <source>Fetching Country list...</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังดึงข้อมูลรายชื่อประเทศ...</translation>
     </message>
     <message>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation>รัฐ</translation>
     </message>
     <message>
         <source>Fetching State list...</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังดึงข้อมูลรายชื่อรัฐ...</translation>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>ทั้งหมด</translation>
     </message>
     <message>
         <source>REFRESH</source>
-        <translation type="unfinished"></translation>
+        <translation>รีเฟรช</translation>
     </message>
     <message>
         <source>UPDATE</source>
-        <translation type="unfinished">อัปเดต</translation>
+        <translation>อัปเดต</translation>
     </message>
     <message>
         <source>Download starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>เริ่มดาวน์โหลด...</translation>
     </message>
     <message>
         <source>Error: Invalid download. Retry.</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาด: การดาวน์โหลดไม่ถูกต้อง ลองใหม่</translation>
     </message>
     <message>
         <source>Download complete!</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดเสร็จสมบูรณ์!</translation>
     </message>
     <message>
         <source>
 
 Warning: You are on a metered connection!</source>
-        <translation type="unfinished"></translation>
+        <translation>
+
+คำเตือน: คุณใช้การเชื่อมต่อแบบจำกัดปริมาณข้อมูล!</translation>
     </message>
     <message>
         <source>This will start the download process and it might take a while to complete.</source>
-        <translation type="unfinished"></translation>
+        <translation>นี่จะเริ่มกระบวนการดาวน์โหลดและอาจใช้เวลาสักครู่กว่าจะเสร็จสมบูรณ์</translation>
     </message>
     <message>
         <source>Continue on Metered</source>
-        <translation type="unfinished"></translation>
+        <translation>ดำเนินต่อผ่านเครือข่ายที่คิดค่าบริการ</translation>
     </message>
     <message>
         <source>Start Download</source>
-        <translation type="unfinished"></translation>
+        <translation>เริ่มดาวน์โหลด</translation>
     </message>
     <message>
         <source>m </source>
-        <translation type="unfinished"></translation>
+        <translation>ม. </translation>
     </message>
     <message>
         <source>s</source>
-        <translation type="unfinished"></translation>
+        <translation>วิ</translation>
     </message>
     <message>
         <source>Calculating...</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังคำนวณ...</translation>
     </message>
     <message>
         <source>Downloaded</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดแล้ว</translation>
     </message>
     <message>
         <source>Calculating ETA...</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังคำนวณเวลาคาดการณ์...</translation>
     </message>
     <message>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>พร้อม</translation>
     </message>
     <message>
         <source>Time remaining: </source>
-        <translation type="unfinished"></translation>
+        <translation>เวลาที่เหลือ: </translation>
     </message>
 </context>
 <context>
@@ -1107,34 +1115,34 @@ Warning: You are on a metered connection!</source>
     <name>PathOffset</name>
     <message>
         <source>Path Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>การชดเชยเส้นทาง</translation>
     </message>
     <message>
         <source>Hack to trick the model path to be left or right biased of the lane. Decreasing the value will shift the model more left, increasing will shift the model more right. Changes take effect immediately.</source>
-        <translation type="unfinished"></translation>
+        <translation>การแฮ็คเพื่อหลอกให้โมเดลเส้นทางไปทางซ้ายหรือขวาของเลน ลดค่าจะเลื่อนโมเดลไปทางซ้าย เพิ่มค่าจะเลื่อนไปทางขวา การเปลี่ยนแปลงมีผลทันที</translation>
     </message>
     <message>
         <source> cm</source>
-        <translation type="unfinished"></translation>
+        <translation> ซม.</translation>
     </message>
 </context>
 <context>
     <name>PauseLateralSpeed</name>
     <message>
         <source>Pause lateral actuation with blinker when traveling below the desired speed selected. Default is 20 MPH or 32 km/h.</source>
-        <translation type="unfinished"></translation>
+        <translation>หยุดชั่วคราวการควบคุมด้านข้างด้วยไฟเลี้ยวเมื่อเดินทางด้วยความเร็วที่ต่ำกว่าที่เลือก ค่าเริ่มต้นคือ 20 MPH หรือ 32 km/h</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>ค่าเริ่มต้น</translation>
     </message>
     <message>
         <source>km/h</source>
-        <translation type="unfinished">กม./ชม.</translation>
+        <translation>กม./ชม.</translation>
     </message>
     <message>
         <source>mph</source>
-        <translation type="unfinished">ไมล์/ชม.</translation>
+        <translation>ไมล์/ชม.</translation>
     </message>
 </context>
 <context>
@@ -1233,7 +1241,7 @@ Warning: You are on a metered connection!</source>
     </message>
     <message>
         <source>sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot</translation>
     </message>
 </context>
 <context>
@@ -1281,79 +1289,79 @@ This may take up to a minute.</source>
     <name>SPVehiclesTogglesPanel</name>
     <message>
         <source>Hyundai/Kia/Genesis</source>
-        <translation type="unfinished"></translation>
+        <translation>Hyundai/Kia/Genesis</translation>
     </message>
     <message>
         <source>HKG CAN: Smoother Stopping Performance (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>HKG CAN: ปรับปรุงการหยุดที่นุ่มนวลขึ้น (เบต้า)</translation>
     </message>
     <message>
         <source>Smoother stopping behind a stopped car or desired stopping event. This is only applicable to HKG CAN platforms using openpilot longitudinal control.</source>
-        <translation type="unfinished"></translation>
+        <translation>การหยุดที่นุ่มนวลขึ้นเมื่ออยู่ข้างหลังรถที่หยุดหรือเหตุการณ์หยุดที่ต้องการ ใช้ได้เฉพาะแพลตฟอร์ม HKG CAN ที่ใช้การควบคุมแนวยาว openpilot เท่านั้น</translation>
     </message>
     <message>
         <source>Subaru</source>
-        <translation type="unfinished"></translation>
+        <translation>Subaru</translation>
     </message>
     <message>
         <source>Manual Parking Brake: Stop and Go (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>เบรกมือจอดรถ: หยุดและเดิน (เบต้า)</translation>
     </message>
     <message>
         <source>Experimental feature to enable stop and go for Subaru Global models with manual handbrake. Models with electric parking brake should keep this disabled. Thanks to martinl for this implementation!</source>
-        <translation type="unfinished"></translation>
+        <translation>คุณสมบัติทดลองเพื่อเปิดใช้งานหยุดและเดินสำหรับรถยนต์ Subaru Global ที่มีเบรกมือ รุ่นที่มีเบรกจอดรถไฟฟ้าควรปิดคุณสมบัตินี้ ขอบคุณ martinl สำหรับการพัฒนานี้!</translation>
     </message>
     <message>
         <source>Toyota/Lexus</source>
-        <translation type="unfinished"></translation>
+        <translation>Toyota/Lexus</translation>
     </message>
     <message>
         <source>Enable Stock Toyota Longitudinal Control</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดการควบคุมแนวยาวต้นฉบับ Toyota</translation>
     </message>
     <message>
         <source>sunnypilot will &lt;b&gt;not&lt;/b&gt; take over control of gas and brakes. Stock Toyota longitudinal control will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot จะ&lt;b&gt;ไม่&lt;/b&gt;ควบคุมคันเร่งและเบรก โดยจะใช้การควบคุมตามยาวมาตรฐานของ Toyota แทน</translation>
     </message>
     <message>
         <source>Allow M.A.D.S. toggling w/ LKAS Button (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>อนุญาตให้เปิด/ปิด M.A.D.S. ด้วยปุ่ม LKAS (เบต้า)</translation>
     </message>
     <message>
         <source>Allows M.A.D.S. engagement/disengagement with &quot;LKAS&quot; button from the steering wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>อนุญาตให้เปิด/ปิด M.A.D.S. ด้วยปุ่ม &quot;LKAS&quot; จากพวงมาลัย</translation>
     </message>
     <message>
         <source>Note: Enabling this toggle may have unexpected behavior with steering control. It is the driver&apos;s responsibility to observe their environment and make decisions accordingly.</source>
-        <translation type="unfinished"></translation>
+        <translation>หมายเหตุ: การเปิดคุณสมบัตินี้อาจทำให้การควบคุมพวงมาลัยมีพฤติกรรมที่ไม่คาดคิด ผู้ขับขี่มีความรับผิดชอบในการสังเกตสภาพแวดล้อมและตัดสินใจตามความเหมาะสม</translation>
     </message>
     <message>
         <source>Toyota TSS2 Longitudinal: Custom Tuning</source>
-        <translation type="unfinished"></translation>
+        <translation>Toyota TSS2 แนวยาว: การปรับตั้งแบบกำหนดเอง</translation>
     </message>
     <message>
         <source>Smoother longitudinal performance for Toyota/Lexus TSS2/LSS2 cars. Big thanks to dragonpilot-community for this implementation.</source>
-        <translation type="unfinished"></translation>
+        <translation>การทำงานแนวยาวที่นุ่มนวลขึ้นสำหรับรถยนต์ Toyota/Lexus TSS2/LSS2 ขอบคุณมาก dragonpilot-community สำหรับการพัฒนานี้!</translation>
     </message>
     <message>
         <source>Enable Toyota Stop and Go Hack</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิด Toyota Stop and Go Hack</translation>
     </message>
     <message>
         <source>sunnypilot will allow some Toyota/Lexus cars to auto resume during stop and go traffic. This feature is only applicable to certain models. Use at your own risk.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot จะอนุญาตให้รถยนต์ Toyota/Lexus บางรุ่นเริ่มขับอัตโนมัติในการจราจรแบบหยุดและเดิน คุณสมบัตินี้ใช้ได้เฉพาะรุ่นที่ระบุเท่านั้น ใช้ตามความเสี่ยงของคุณเอง</translation>
     </message>
     <message>
         <source>Volkswagen</source>
-        <translation type="unfinished"></translation>
+        <translation>Volkswagen</translation>
     </message>
     <message>
         <source>Enable CC Only support</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดการรองรับ CC อย่างเดียว</translation>
     </message>
     <message>
         <source>sunnypilot supports Volkswagen MQB CC only platforms with this toggle enabled. Only enable this toggle if your car does not have ACC from the factory.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot รองรับแพลตฟอร์ม Volkswagen MQB CC เท่านั้นเมื่อเปิดตัวเลือกนี้ เปิดตัวเลือกนี้เฉพาะเมื่อรถของคุณไม่มี ACC จากโรงงาน</translation>
     </message>
 </context>
 <context>
@@ -1380,35 +1388,35 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>sunnylink</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnylink</translation>
     </message>
     <message>
         <source>sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot</translation>
     </message>
     <message>
         <source>OSM</source>
-        <translation type="unfinished"></translation>
+        <translation>OSM</translation>
     </message>
     <message>
         <source>Monitoring</source>
-        <translation type="unfinished"></translation>
+        <translation>การติดตาม</translation>
     </message>
     <message>
         <source>Visuals</source>
-        <translation type="unfinished"></translation>
+        <translation>การแสดงผล</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished"></translation>
+        <translation>การแสดงผล</translation>
     </message>
     <message>
         <source>Trips</source>
-        <translation type="unfinished"></translation>
+        <translation>การเดินทาง</translation>
     </message>
     <message>
         <source>Vehicle</source>
-        <translation type="unfinished"></translation>
+        <translation>รถยนต์</translation>
     </message>
 </context>
 <context>
@@ -1605,66 +1613,66 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>SUNNYLINK</source>
-        <translation type="unfinished"></translation>
+        <translation>SUNNYLINK</translation>
     </message>
     <message>
         <source>DISABLED</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิด</translation>
     </message>
     <message>
         <source>REGIST...</source>
-        <translation type="unfinished"></translation>
+        <translation>ลงทะเบียน...</translation>
     </message>
 </context>
 <context>
     <name>SlcSettings</name>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>อัตโนมัติ</translation>
     </message>
     <message>
         <source>User Confirm</source>
-        <translation type="unfinished"></translation>
+        <translation>ยืนยันโดยผู้ใช้</translation>
     </message>
     <message>
         <source>Engage Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>โหมดเปิดใช้งาน</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>ค่าเริ่มต้น</translation>
     </message>
     <message>
         <source>Fixed</source>
-        <translation type="unfinished"></translation>
+        <translation>คงที่</translation>
     </message>
     <message>
         <source>Percentage</source>
-        <translation type="unfinished"></translation>
+        <translation>เปอร์เซ็นต์</translation>
     </message>
     <message>
         <source>Limit Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>ค่าออฟเซ็ตขีดความเร็ว</translation>
     </message>
     <message>
         <source>Set speed limit slightly higher than actual speed limit for a more natural drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>ตั้งค่าขีดความเร็วให้สูงกว่าขีดความเร็วจริงเล็กน้อยเพื่อการขับขี่ที่เป็นธรรมชาติมากขึ้น</translation>
     </message>
     <message>
         <source>This platform defaults to &lt;b&gt;Auto&lt;/b&gt; mode. &lt;b&gt;User Confirm&lt;/b&gt; mode is not supported on this platform.</source>
-        <translation type="unfinished"></translation>
+        <translation>แพลตฟอร์มนี้ใช้โหมด&lt;b&gt;อัตโนมัติ&lt;/b&gt;เป็นค่าเริ่มต้น โหมด&lt;b&gt;ยืนยันโดยผู้ใช้&lt;/b&gt;ไม่รองรับในแพลตฟอร์มนี้</translation>
     </message>
     <message>
         <source>Select the desired mode to set the cruising speed to the speed limit:</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกโหมดที่ต้องการเพื่อตั้งความเร็วครูซตามขีดความเร็ว:</translation>
     </message>
     <message>
         <source>Auto: Automatic speed adjustment on motorways based on speed limit data.</source>
-        <translation type="unfinished"></translation>
+        <translation>อัตโนมัติ: การปรับความเร็วโดยอัตโนมัติบนทางด่วนตามข้อมูลขีดความเร็ว</translation>
     </message>
     <message>
         <source>User Confirm: Inform the driver to change set speed of Adaptive Cruise Control to help the driver stay within the speed limit.</source>
-        <translation type="unfinished"></translation>
+        <translation>ยืนยันโดยผู้ใช้: แจ้งให้ผู้ขับขี่เปลี่ยนความเร็วตั้งของระบบควบคุมความเร็วแบบปรับตัวเพื่อช่วยให้ผู้ขับขี่อยู่ในขีดความเร็วที่กำหนด</translation>
     </message>
 </context>
 <context>
@@ -1707,7 +1715,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>Target Branch</source>
-        <translation>Branch ที่เลือก</translation>
+        <translation>Branch เป้าหมาย</translation>
     </message>
     <message>
         <source>SELECT</source>
@@ -1743,234 +1751,234 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>โมเดลการขับขี่</translation>
     </message>
 </context>
 <context>
     <name>SoftwarePanelSP</name>
     <message>
         <source>Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>โมเดลการขับขี่</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished">เลือก</translation>
+        <translation>เลือก</translation>
     </message>
     <message>
         <source>Downloading Driving model</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังดาวน์โหลดโมเดลการขับขี่</translation>
     </message>
     <message>
         <source>(CACHED)</source>
-        <translation type="unfinished"></translation>
+        <translation>(แคช)</translation>
     </message>
     <message>
         <source>Driving model</source>
-        <translation type="unfinished"></translation>
+        <translation>โมเดลการขับขี่</translation>
     </message>
     <message>
         <source>downloaded</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดแล้ว</translation>
     </message>
     <message>
         <source>Downloading Navigation model</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังดาวน์โหลดโมเดลนาวิเกชัน</translation>
     </message>
     <message>
         <source>Navigation model</source>
-        <translation type="unfinished"></translation>
+        <translation>โมเดลนาวิเกชัน</translation>
     </message>
     <message>
         <source>Downloading Metadata model</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังดาวน์โหลดโมเดลเมตาดาต้า</translation>
     </message>
     <message>
         <source>Metadata model</source>
-        <translation type="unfinished"></translation>
+        <translation>โมเดลเมตาดาต้า</translation>
     </message>
     <message>
         <source>Downloads have failed, please try swapping the model!</source>
-        <translation type="unfinished"></translation>
+        <translation>การดาวน์โหลดล้มเหลว โปรดลองเปลี่ยนโมเดล!</translation>
     </message>
     <message>
         <source>Failed:</source>
-        <translation type="unfinished"></translation>
+        <translation>ล้มเหลว:</translation>
     </message>
     <message>
         <source>Fetching models...</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังดึงข้อมูลโมเดล...</translation>
     </message>
     <message>
         <source>Select a Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกโมเดลการขับขี่</translation>
     </message>
     <message>
         <source>Download has started in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>เริ่มดาวน์โหลดเบื้องหลังแล้ว</translation>
     </message>
     <message>
         <source>We STRONGLY suggest you to reset calibration. Would you like to do that now?</source>
-        <translation type="unfinished"></translation>
+        <translation>เราแนะนำอย่างยิ่งให้คุณรีเซ็ตการคาลิเบรท คุณต้องการทำตอนนี้หรือไม่?</translation>
     </message>
     <message>
         <source>Reset Calibration</source>
-        <translation type="unfinished">รีเซ็ตการคาลิเบรท</translation>
+        <translation>รีเซ็ตการคาลิเบรท</translation>
     </message>
     <message>
         <source>Warning: You are on a metered connection!</source>
-        <translation type="unfinished"></translation>
+        <translation>คำเตือน: คุณใช้การเชื่อมต่อแบบจำกัดปริมาณข้อมูล!</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation type="unfinished">ดำเนินการต่อ</translation>
+        <translation>ดำเนินการต่อ</translation>
     </message>
     <message>
         <source>on Metered</source>
-        <translation type="unfinished"></translation>
+        <translation>บนเครือข่ายจำกัด</translation>
     </message>
     <message>
         <source>PENDING</source>
-        <translation type="unfinished"></translation>
+        <translation>รอดำเนินการ</translation>
     </message>
 </context>
 <context>
     <name>SpeedLimitPolicySettings</name>
     <message>
         <source>Speed Limit Source Policy</source>
-        <translation type="unfinished"></translation>
+        <translation>นโยบายแหล่งข้อมูลขีดความเร็ว</translation>
     </message>
     <message>
         <source>Nav</source>
-        <translation type="unfinished"></translation>
+        <translation>นาวิเกชัน</translation>
     </message>
     <message>
         <source>Only</source>
-        <translation type="unfinished"></translation>
+        <translation>เท่านั้น</translation>
     </message>
     <message>
         <source>Map</source>
-        <translation type="unfinished"></translation>
+        <translation>แผนที่</translation>
     </message>
     <message>
         <source>Car</source>
-        <translation type="unfinished"></translation>
+        <translation>รถยนต์</translation>
     </message>
     <message>
         <source>First</source>
-        <translation type="unfinished"></translation>
+        <translation>ครั้งแรก</translation>
     </message>
     <message>
         <source>Select the precedence order of sources. Utilized by Speed Limit Control and Speed Limit Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกลำดับความสำคัญของแหล่งข้อมูล ใช้โดยการควบคุมขีดความเร็วและการเตือนขีดความเร็ว</translation>
     </message>
     <message>
         <source>Nav Only: Data from Mapbox active navigation only.</source>
-        <translation type="unfinished"></translation>
+        <translation>นาวิเกชันเท่านั้น: ข้อมูลจาก Mapbox นาวิเกชันที่ใช้งานอยู่เท่านั้น</translation>
     </message>
     <message>
         <source>Map Only: Data from OpenStreetMap only.</source>
-        <translation type="unfinished"></translation>
+        <translation>แผนที่เท่านั้น: ข้อมูลจาก OpenStreetMap เท่านั้น</translation>
     </message>
     <message>
         <source>Car Only: Data from the car&apos;s built-in sources (if available).</source>
-        <translation type="unfinished"></translation>
+        <translation>รถยนต์เท่านั้น: ข้อมูลจากแหล่งในตัวของรถยนต์ (หากมี)</translation>
     </message>
     <message>
         <source>Nav First: Nav -&gt; Map -&gt; Car</source>
-        <translation type="unfinished"></translation>
+        <translation>นาวิเกชันก่อน: นาวิเกชัน -&gt; แผนที่ -&gt; รถยนต์</translation>
     </message>
     <message>
         <source>Map First: Map -&gt; Nav -&gt; Car</source>
-        <translation type="unfinished"></translation>
+        <translation>แผนที่ก่อน: แผนที่ -&gt; นาวิเกชัน -&gt; รถยนต์</translation>
     </message>
     <message>
         <source>Car First: Car -&gt; Nav -&gt; Map</source>
-        <translation type="unfinished"></translation>
+        <translation>รถยนต์ก่อน: รถยนต์ -&gt; นาวิเกชัน -&gt; แผนที่</translation>
     </message>
 </context>
 <context>
     <name>SpeedLimitValueOffset</name>
     <message>
         <source>km/h</source>
-        <translation type="unfinished">กม./ชม.</translation>
+        <translation>กม./ชม.</translation>
     </message>
     <message>
         <source>mph</source>
-        <translation type="unfinished">ไมล์/ชม.</translation>
+        <translation>ไมล์/ชม.</translation>
     </message>
 </context>
 <context>
     <name>SpeedLimitWarningSettings</name>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิด</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดง</translation>
     </message>
     <message>
         <source>Chime</source>
-        <translation type="unfinished"></translation>
+        <translation>เสียงเตือน</translation>
     </message>
     <message>
         <source>Speed Limit Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>การเตือนขีดความเร็ว</translation>
     </message>
     <message>
         <source>Warning with speed limit flash</source>
-        <translation type="unfinished"></translation>
+        <translation>การเตือนด้วยการกะพริบของสัญลักษณ์ขีดความเร็ว</translation>
     </message>
     <message>
         <source>When Speed Limit Warning is enabled, the speed limit sign will alert the driver when the cruising speed is faster than then speed limit plus the offset.</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อเปิดการเตือนขีดความเร็ว สัญลักษณ์ขีดความเร็วจะเตือนผู้ขับขี่เมื่อความเร็วครูซเร็วกว่าขีดความเร็วบวกค่าออฟเซ็ต</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>ค่าเริ่มต้น</translation>
     </message>
     <message>
         <source>Fixed</source>
-        <translation type="unfinished"></translation>
+        <translation>คงที่</translation>
     </message>
     <message>
         <source>Percentage</source>
-        <translation type="unfinished"></translation>
+        <translation>เปอร์เซ็นต์</translation>
     </message>
     <message>
         <source>Warning Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>ค่าออฟเซ็ตการเตือน</translation>
     </message>
     <message>
         <source>Select the desired offset to warn the driver when the vehicle is driving faster than the speed limit.</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกค่าออฟเซ็ตที่ต้องการเพื่อเตือนผู้ขับขี่เมื่อรถยนต์วิ่งเร็วกว่าขีดความเร็ว</translation>
     </message>
     <message>
         <source>Off: When the cruising speed is faster than the speed limit plus the offset, there will be no warning.</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิด: เมื่อความเร็วครูซเร็วกว่าขีดความเร็วบวกค่าออฟเซ็ต จะไม่มีการเตือน</translation>
     </message>
     <message>
         <source>Display: The speed on the speed limit sign turns red to alert the driver when the cruising speed is faster than the speed limit plus the offset.</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดง: ความเร็วบนสัญลักษณ์ขีดความเร็วจะเปลี่ยนเป็นสีแดงเพื่อเตือนผู้ขับขี่เมื่อความเร็วครูซเร็วกว่าขีดความเร็วบวกค่าออฟเซ็ต</translation>
     </message>
     <message>
         <source>Chime: The speed on the speed limit sign turns red and chimes to alert the driver when the cruising speed is faster than the speed limit plus the offset.</source>
-        <translation type="unfinished"></translation>
+        <translation>เสียงเตือน: ความเร็วบนสัญลักษณ์ขีดความเร็วจะเปลี่ยนเป็นสีแดงและส่งเสียงเตือนเพื่อเตือนผู้ขับขี่เมื่อความเร็วครูซเร็วกว่าขีดความเร็วบวกค่าออฟเซ็ต</translation>
     </message>
 </context>
 <context>
     <name>SpeedLimitWarningValueOffset</name>
     <message>
         <source>N/A</source>
-        <translation type="unfinished">ไม่มี</translation>
+        <translation>ไม่มี</translation>
     </message>
     <message>
         <source>km/h</source>
-        <translation type="unfinished">กม./ชม.</translation>
+        <translation>กม./ชม.</translation>
     </message>
     <message>
         <source>mph</source>
-        <translation type="unfinished">ไมล์/ชม.</translation>
+        <translation>ไมล์/ชม.</translation>
     </message>
 </context>
 <context>
@@ -2023,393 +2031,393 @@ This may take up to a minute.</source>
     <name>SunnylinkPanel</name>
     <message>
         <source>Enable sunnylink</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิด sunnylink</translation>
     </message>
     <message>
         <source>Device ID </source>
-        <translation type="unfinished"></translation>
+        <translation>หมายเลขอุปกรณ์ </translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished">ไม่มี</translation>
+        <translation>ไม่มี</translation>
     </message>
     <message>
         <source>This is the master switch, it will allow you to cutoff any sunnylink requests should you want to do that.</source>
-        <translation type="unfinished"></translation>
+        <translation>นี่คือสวิตช์หลัก จะอนุญาตให้คุณตัดการเชื่อมต่อ sunnylink ใดๆ ได้หากคุณต้องการ</translation>
     </message>
     <message>
         <source>🎉Welcome back! We&apos;re excited to see you&apos;ve enabled sunnylink again! 🚀</source>
-        <translation type="unfinished"></translation>
+        <translation>🎉ยินดีต้อนรับกลับมา! เราดีใจที่คุณเปิดใช้ sunnylink อีกครั้ง! 🚀</translation>
     </message>
     <message>
         <source>👋Not going to lie, it&apos;s sad to see you disabled sunnylink 😢, but we&apos;ll be here when you&apos;re ready to come back 🎉.</source>
-        <translation type="unfinished"></translation>
+        <translation>👋จะไม่โกหกหรอก เศร้าที่เห็นคุณปิดใช้ sunnylink 😢 แต่เราจะอยู่ที่นี่เมื่อคุณพร้อมกลับมา 🎉</translation>
     </message>
     <message>
         <source>Sponsor Status</source>
-        <translation type="unfinished"></translation>
+        <translation>สถานะสปอนเซอร์</translation>
     </message>
     <message>
         <source>SPONSOR</source>
-        <translation type="unfinished"></translation>
+        <translation>สปอนเซอร์</translation>
     </message>
     <message>
         <source>Become a sponsor of sunnypilot to get early access to sunnylink features when they become available.</source>
-        <translation type="unfinished"></translation>
+        <translation>เป็นสปอนเซอร์ของ sunnypilot เพื่อได้รับสิทธิ์เข้าถึงฟีเจอร์ sunnylink ล่วงหน้าเมื่อมีให้ใช้งาน</translation>
     </message>
     <message>
         <source>Pair GitHub Account</source>
-        <translation type="unfinished"></translation>
+        <translation>จับคู่บัญชี GitHub</translation>
     </message>
     <message>
         <source>PAIR</source>
-        <translation type="unfinished">จับคู่</translation>
+        <translation>จับคู่</translation>
     </message>
     <message>
         <source>Pair your GitHub account to grant your device sponsor benefits, including API access on sunnylink.</source>
-        <translation type="unfinished"></translation>
+        <translation>จับคู่บัญชี GitHub ของคุณเพื่อให้อุปกรณ์ได้รับสิทธิพิเศษสปอนเซอร์ รวมถึงการเข้าถึง API บน sunnylink</translation>
     </message>
     <message>
         <source>Manage Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>จัดการการตั้งค่า</translation>
     </message>
     <message>
         <source>Backup Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>สำรองข้อมูลการตั้งค่า</translation>
     </message>
     <message>
         <source>Are you sure you want to backup sunnypilot settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>คุณแน่ใจหรือว่าต้องการสำรองข้อมูลการตั้งค่า sunnypilot?</translation>
     </message>
     <message>
         <source>Back Up</source>
-        <translation type="unfinished"></translation>
+        <translation>สำรองข้อมูล</translation>
     </message>
     <message>
         <source>Restore Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>กู้คืนการตั้งค่า</translation>
     </message>
     <message>
         <source>Are you sure you want to restore the last backed up sunnypilot settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>คุณแน่ใจหรือว่าต้องการกู้คืนการตั้งค่า sunnypilot ที่สำรองไว้ครั้งล่าสุด?</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished"></translation>
+        <translation>กู้คืน</translation>
     </message>
     <message>
         <source>THANKS</source>
-        <translation type="unfinished"></translation>
+        <translation>ขอบคุณ</translation>
     </message>
     <message>
         <source>Not Sponsor</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่เป็นสปอนเซอร์</translation>
     </message>
     <message>
         <source>Paired</source>
-        <translation type="unfinished"></translation>
+        <translation>จับคู่แล้ว</translation>
     </message>
     <message>
         <source>Not Paired</source>
-        <translation type="unfinished"></translation>
+        <translation>ยังไม่ได้จับคู่</translation>
     </message>
     <message>
         <source>Backing up...</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังสำรองข้อมูล...</translation>
     </message>
     <message>
         <source>Restoring...</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังกู้คืน...</translation>
     </message>
     <message>
         <source>sunnylink Dongle ID not found. This may be due to weak internet connection or sunnylink registration issue. Please reboot and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่พบ sunnylink Dongle ID อาจเป็นเพราะสัญญาณอินเทอร์เน็ตอ่อนหรือปัญหาการลงทะเบียน sunnylink โปรดรีบูตและลองใหม่</translation>
     </message>
 </context>
 <context>
     <name>SunnylinkSponsorPopup</name>
     <message>
         <source>Scan the QR code to login to your GitHub account</source>
-        <translation type="unfinished"></translation>
+        <translation>สแกน QR โค้ดเพื่อเข้าสู่ระบบบัญชี GitHub ของคุณ</translation>
     </message>
     <message>
         <source>Follow the prompts to complete the pairing process</source>
-        <translation type="unfinished"></translation>
+        <translation>ทำตามข้อความแนะนำเพื่อทำการจับคู่ให้เสร็จสมบูรณ์</translation>
     </message>
     <message>
         <source>Re-enter the &quot;sunnylink&quot; panel to verify sponsorship status</source>
-        <translation type="unfinished"></translation>
+        <translation>เข้าไปที่แผง "sunnylink" อีกครั้งเพื่อยืนยันสถานะสปอนเซอร์</translation>
     </message>
     <message>
         <source>If sponsorship status was not updated, please contact a moderator on Discord at https://discord.gg/sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>หากสถานะสปอนเซอร์ยังไม่ได้รับการอัปเดต โปรดติดต่อผู้ดูแลใน Discord ที่ https://discord.gg/sunnypilot</translation>
     </message>
     <message>
         <source>Scan the QR code to visit sunnyhaibin&apos;s GitHub Sponsors page</source>
-        <translation type="unfinished"></translation>
+        <translation>สแกน QR โค้ดเพื่อไปที่หน้า GitHub Sponsors ของ sunnyhaibin</translation>
     </message>
     <message>
         <source>Choose your sponsorship tier and confirm your support</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกระดับการสนับสนุนของคุณและยืนยันการสนับสนุน</translation>
     </message>
     <message>
         <source>Join our community on Discord at https://discord.gg/sunnypilot and reach out to a moderator to confirm your sponsor status</source>
-        <translation type="unfinished"></translation>
+        <translation>เข้าร่วมชุมชนของเราใน Discord ที่ https://discord.gg/sunnypilot และติดต่อผู้ดูแลเพื่อยืนยันสถานะสปอนเซอร์ของคุณ</translation>
     </message>
     <message>
         <source>Pair your GitHub account</source>
-        <translation type="unfinished"></translation>
+        <translation>จับคู่บัญชี GitHub ของคุณ</translation>
     </message>
     <message>
         <source>Early Access: Become a sunnypilot Sponsor</source>
-        <translation type="unfinished"></translation>
+        <translation>สิทธิ์เข้าถึงล่วงหน้า: เป็นสปอนเซอร์ sunnypilot</translation>
     </message>
 </context>
 <context>
     <name>SunnypilotPanel</name>
     <message>
         <source>Enable M.A.D.S.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้ M.A.D.S.</translation>
     </message>
     <message>
         <source>Enable the beloved M.A.D.S. feature. Disable toggle to revert back to stock openpilot engagement/disengagement.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้งานฟีเจอร์ M.A.D.S. ที่ได้รับความนิยม ปิดสวิตช์เพื่อกลับไปใช้ระบบเปิด/ปิด openpilot แบบดั้งเดิม</translation>
     </message>
     <message>
         <source>Laneless for Curves in &quot;Auto&quot; Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ไร้เส้นแบ่งเลนสำหรับโค้งในโหมด "อัตโนมัติ"</translation>
     </message>
     <message>
         <source>While in Auto Lane, switch to Laneless for current/future curves.</source>
-        <translation type="unfinished"></translation>
+        <translation>ขณะอยู่ในโหมดเลนอัตโนมัติ จะเปลี่ยนไปใช้แบบไร้เส้นสำหรับโค้งปัจจุบัน/อนาคต</translation>
     </message>
     <message>
         <source>Speed Limit Control (SLC)</source>
-        <translation type="unfinished"></translation>
+        <translation>ควบคุมขีดจำกัดความเร็ว (SLC)</translation>
     </message>
     <message>
         <source>When you engage ACC, you will be prompted to set the cruising speed to the speed limit of the road adjusted by the Offset and Source Policy specified, or the current driving speed. The maximum cruising speed will always be the MAX set speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อคุณเปิดใช้ ACC คุณจะได้รับการแจ้งให้ตั้งความเร็วครูซตามขีดจำกัดของถนนที่ปรับตาม Offset และ Source Policy ที่ระบุ หรือความเร็วขับขี่ปัจจุบัน ความเร็วครูซสูงสุดจะเป็นความเร็วสูงสุดที่ตั้งไว้เสมอ</translation>
     </message>
     <message>
         <source>Enable Vision-based Turn Speed Control (V-TSC)</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้การควบคุมความเร็วโค้งตามวิชั่น (V-TSC)</translation>
     </message>
     <message>
         <source>Use vision path predictions to estimate the appropriate speed to drive through turns ahead.</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้การทำนายเส้นทางจากวิชั่นเพื่อประมาณความเร็วที่เหมาะสมสำหรับการเลี้ยวข้างหน้า</translation>
     </message>
     <message>
         <source>Enable Map Data Turn Speed Control (M-TSC) (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้การควบคุมความเร็วโค้งตามข้อมูลแผนที่ (M-TSC) (เบต้า)</translation>
     </message>
     <message>
         <source>Use curvature information from map data to define speed limits to take turns ahead.</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้ข้อมูลความโค้งจากข้อมูลแผนที่เพื่อกำหนดขีดจำกัดความเร็วสำหรับการเลี้ยวข้างหน้า</translation>
     </message>
     <message>
         <source>ACC +/-: Long Press Reverse</source>
-        <translation type="unfinished"></translation>
+        <translation>ACC +/-: กดค้างนานกลับค่า</translation>
     </message>
     <message>
         <source>Change the ACC +/- buttons behavior with cruise speed change in sunnypilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปลี่ยนพฤติกรรมของปุ่ม ACC +/- สำหรับการเปลี่ยนความเร็วครูซใน sunnypilot</translation>
     </message>
     <message>
         <source>Disabled (Stock): Short=1, Long = 5 (imperial) / 10 (metric)</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิด (ดั้งเดิม): สั้น=1, ยาว = 5 (อิมพีเรียล) / 10 (เมตริก)</translation>
     </message>
     <message>
         <source>Enabled: Short = 5 (imperial) / 10 (metric), Long=1</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิด: สั้น = 5 (อิมพีเรียล) / 10 (เมตริก), ยาว=1</translation>
     </message>
     <message>
         <source>Custom Offsets</source>
-        <translation type="unfinished"></translation>
+        <translation>ค่าออฟเซ็ตแบบกำหนดเอง</translation>
     </message>
     <message>
         <source>Neural Network Lateral Control (NNLC)</source>
-        <translation type="unfinished"></translation>
+        <translation>การควบคุมข้างด้วยโครงข่ายประสาท (NNLC)</translation>
     </message>
     <message>
         <source>Enforce Torque Lateral Control</source>
-        <translation type="unfinished"></translation>
+        <translation>บังคับใช้การควบคุมข้างด้วย Torque</translation>
     </message>
     <message>
         <source>Enable this to enforce sunnypilot to steer with Torque lateral control.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้ตัวเลือกนี้เพื่อบังคับให้ sunnypilot เลี้ยวด้วยการควบคุมข้าง Torque</translation>
     </message>
     <message>
         <source>Enable Self-Tune</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้การปรับตั้งอัตโนมัติ</translation>
     </message>
     <message>
         <source>Enables self-tune for Torque lateral control for platforms that do not use Torque lateral control by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้การปรับตั้งอัตโนมัติสำหรับการควบคุมข้าง Torque สำหรับแพลตฟอร์มที่ไม่ได้ใช้การควบคุมข้าง Torque ตามค่าเริ่มต้น</translation>
     </message>
     <message>
         <source>Less Restrict Settings for Self-Tune (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>การตั้งค่าสำหรับการปรับตั้งอัตโนมัติแบบสายกว่า (เบต้า)</translation>
     </message>
     <message>
         <source>Less strict settings when using Self-Tune. This allows torqued to be more forgiving when learning values.</source>
-        <translation type="unfinished"></translation>
+        <translation>การตั้งค่าที่สายกว่าเมื่อใช้การปรับตั้งอัตโนมัติ ทำให้ torqued ยืดหยุ่นมากขึ้นเมื่อเรียนรู้ค่าต่างๆ</translation>
     </message>
     <message>
         <source>Enable Custom Tuning</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้การปรับตั้งแบบกำหนดเอง</translation>
     </message>
     <message>
         <source>Enables custom tuning for Torque lateral control. Modifying FRICTION and LAT_ACCEL_FACTOR below will override the offline values indicated in the YAML files within &quot;selfdrive/torque_data&quot;. The values will also be used live when &quot;Override Self-Tune&quot; toggle is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้การปรับตั้งแบบกำหนดเองสำหรับการควบคุมข้าง Torque การแก้ไข FRICTION และ LAT_ACCEL_FACTOR ข้างล่างจะแทนที่ค่าออฟไลน์ที่ระบุในไฟล์ YAML ภายใน "selfdrive/torque_data" ค่าเหล่านี้จะถูกใช้แบบทันทีเมื่อเปิดใช้สวิตช์ "Override Self-Tune"</translation>
     </message>
     <message>
         <source>Manual Real-Time Tuning</source>
-        <translation type="unfinished"></translation>
+        <translation>การปรับตั้งด้วยตนเองแบบเรียลไทม์</translation>
     </message>
     <message>
         <source>Enforces the torque lateral controller to use the fixed values instead of the learned values from Self-Tune. Enabling this toggle overrides Self-Tune values.</source>
-        <translation type="unfinished"></translation>
+        <translation>บังคับให้ตัวควบคุมข้าง torque ใช้ค่าคงที่แทนที่ค่าที่เรียนรู้จากการปรับตั้งอัตโนมัติ การเปิดสวิตช์นี้จะแทนที่ค่าของการปรับตั้งอัตโนมัติ</translation>
     </message>
     <message>
         <source>Quiet Drive 🤫</source>
-        <translation type="unfinished"></translation>
+        <translation>การขับขี่แบบเงียบ 🤫</translation>
     </message>
     <message>
         <source>sunnypilot will display alerts but only play the most important warning sounds. This feature can be toggled while the car is on.</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot จะแสดงการแจ้งเตือนแต่จะเล่นเสียงเตือนที่สำคัญที่สุดเท่านั้น ฟีเจอร์นี้สามารถเปิด/ปิดได้ขณะที่รถทำงานอยู่</translation>
     </message>
     <message>
         <source>Green Traffic Light Chime (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>เสียงแจ้งไฟแดงเขียว (เบต้า)</translation>
     </message>
     <message>
         <source>A chime will play when the traffic light you are waiting for turns green and you have no vehicle in front of you. If you are waiting behind another vehicle, the chime will play once the vehicle advances unless ACC is engaged.</source>
-        <translation type="unfinished"></translation>
+        <translation>เสียงจะดังขึ้นเมื่อไฟแดงที่คุณรออยู่เปลี่ยนเป็นสีเขียวและไม่มีรถคันข้างหน้า หากคุณรออยู่ข้างหลังรถคันอื่น เสียงจะดังเมื่อรถคันนั้นเคลื่อนที่ ยกเว้นว่า ACC ทำงานอยู่</translation>
     </message>
     <message>
         <source>Note: This chime is only designed as a notification. It is the driver&apos;s responsibility to observe their environment and make decisions accordingly.</source>
-        <translation type="unfinished"></translation>
+        <translation>หมายเหตุ: เสียงนี้ถูกออกแบบมาเพื่อเป็นการแจ้งเตือนเท่านั้น ผู้ขับขี่มีความรับผิดชอบในการสังเกตสภาพแวดล้อมและตัดสินใจตามความเหมาะสม</translation>
     </message>
     <message>
         <source>Lead Vehicle Departure Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>การแจ้งเตือนรถคันนำออกไป</translation>
     </message>
     <message>
         <source>Enable this will notify when the leading vehicle drives away.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้ตัวเลือกนี้จะแจ้งให้ทราบเมื่อรถคันข้างหน้าออกไป</translation>
     </message>
     <message>
         <source>Customize M.A.D.S.</source>
-        <translation type="unfinished"></translation>
+        <translation>กำหนดค่า M.A.D.S.</translation>
     </message>
     <message>
         <source>Customize Lane Change</source>
-        <translation type="unfinished"></translation>
+        <translation>กำหนดค่าการเปลี่ยนเลน</translation>
     </message>
     <message>
         <source>Customize Offsets</source>
-        <translation type="unfinished"></translation>
+        <translation>กำหนดค่าออฟเซ็ต</translation>
     </message>
     <message>
         <source>Customize Speed Limit Control</source>
-        <translation type="unfinished"></translation>
+        <translation>กำหนดค่าควบคุมขีดจำกัดความเร็ว</translation>
     </message>
     <message>
         <source>Customize Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>กำหนดค่าการเตือน</translation>
     </message>
     <message>
         <source>Customize Source</source>
-        <translation type="unfinished"></translation>
+        <translation>กำหนดค่าแหล่งข้อมูล</translation>
     </message>
     <message>
         <source>Laneful</source>
-        <translation type="unfinished"></translation>
+        <translation>ตามเส้นแบ่งเลน</translation>
     </message>
     <message>
         <source>Laneless</source>
-        <translation type="unfinished"></translation>
+        <translation>ไร้เส้นแบ่งเลน</translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>อัตโนมัติ</translation>
     </message>
     <message>
         <source>Dynamic Lane Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>โปรไฟล์เลนแบบไดนามิก</translation>
     </message>
     <message>
         <source>Speed Limit Assist</source>
-        <translation type="unfinished"></translation>
+        <translation>การช่วยเหลือขีดจำกัดความเร็ว</translation>
     </message>
     <message>
         <source>Real-time and Offline</source>
-        <translation type="unfinished"></translation>
+        <translation>เรียลไทม์และออฟไลน์</translation>
     </message>
     <message>
         <source>Offline Only</source>
-        <translation type="unfinished"></translation>
+        <translation>ออฟไลน์เท่านั้น
     </message>
     <message>
         <source>Dynamic Lane Profile is not available with the current Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>โปรไฟล์เลนแบบไดนามิกไม่สามารถใช้ได้กับโมเดลการขับขี่ปัจจุบัน</translation>
     </message>
     <message>
         <source>Custom Offsets is not available with the current Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>ค่าออฟเซ็ตแบบกำหนดเองไม่สามารถใช้ได้กับโมเดลการขับขี่ปัจจุบัน</translation>
     </message>
     <message>
         <source>NNLC is currently not available on this platform.</source>
-        <translation type="unfinished"></translation>
+        <translation>NNLC ปัจจุบันยังไม่สามารถใช้ได้บนแพลตฟอร์มนี้</translation>
     </message>
     <message>
         <source>Match: &quot;Exact&quot; is ideal, but &quot;Fuzzy&quot; is fine too. Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server if there are any issues: </source>
-        <translation type="unfinished"></translation>
+        <translation>การจับคู่: "Exact" เป็นสิ่งที่ดีที่สุด แต่ "Fuzzy" ก็ยังใช้ได้ ติดต่อทีม sunnypilot ในช่องทางต่อไปนี้ที่เซิร์ฟเวอร์ sunnypilot Discord หากมีปัญหา: </translation>
     </message>
     <message>
         <source>Start the car to check car compatibility</source>
-        <translation type="unfinished"></translation>
+        <translation>เริ่มต้นรถเพื่อตรวจสอบความเข้ากันได้ของรถ</translation>
     </message>
     <message>
         <source>NNLC Not Loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>NNLC ยังไม่ได้โหลด</translation>
     </message>
     <message>
         <source>NNLC Loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>NNLC โหลดแล้ว</translation>
     </message>
     <message>
         <source>Fuzzy</source>
-        <translation type="unfinished"></translation>
+        <translation>คลุมเครือ</translation>
     </message>
     <message>
         <source>Exact</source>
-        <translation type="unfinished"></translation>
+        <translation>ตรงที่เดียว</translation>
     </message>
     <message>
         <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server and donate logs to get NNLC loaded for your car: </source>
-        <translation type="unfinished"></translation>
+        <translation>ติดต่อทีม sunnypilot ในช่องทางต่อไปนี้ที่เซิร์ฟเวอร์ sunnypilot Discord และบริจาคล็อกเพื่อให้ NNLC โหลดสำหรับรถของคุณ: </translation>
     </message>
     <message>
         <source>Match</source>
-        <translation type="unfinished"></translation>
+        <translation>การจับคู่</translation>
     </message>
     <message>
         <source>Formerly known as &lt;b&gt;&quot;NNFF&quot;&lt;/b&gt;, this replaces the lateral &lt;b&gt;&quot;torque&quot;&lt;/b&gt; controller with one using a neural network trained on each car&apos;s (actually, each separate EPS firmware) driving data for increased controls accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>ที่เคยรู้จักกันในชื่อ &lt;b&gt;"NNFF"&lt;/b&gt; จะแทนที่ตัวควบคุมข้าง &lt;b&gt;"torque"&lt;/b&gt; ด้วยตัวที่ใช้โครงข่ายประสาทที่ถูกฝึกอบรมด้วยข้อมูลการขับขี่ของรถแต่ละคัน (จริงแล้วคือเฟิร์มแวร์ EPS แต่ละตัว) เพื่อเพิ่มความแม่นยำในการควบคุม</translation>
     </message>
     <message>
         <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server with feedback, or to provide log data for your car if your car is currently unsupported: </source>
-        <translation type="unfinished"></translation>
+        <translation>ติดต่อทีม sunnypilot ในช่องทางต่อไปนี้ที่เซิร์ฟเวอร์ sunnypilot Discord เพื่อแสดงความคิดเห็น หรือเพื่อให้ข้อมูลล็อกสำหรับรถของคุณหากรถของคุณยังไม่ได้รับการสนับสนุน: </translation>
     </message>
     <message>
         <source>Add custom offsets to Camera and Path in sunnypilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มค่าออฟเซ็ตแบบกำหนดเองให้กับกล้องและเส้นทางใน sunnypilot</translation>
     </message>
     <message>
         <source>Default is Laneless. In Auto mode, sunnnypilot dynamically chooses between Laneline or Laneless model based on lane recognition confidence level on road and certain conditions.</source>
-        <translation type="unfinished"></translation>
+        <translation>ค่าเริ่มต้นคือไร้เส้นแบ่งเลน ในโหมดอัตโนมัติ sunnypilot จะเลือกใช้ระหว่างโมเดลแบบตามเส้นหรือไร้เส้นแบ่งเลนโดยอิงตามระดับความมั่นใจในการจำแนกเลนบนถนนและเงื่อนไขบางอย่าง</translation>
     </message>
 </context>
 <context>
@@ -2563,94 +2571,95 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>Always-On Driver Monitoring</source>
-        <translation type="unfinished"></translation>
+        <translation>การติดตามผู้ขับขี่ตลอดเวลา</translation>
     </message>
     <message>
         <source>Enable driver monitoring even when openpilot is not engaged.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้การติดตามผู้ขับขี่แม้ว่า openpilot จะไม่ได้ทำงาน</translation>
     </message>
     <message>
         <source>Enable sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้ sunnypilot</translation>
     </message>
     <message>
         <source>Use the sunnypilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off.</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้ระบบ sunnypilot สำหรับการควบคุมครูซแบบปรับตัวและการช่วยเหลือผู้ขับขี่ในการรักษาเลน คุณจำเป็นต้องใส่ใจตลอดเวลาเมื่อใช้ฟีเจอร์นี้ การเปลี่ยนการตั้งค่านี้จะมีผลเมื่อรถปิดเครื่อง</translation>
     </message>
     <message>
         <source>Custom Stock Longitudinal Control</source>
-        <translation type="unfinished"></translation>
+        <translation>การควบคุมตามยาวแบบสต็อกที่กำหนดเอง</translation>
     </message>
     <message>
         <source>When enabled, sunnypilot will attempt to control stock longitudinal control with ACC button presses.
 This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อเปิดใช้ sunnypilot จะพยายามควบคุมการควบคุมตามยาวสต็อกด้วยการกดปุ่ม ACC
+ฟีเจอร์นี้จำเป็นต้องใช้ร่วมกับ SLC และ/หรือ V-TSC และ/หรือ M-TSC</translation>
     </message>
     <message>
         <source>Enable Dynamic Experimental Control</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้การควบคุมแบบทดลองไดนามิก</translation>
     </message>
     <message>
         <source>Enable toggle to allow the model to determine when to use openpilot ACC or openpilot End to End Longitudinal.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดสวิตช์เพื่อให้โมเดลตัดสินใจว่าจะใช้ openpilot ACC หรือ openpilot End to End Longitudinal</translation>
     </message>
     <message>
         <source>Disable Onroad Uploads</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิดการอัปโหลดขณะอยู่บนถนน</translation>
     </message>
     <message>
         <source>Disable uploads completely when onroad. Necessary to avoid high data usage when connected to Wi-Fi hotspot. Turn on this feature if you are looking to utilize map-based features, such as Speed Limit Control (SLC) and Map-based Turn Speed Control (MTSC).</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิดการอัปโหลดทั้งหมดเมื่ออยู่บนถนน จำเป็นเพื่อหลีกเลี่ยงการใช้ข้อมูลสูงเมื่อเชื่อมต่อ Wi-Fi hotspot เปิดฟีเจอร์นี้หากคุณต้องการใช้ฟีเจอร์ที่อิงตามแผนที่ เช่น Speed Limit Control (SLC) และ Map-based Turn Speed Control (MTSC)</translation>
     </message>
     <message>
         <source>Maniac</source>
-        <translation type="unfinished"></translation>
+        <translation>รุนแรง</translation>
     </message>
     <message>
         <source>Stock</source>
-        <translation type="unfinished"></translation>
+        <translation>สต็อก</translation>
     </message>
     <message>
         <source>Stock is recommended. In aggressive/maniac mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
-        <translation type="unfinished"></translation>
+        <translation>แนะนำให้ใช้แบบสต็อก ในโหมดกระตื้น/รุนแรง openpilot จะตามรถข้างหน้าใกล้กว่าและกระตื้นกว่าในการเปิดแก็สและเบรก ในโหมดสบาย openpilot จะอยู่ห่างจากรถข้างหน้ามากขึ้น ในรถที่รองรับ คุณสามารถหมุนเวียนบุคลิกภาพเหล่านี้ด้วยปุ่มระยะห่างบนพวงมาลัย</translation>
     </message>
 </context>
 <context>
     <name>TorqueFriction</name>
     <message>
         <source>FRICTION</source>
-        <translation type="unfinished"></translation>
+        <translation>ความเสียดทาน</translation>
     </message>
     <message>
         <source>Adjust Friction for the Torque Lateral Controller. &lt;b&gt;Live&lt;/b&gt;: Override self-tune values; &lt;b&gt;Offline&lt;/b&gt;: Override self-tune offline values at car restart.</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับค่าความเสียดทานสำหรับตัวควบคุมข้าง Torque &lt;b&gt;เรียลไทม์&lt;/b&gt;: แทนที่ค่าการปรับตั้งอัตโนมัติ; &lt;b&gt;ออฟไลน์&lt;/b&gt;: แทนที่ค่าการปรับตั้งอัตโนมัติออฟไลน์เมื่อรีสตาร์ทรถ</translation>
     </message>
     <message>
         <source>Real-time and Offline</source>
-        <translation type="unfinished"></translation>
+        <translation>เรียลไทม์และออฟไลน์</translation>
     </message>
     <message>
         <source>Offline Only</source>
-        <translation type="unfinished"></translation>
+        <translation>ออฟไลน์เท่านั้น
     </message>
 </context>
 <context>
     <name>TorqueMaxLatAccel</name>
     <message>
         <source>LAT_ACCEL_FACTOR</source>
-        <translation type="unfinished"></translation>
+        <translation>ตัวคูณความเร่งข้าง</translation>
     </message>
     <message>
         <source>Adjust Max Lateral Acceleration for the Torque Lateral Controller. &lt;b&gt;Live&lt;/b&gt;: Override self-tune values; &lt;b&gt;Offline&lt;/b&gt;: Override self-tune offline values at car restart.</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับความเร่งข้างสูงสุดสำหรับตัวควบคุมข้าง Torque &lt;b&gt;เรียลไทม์&lt;/b&gt;: แทนที่ค่าการปรับตั้งอัตโนมัติ; &lt;b&gt;ออฟไลน์&lt;/b&gt;: แทนที่ค่าการปรับตั้งอัตโนมัติออฟไลน์เมื่อรีสตาร์ทรถ</translation>
     </message>
     <message>
         <source>Real-time and Offline</source>
-        <translation type="unfinished"></translation>
+        <translation>เรียลไทม์และออฟไลน์</translation>
     </message>
     <message>
         <source>Offline Only</source>
-        <translation type="unfinished"></translation>
+        <translation>ออฟไลน์เท่านั้น
     </message>
 </context>
 <context>
@@ -2692,159 +2701,160 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     <name>VehiclePanel</name>
     <message>
         <source>Updating this setting takes effect when the car is powered off.</source>
-        <translation type="unfinished"></translation>
+        <translation>การเปลี่ยนค่านี้จะมีผลเมื่อปิดรถแล้ว</translation>
     </message>
     <message>
         <source>Select your car</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกรถของคุณ</translation>
     </message>
 </context>
 <context>
     <name>VisualsPanel</name>
     <message>
         <source>Display Braking Status</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงสถานะการเบรก</translation>
     </message>
     <message>
         <source>Enable this will turn the current speed value to red while the brake is used.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้ตัวเลือกนี้จะเปลี่ยนค่าความเร็วปัจจุบันเป็นสีแดงขณะใช้เบรก</translation>
     </message>
     <message>
         <source>Display Stand Still Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงตัวนับเวลาหยุดนิ่ง</translation>
     </message>
     <message>
         <source>Enable this will display time spent at a stop (i.e., at a stop lights, stop signs, traffic congestions).</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้ตัวเลือกนี้จะแสดงเวลาที่ใช้ในการหยุด (เช่น ที่ไฟแดง ป้ายหยุด การจราจรติดขัด)</translation>
     </message>
     <message>
         <source>Display DM Camera in Reverse Gear</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงกล้อง DM เมื่อเข้าเกียร์ถอยหลัง</translation>
     </message>
     <message>
         <source>Show Driver Monitoring camera while the car is in reverse gear.</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงกล้องติดตามผู้ขับขี่ขณะที่รถอยู่ในเกียร์ถอยหลัง</translation>
     </message>
     <message>
         <source>OSM: Show debug UI elements</source>
-        <translation type="unfinished"></translation>
+        <translation>OSM: แสดงองค์ประกอบ UI สำหรับ debug</translation>
     </message>
     <message>
         <source>OSM: Show UI elements that aid debugging.</source>
-        <translation type="unfinished"></translation>
+        <translation>OSM: แสดงองค์ประกอบ UI ที่ช่วยในการ debug</translation>
     </message>
     <message>
         <source>Display Feature Status</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงสถานะฟีเจอร์</translation>
     </message>
     <message>
         <source>Display the statuses of certain features on the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงสถานะของฟีเจอร์บางอย่างบนหน้าจอการขับขี่</translation>
     </message>
     <message>
         <source>Enable Onroad Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้การตั้งค่าบนถนน</translation>
     </message>
     <message>
         <source>Display the Onroad Settings button on the driving screen to adjust feature options on the driving screen, without navigating into the settings menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงปุ่มการตั้งค่าบนถนนบนหน้าจอการขับขี่เพื่อปรับตัวเลือกฟีเจอร์บนหน้าจอการขับขี่ โดยไม่ต้องเข้าไปในเมนูการตั้งค่า</translation>
     </message>
     <message>
         <source>Speedometer: Display True Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>มาตรวัดความเร็ว: แสดงความเร็วจริง</translation>
     </message>
     <message>
         <source>Display the true vehicle current speed from wheel speed sensors.</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงความเร็วปัจจุบันที่แท้จริงของรถจากเซ็นเซอร์ความเร็วล้อ</translation>
     </message>
     <message>
         <source>Speedometer: Hide from Onroad Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>มาตรวัดความเร็ว: ซ่อนจากหน้าจอบนถนน</translation>
     </message>
     <message>
         <source>Display End-to-end Longitudinal Status (Beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงสถานะ End-to-end Longitudinal (เบต้า)</translation>
     </message>
     <message>
         <source>Enable this will display an icon that appears when the End-to-end model decides to start or stop.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้ตัวเลือกนี้จะแสดงไอคอนที่ปรากฏขึ้นเมื่อโมเดล End-to-end ตัดสินใจเริ่มหรือหยุด</translation>
     </message>
     <message>
         <source>Navigation: Display in Full Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>การนำทาง: แสดงแบบเต็มหน้าจอ</translation>
     </message>
     <message>
         <source>Enable this will display the built-in navigation in full screen.&lt;br&gt;To switch back to driving view, &lt;font color=&apos;yellow&apos;&gt;tap on the border edge&lt;/font&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดใช้ตัวเลือกนี้จะแสดงการนำทางที่ติดตั้งมาแบบเต็มหน้าจอ&lt;br&gt;เพื่อสลับกลับไปมุมมองการขับขี่ &lt;font color='yellow'&gt;แตะที่ขอบ&lt;/font&gt;</translation>
     </message>
     <message>
         <source>Map: Display 3D Buildings</source>
-        <translation type="unfinished"></translation>
+        <translation>แผนที่: แสดงอาคาร 3D</translation>
     </message>
     <message>
         <source>Parse and display 3D buildings on map. Thanks to jakethesnake420 for this implementation.</source>
-        <translation type="unfinished"></translation>
+        <translation>แยกและแสดงอาคาร 3D บนแผนที่ ขอบคุณ jakethesnake420 สำหรับการพัฒนานี้</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิด</translation>
     </message>
     <message>
         <source>5 Metrics</source>
-        <translation type="unfinished"></translation>
+        <translation>5 ตัววัด</translation>
     </message>
     <message>
         <source>10 Metrics</source>
-        <translation type="unfinished"></translation>
+        <translation>10 ตัววัด</translation>
     </message>
     <message>
         <source>Developer UI</source>
-        <translation type="unfinished"></translation>
+        <translation>ส่วนติดต่อผู้พัฒนา</translation>
     </message>
     <message>
         <source>Display real-time parameters and metrics from various sources.</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงพารามิเตอร์และตัววัดแบบเรียลไทม์จากแหล่งต่างๆ</translation>
     </message>
     <message>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>ระยะทาง</translation>
     </message>
     <message>
         <source>Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>ความเร็ว</translation>
     </message>
     <message>
         <source>Distance
 Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>ระยะทาง
+ความเร็ว</translation>
     </message>
     <message>
         <source>Display Metrics Below Chevron</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงตัววัดข้างล่าง Chevron</translation>
     </message>
     <message>
         <source>Display useful metrics below the chevron that tracks the lead car (only applicable to cars with openpilot longitudinal control).</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงตัววัดที่มีประโยชน์ข้างล่าง chevron ที่ติดตามรถคันข้างหน้า (ใช้ได้เฉพาะรถที่มีการควบคุมตามยาวของ openpilot)</translation>
     </message>
     <message>
         <source>RAM</source>
-        <translation type="unfinished"></translation>
+        <translation>RAM</translation>
     </message>
     <message>
         <source>CPU</source>
-        <translation type="unfinished"></translation>
+        <translation>CPU</translation>
     </message>
     <message>
         <source>GPU</source>
-        <translation type="unfinished"></translation>
+        <translation>GPU</translation>
     </message>
     <message>
         <source>Max</source>
-        <translation type="unfinished"></translation>
+        <translation>สูงสุด</translation>
     </message>
     <message>
         <source>Display Temperature on Sidebar</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงอุณหภูมิบนแถบข้าง</translation>
     </message>
 </context>
 <context>

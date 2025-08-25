@@ -39,7 +39,7 @@ def manager_init() -> None:
     ("DisengageOnAccelerator", "0"),
     ("GsmMetered", "1"),
     ("HasAcceptedTerms", "0"),
-    ("LanguageSetting", "main_en"),
+    ("LanguageSetting", "main_th"),
     ("OpenpilotEnabledToggle", "1"),
     ("LongitudinalPersonality", str(custom.LongitudinalPersonalitySP.standard)),
 
@@ -149,7 +149,7 @@ def manager_init() -> None:
   params.put_bool("IsReleaseSPBranch", build_metadata.release_sp_channel)
 
   # set dongle id
-  reg_res = register(show_spinner=True)
+  reg_res = register(show_spinner=False)
   if reg_res:
     dongle_id = reg_res
   else:
