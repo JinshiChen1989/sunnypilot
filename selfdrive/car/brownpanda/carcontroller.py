@@ -260,7 +260,7 @@ class CarController(CarControllerBase):
     # Delegate value building to brownpandacan
     return [brownpandacan.create_lat_command(self.packer, self.CAN, CC, steering_angle, steering_torque)]
 
-  
+
 
   # =============================================================================
   # [Section] CAN: longCommand (50 Hz)
@@ -295,7 +295,7 @@ class CarController(CarControllerBase):
     # Delegate value building to brownpandacan
     return [brownpandacan.create_long_command2(self.packer, self.CAN, CC, CS, accel, self.stopping_counter, self.params)]
 
-  
+
 
   # =============================================================================
   # [Section] CAN: visionInfo (50 Hz)

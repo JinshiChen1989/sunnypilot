@@ -37,121 +37,121 @@ BU_:
 
 
 
-BO_ 96 0x60_pandaMessage: 6 Vector__XXX
- SG_ carBrand : 0|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ carModel : 8|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ carYear : 16|12@1+ (1,0) [0|4095] "" Vector__XXX
- SG_ pandaMode : 28|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ battVoltage : 32|12@1+ (0.01,0) [0|40.95] "V" Vector__XXX
+BO_ 1760 0x6E0_pandaMessage: 6 Vector__XXX
+ SG_ CAR_BRAND : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ CAR_MODEL : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ CAR_YEAR : 16|12@1+ (1,0) [0|4095] "" Vector__XXX
+ SG_ PANDA_MODE : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ BATT_VOLTAGE : 32|12@1+ (0.01,0) [0|40.95] "V" Vector__XXX
 
-BO_ 97 0x61_userCommand: 8 Vector__XXX
- SG_ brkPedal : 0|8@1+ (0.4,0) [0|102] "%" Vector__XXX
- SG_ accPedal : 8|8@1+ (0.4,0) [0|102] "%" Vector__XXX
- SG_ steerAngle : 16|16@1+ (0.1,0) [-780|780] "deg" Vector__XXX
- SG_ yawRate : 32|14@1+ (0.01,-81.91) [-81.91|81.91] "deg/s" Vector__XXX
- SG_ btnCcEn : 46|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnLaneEn : 47|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnMads : 48|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnCcSet : 49|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnCcCancel : 50|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnCcResume : 51|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnSpdUp : 52|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnSpdDn : 53|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnDistNr : 54|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnDistFar : 55|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnHazard : 56|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnBlinkL : 57|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ btnBlinkR : 58|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ actPedalPressed : 59|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ actBrakePressed : 60|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ actSteerPressed : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+BO_ 1761 0x6E1_userCommand: 8 Vector__XXX
+ SG_ BRAKE_PEDAL : 0|8@1+ (0.4,0) [0|102] "%" Vector__XXX
+ SG_ GAS_PEDAL : 8|8@1+ (0.4,0) [0|102] "%" Vector__XXX
+ SG_ STEER_ANGLE : 16|16@1+ (0.1,0) [-780|780] "deg" Vector__XXX
+ SG_ YAW_RATE : 32|14@1+ (0.01,-81.91) [-81.91|81.91] "deg/s" Vector__XXX
+ SG_ CRUISE_ENABLE : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LANE_ENABLE : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MADS_BUTTON : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CRUISE_SET : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CRUISE_CANCEL : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CRUISE_RESUME : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SPEED_UP_BTN : 52|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SPEED_DOWN_BTN : 53|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DISTANCE_NEAR_BTN : 54|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DISTANCE_FAR_BTN : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HAZARD_BTN : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LEFT_BLINKER_BTN : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RIGHT_BLINKER_BTN : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCEL_PEDAL_PRESSED : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BRAKE_PEDAL_PRESSED : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ STEER_WHEEL_PRESSED : 61|1@1+ (1,0) [0|1] "" Vector__XXX
 
-BO_ 98 0x62_driverState: 8 Vector__XXX
- SG_ driverAlert : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ driverHandsOn : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ driverEyeTrack : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ driverOverride : 6|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ driverAttention : 8|8@1+ (0.4,0) [0|102] "%" Vector__XXX
- SG_ driverFatigue : 16|8@1+ (0.4,0) [0|102] "%" Vector__XXX
+BO_ 1762 0x6E2_driverState: 8 Vector__XXX
+ SG_ DRIVER_ALERT : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ DRIVER_HANDS_ON : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ DRIVER_EYE_TRACK : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ DRIVER_OVERRIDE : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DRIVER_ATTENTION : 8|8@1+ (0.4,0) [0|102] "%" Vector__XXX
+ SG_ DRIVER_FATIGUE : 16|8@1+ (0.4,0) [0|102] "%" Vector__XXX
 
-BO_ 99 0x63_carState: 8 Vector__XXX
- SG_ steerTorq : 0|16@1+ (0.1,-3276.8) [-3276.8|3276.7] "Nm" Vector__XXX
- SG_ brkPressure : 16|8@1+ (0.1,0) [0|25.5] "bar" Vector__XXX
- SG_ vehSpd : 24|13@1+ (0.05625,0) [0|360] "km/h" Vector__XXX
- SG_ gearPos : 37|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ adasSettings : 40|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ statCcEn : 48|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ statCcActive : 49|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ statLnEn : 50|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ statLnActive : 51|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ vehDynMode : 56|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ parkingBrake : 58|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ rdyDrive : 59|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ blindSpotFL : 60|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ blindSpotFR : 61|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ blindSpotRL : 62|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ blindSpotRR : 63|1@1+ (1,0) [0|1] "" Vector__XXX
+BO_ 1763 0x6E3_carState: 8 Vector__XXX
+ SG_ STEER_TORQUE : 0|16@1+ (0.1,-3276.8) [-3276.8|3276.7] "Nm" Vector__XXX
+ SG_ BRK_PRESSURE : 16|8@1+ (0.1,0) [0|25.5] "bar" Vector__XXX
+ SG_ VEHICLE_SPEED : 24|13@1+ (0.05625,0) [0|360] "km/h" Vector__XXX
+ SG_ GEAR_POS : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ ADAS_SETTINGS : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ STAT_CC_EN : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ STAT_CC_ACTIVE : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ STAT_LN_EN : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ STAT_LN_ACTIVE : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ VEH_DYN_MODE : 56|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ PARKING_BRAKE : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RDY_DRIVE : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BLIND_SPOT_FL : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BLIND_SPOT_FR : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BLIND_SPOT_RL : 62|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BLIND_SPOT_RR : 63|1@1+ (1,0) [0|1] "" Vector__XXX
 
-BO_ 100 0x64_carState2: 8 Vector__XXX
- SG_ switchBeltDriver : 0|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ switchBeltPassenger : 1|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ switchHood : 2|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ switchTrunk : 3|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ switchDoorFL : 4|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ switchDoorFR : 5|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ switchDoorRL : 6|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ switchDoorRR : 7|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ chrgState : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ setSpeedKph : 16|12@1+ (0.1,0) [0|409.5] "km/h" Vector__XXX
- SG_ gapIndex : 28|2@1+ (1,1) [1|4] "" Vector__XXX
- SG_ turnSignalL : 30|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ turnSignalR : 31|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ accFault : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+BO_ 1764 0x6E4_carState2: 8 Vector__XXX
+ SG_ SWITCH_BELT_DRIVER : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWITCH_BELT_PASSENGER : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWITCH_HOOD : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWITCH_TRUNK : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWITCH_DOOR_FL : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWITCH_DOOR_FR : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWITCH_DOOR_RL : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWITCH_DOOR_RR : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CHRG_STATE : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ SET_SPEED_KPH : 16|12@1+ (0.1,0) [0|409.5] "km/h" Vector__XXX
+ SG_ GAP_INDEX : 28|2@1+ (1,1) [1|4] "" Vector__XXX
+ SG_ TURN_SIGNAL_L : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TURN_SIGNAL_R : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACC_FAULT : 32|1@1+ (1,0) [0|1] "" Vector__XXX
 
-BO_ 101 0x65_wheelSensor: 8 Vector__XXX
- SG_ wheelRearRight : 48|13@1+ (0.05625,0) [0|360] "km/h" Vector__XXX
- SG_ wheelRearLeft : 32|13@1+ (0.05625,0) [0|360] "km/h" Vector__XXX
- SG_ wheelFrontRight : 16|13@1+ (0.05625,0) [0|360] "km/h" Vector__XXX
- SG_ wheelFrontLeft : 0|13@1+ (0.05625,0) [0|360] "km/h" Vector__XXX
+BO_ 1765 0x6E5_wheelSensor: 8 Vector__XXX
+ SG_ WHEEL_REAR_RIGHT : 48|13@1+ (0.05625,0) [0|360] "km/h" Vector__XXX
+ SG_ WHEEL_REAR_LEFT : 32|13@1+ (0.05625,0) [0|360] "km/h" Vector__XXX
+ SG_ WHEEL_FRONT_RIGHT : 16|13@1+ (0.05625,0) [0|360] "km/h" Vector__XXX
+ SG_ WHEEL_FRONT_LEFT : 0|13@1+ (0.05625,0) [0|360] "km/h" Vector__XXX
 
-BO_ 102 0x66_adasState: 6 Vector__XXX
- SG_ leadDistY : 0|14@1+ (0.04,0) [0|655.32] "m" Vector__XXX
- SG_ leadDistX : 14|14@1+ (0.04,0) [0|655.32] "m" Vector__XXX
- SG_ leadNum : 28|4@1+ (1,0) [0|3] "" Vector__XXX
- SG_ leadConf : 32|8@1+ (0.4,0) [0|102] "%" Vector__XXX
+BO_ 1766 0x6E6_adasState: 6 Vector__XXX
+ SG_ LEAD_DIST_Y : 0|14@1+ (0.04,0) [0|655.32] "m" Vector__XXX
+ SG_ LEAD_DIST_X : 14|14@1+ (0.04,0) [0|655.32] "m" Vector__XXX
+ SG_ LEAD_NUM : 28|4@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ LEAD_CONF : 32|8@1+ (0.4,0) [0|102] "%" Vector__XXX
 
-BO_ 103 0x67_chassisState: 8 Vector__XXX
- SG_ longAccel : 0|16@1+ (0.001,-32.768) [-32.768|32.767] "m/s2" Vector__XXX
- SG_ latAccel : 16|16@1+ (0.001,-32.768) [-32.768|32.767] "m/s2" Vector__XXX
- SG_ espEn : 56|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ absEn : 57|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ tracCtrlEn : 58|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ stabCtrlEn : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+BO_ 1767 0x6E7_chassisState: 8 Vector__XXX
+ SG_ LONG_ACCEL : 0|16@1+ (0.001,-32.768) [-32.768|32.767] "m/s2" Vector__XXX
+ SG_ LAT_ACCEL : 16|16@1+ (0.001,-32.768) [-32.768|32.767] "m/s2" Vector__XXX
+ SG_ ESP_EN : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ABS_EN : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ TRAC_CTRL_EN : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ STAB_CTRL_EN : 59|1@1+ (1,0) [0|1] "" Vector__XXX
 
-BO_ 104 0x68_powertrainState: 8 Vector__XXX
- SG_ engRun : 0|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ systemHealth : 1|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ pwrFault : 4|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ coolTemp : 8|8@1+ (1,-40) [-40|215] "C" Vector__XXX
- SG_ fuelLvl : 16|8@1+ (0.4,0) [0|102] "%" Vector__XXX
- SG_ battTemp : 24|8@1+ (1,-40) [-40|215] "C" Vector__XXX
- SG_ battLvl : 32|8@1+ (0.4,0) [0|102] "%" Vector__XXX
- SG_ faultHistory : 40|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ engRPM : 48|14@1+ (0.25,0) [0|4095.75] "rpm" Vector__XXX
- SG_ engType : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 1768 0x6E8_powertrainState: 8 Vector__XXX
+ SG_ ENG_RUN : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SYSTEM_HEALTH : 1|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ PWR_FAULT : 4|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ COOL_TEMP : 8|8@1+ (1,-40) [-40|215] "C" Vector__XXX
+ SG_ FUEL_LVL : 16|8@1+ (0.4,0) [0|102] "%" Vector__XXX
+ SG_ BATT_TEMP : 24|8@1+ (1,-40) [-40|215] "C" Vector__XXX
+ SG_ BATT_LVL : 32|8@1+ (0.4,0) [0|102] "%" Vector__XXX
+ SG_ FAULT_HISTORY : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ ENG_RPM : 48|14@1+ (0.25,0) [0|4095.75] "rpm" Vector__XXX
+ SG_ ENG_TYPE : 62|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 105 0x69_imuSensor: 8 Vector__XXX
- SG_ imuAxisZ : 32|16@1+ (0.001,-32.768) [-32.768|32.767] "m/s2" Vector__XXX
- SG_ imuAxisLong : 16|16@1+ (0.001,-32.768) [-32.768|32.767] "m/s2" Vector__XXX
- SG_ imuAxisLat : 0|16@1+ (0.001,-32.768) [-32.768|32.767] "m/s2" Vector__XXX
+BO_ 1769 0x6E9_imuSensor: 8 Vector__XXX
+ SG_ IMU_AXIS_Z : 32|16@1+ (0.001,-32.768) [-32.768|32.767] "m/s2" Vector__XXX
+ SG_ IMU_AXIS_LONG : 16|16@1+ (0.001,-32.768) [-32.768|32.767] "m/s2" Vector__XXX
+ SG_ IMU_AXIS_LAT : 0|16@1+ (0.001,-32.768) [-32.768|32.767] "m/s2" Vector__XXX
 
-BO_ 106 0x6A_longCommand: 8 Vector__XXX
+BO_ 1770 0x6EA_longCommand: 8 Vector__XXX
  SG_ cmdBrakePressure : 28|12@1+ (0.015625,0) [0|1023.984375] "bar" Vector__XXX
  SG_ cmdPedalBrk : 40|8@1+ (0.4,0) [0|102] "%" Vector__XXX
  SG_ cmdTorque : 16|12@1+ (5,-5000) [-5000|15475] "NM" Vector__XXX
  SG_ cmdSpeedTarget : 0|16@1+ (0.01,0) [0|655.35] "km/h" Vector__XXX
 
-BO_ 107 0x6B_longCommand2: 8 Vector__XXX
+BO_ 1771 0x6EB_longCommand2: 8 Vector__XXX
  SG_ cmdSpeedAccel : 0|8@1+ (0.05,-10) [-10|2.75] "m/s2" Vector__XXX
  SG_ cmdSpeedDecel : 8|8@1+ (0.05,-10) [-10|2.75] "m/s2" Vector__XXX
  SG_ cmdAccelTune : 16|4@1+ (1,0) [0|15] "" Vector__XXX
@@ -173,7 +173,7 @@ BO_ 107 0x6B_longCommand2: 8 Vector__XXX
  SG_ cmdAebReq : 33|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ cmdBrakePump : 34|1@1+ (1,0) [0|1] "" Vector__XXX
 
-BO_ 108 0x6C_latCommand: 8 Vector__XXX
+BO_ 1772 0x6EC_latCommand: 8 Vector__XXX
  SG_ cmdSteerAngle : 0|16@1+ (0.1,-3276.8) [-3276.8|3276.7] "deg" Vector__XXX
  SG_ cmdSteerTorque : 16|16@1+ (0.01,-327.68) [-327.68|327.67] "Nm" Vector__XXX
  SG_ cmdSteerMode : 56|1@1+ (1,0) [0|1] "" Vector__XXX
@@ -184,9 +184,9 @@ BO_ 108 0x6C_latCommand: 8 Vector__XXX
  SG_ cmdLaneEnable : 62|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ cmdLaneAlert : 63|1@1+ (1,0) [0|1] "" Vector__XXX
 
-BO_ 109 0x6D_latCommand2: 8 Vector__XXX
+BO_ 1776 0x6F0_latCommand2: 8 Vector__XXX
 
-BO_ 110 0x6E_dispCommand: 8 Vector__XXX
+BO_ 1777 0x6F1_dispCommand: 8 Vector__XXX
  SG_ cmdDispCcEn : 0|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ cmdDispCcActive : 1|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ cmdDispLnEn : 2|1@1+ (1,0) [0|1] "" Vector__XXX
@@ -207,25 +207,25 @@ BO_ 110 0x6E_dispCommand: 8 Vector__XXX
  SG_ cmdDispSpeed : 32|16@1+ (0.01,0) [0|655.35] "km/h" Vector__XXX
  SG_ cmdDispPassThrough : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
 
-BO_ 111 0x6F_visionInfo: 8 Vector__XXX
- SG_ roadType : 0|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ tlState : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ obstacle : 6|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ roadValid : 7|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ curv : 8|16@1+ (0.0001,-3.2768) [-3.2768|3.2767] "1/m" Vector__XXX
- SG_ laneW : 24|16@1+ (0.01,0) [0|655.35] "m" Vector__XXX
- SG_ laneOffs : 40|16@1+ (0.01,-327.68) [-327.68|327.67] "m" Vector__XXX
- SG_ weatherState : 56|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ roadSurface : 59|3@1+ (1,0) [0|7] "" Vector__XXX
+BO_ 1775 0x6EF_visionInfo: 8 Vector__XXX
+ SG_ ROAD_TYPE : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ TL_STATE : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ OBSTACLE : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ROAD_VALID : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CURV : 8|16@1+ (0.0001,-3.2768) [-3.2768|3.2767] "1/m" Vector__XXX
+ SG_ LANE_W : 24|16@1+ (0.01,0) [0|655.35] "m" Vector__XXX
+ SG_ LANE_OFFS : 40|16@1+ (0.01,-327.68) [-327.68|327.67] "m" Vector__XXX
+ SG_ WEATHER_STATE : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ ROAD_SURFACE : 59|3@1+ (1,0) [0|7] "" Vector__XXX
 
-BO_ 112 0x70_modelIdAtto3: 6 Vector__XXX
- SG_ modelMarker : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+BO_ 1773 0x6ED_modelIdAtto3: 6 Vector__XXX
+ SG_ MODEL_MARKER : 0|8@1+ (1,0) [0|255] "" Vector__XXX
 
-BO_ 113 0x71_modelIdDolphin: 4 Vector__XXX
- SG_ modelMarker : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+BO_ 1774 0x6EE_modelIdDolphin: 4 Vector__XXX
+ SG_ MODEL_MARKER : 0|8@1+ (1,0) [0|255] "" Vector__XXX
 
-BO_ 114 0x72_modelIdDeepal: 8 Vector__XXX
- SG_ modelMarker : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+BO_ 1775 0x6EF_modelIdDeepal: 8 Vector__XXX
+ SG_ MODEL_MARKER : 0|8@1+ (1,0) [0|255] "" Vector__XXX
 
 
 
@@ -242,37 +242,36 @@ BA_DEF_DEF_  "GenMsgCycleTime" 100;
 BA_DEF_DEF_  "GenSigStartValue" 0;
 BA_ "BusType" "CAN";
 BA_ "DBName" "BROWNPANDA";
-BA_ "GenMsgCycleTime" BO_ 96 100;
-BA_ "GenMsgCycleTime" BO_ 97 10;
-BA_ "GenMsgCycleTime" BO_ 98 50;
-BA_ "GenMsgCycleTime" BO_ 99 10;
-BA_ "GenMsgCycleTime" BO_ 100 20;
-BA_ "GenMsgCycleTime" BO_ 101 50;
-BA_ "GenMsgCycleTime" BO_ 102 100;
-BA_ "GenMsgCycleTime" BO_ 103 50;
-BA_ "GenMsgCycleTime" BO_ 104 20;
-BA_ "GenMsgCycleTime" BO_ 105 10;
-BA_ "GenMsgCycleTime" BO_ 106 10;
-BA_ "GenMsgCycleTime" BO_ 107 20;
-BA_ "GenMsgCycleTime" BO_ 108 10;
-BA_ "GenMsgCycleTime" BO_ 109 20;
-BA_ "GenMsgCycleTime" BO_ 110 20;
-BA_ "GenMsgCycleTime" BO_ 111 20;
-BA_ "GenMsgCycleTime" BO_ 112 1000;
-BA_ "GenMsgCycleTime" BO_ 113 1000;
-BA_ "GenMsgCycleTime" BO_ 114 1000;
-BA_ "GenSigStartValue" SG_ 106 cmdTorque 1000;
-BA_ "GenSigStartValue" SG_ 107 cmdSpeedAccel -455.36;
-BA_ "GenSigStartValue" SG_ 107 cmdSpeedDecel -455.36;
-VAL_ 96 carBrand 0 "UNKNOWN" 1 "BYD" 2 "CHANGAN" 3 "GWM" 4 "GAC" 5 "SAIC" 6 "CHERY" 7 "ZEEKR" 8 "BAIC" 9 "TOYOTA" 10 "ISUZU" 11 "HONDA" 12 "MITSUBISHI" 13 "MERCEDES" 14 "BMW" 15 "PORSCHE" ;
-VAL_ 96 carModel 0 "UNKNOWN" 1 "BYD_SEAL" 2 "BYD_HAN" 3 "BYD_TANG" 4 "CHANGAN_UNI" 5 "GWM_ORA" 6 "GAC_AION" 7 "SAIC_MG" 8 "CHERY_TIGGO" 9 "ZEEKR_001" 10 "BAIC_EU" 11 "TOYOTA_CAMRY" 12 "ISUZU_DMAX" 13 "HONDA_ACCORD" 14 "MITSUBISHI_OUTLANDER" 15 "MERCEDES_C_CLASS" 16 "BMW_3_SERIES" 17 "PORSCHE_TAYCAN" ;
-VAL_ 96 pandaMode 0 "OEM_MODE" 1 "INTERRUPT_MODE" 2 "OVERRIDE_MODE" 3 "DIAGNOSTIC_MODE" ;
-VAL_ 97 btnCcEn 0 "NOT_PRESSED" 1 "PRESSED" ;
-VAL_ 97 btnLaneEn 0 "NOT_PRESSED" 1 "PRESSED" ;
-VAL_ 97 btnMads 0 "NOT_PRESSED" 1 "PRESSED" ;
-VAL_ 97 btnCcSet 0 "NOT_PRESSED" 1 "PRESSED" ;
-VAL_ 97 btnCcCancel 0 "NOT_PRESSED" 1 "PRESSED" ;
-VAL_ 97 btnCcResume 0 "NOT_PRESSED" 1 "PRESSED" ;
+BA_ "GenMsgCycleTime" BO_ 1760 100;
+BA_ "GenMsgCycleTime" BO_ 1761 10;
+BA_ "GenMsgCycleTime" BO_ 1762 20;
+BA_ "GenMsgCycleTime" BO_ 1763 10;
+BA_ "GenMsgCycleTime" BO_ 1764 20;
+BA_ "GenMsgCycleTime" BO_ 1765 50;
+BA_ "GenMsgCycleTime" BO_ 1766 100;
+BA_ "GenMsgCycleTime" BO_ 1767 50;
+BA_ "GenMsgCycleTime" BO_ 1768 20;
+BA_ "GenMsgCycleTime" BO_ 1769 10;
+BA_ "GenMsgCycleTime" BO_ 1770 10;
+BA_ "GenMsgCycleTime" BO_ 1771 20;
+BA_ "GenMsgCycleTime" BO_ 1772 10;
+BA_ "GenMsgCycleTime" BO_ 1773 1000;
+BA_ "GenMsgCycleTime" BO_ 1774 1000;
+BA_ "GenMsgCycleTime" BO_ 1775 1000;
+BA_ "GenMsgCycleTime" BO_ 1776 20;
+BA_ "GenMsgCycleTime" BO_ 1777 20;
+BA_ "GenSigStartValue" SG_ 1770 cmdTorque 1000;
+BA_ "GenSigStartValue" SG_ 1771 cmdSpeedAccel -455.36;
+BA_ "GenSigStartValue" SG_ 1771 cmdSpeedDecel -455.36;
+VAL_ 1760 carBrand 0 "UNKNOWN" 1 "BYD" 2 "CHANGAN" 3 "GWM" 4 "GAC" 5 "SAIC" 6 "CHERY" 7 "ZEEKR" 8 "BAIC" 9 "TOYOTA" 10 "ISUZU" 11 "HONDA" 12 "MITSUBISHI" 13 "MERCEDES" 14 "BMW" 15 "PORSCHE" ;
+VAL_ 1760 carModel 0 "UNKNOWN" 1 "BYD_SEAL" 2 "BYD_HAN" 3 "BYD_TANG" 4 "CHANGAN_UNI" 5 "GWM_ORA" 6 "GAC_AION" 7 "SAIC_MG" 8 "CHERY_TIGGO" 9 "ZEEKR_001" 10 "BAIC_EU" 11 "TOYOTA_CAMRY" 12 "ISUZU_DMAX" 13 "HONDA_ACCORD" 14 "MITSUBISHI_OUTLANDER" 15 "MERCEDES_C_CLASS" 16 "BMW_3_SERIES" 17 "PORSCHE_TAYCAN" ;
+VAL_ 1760 pandaMode 0 "OEM_MODE" 1 "INTERRUPT_MODE" 2 "OVERRIDE_MODE" 3 "DIAGNOSTIC_MODE" ;
+VAL_ 1761 CRUISE_ENABLE 0 "NOT_PRESSED" 1 "PRESSED" ;
+VAL_ 1761 LANE_ENABLE 0 "NOT_PRESSED" 1 "PRESSED" ;
+VAL_ 1761 MADS_BUTTON 0 "NOT_PRESSED" 1 "PRESSED" ;
+VAL_ 1761 CRUISE_SET 0 "NOT_PRESSED" 1 "PRESSED" ;
+VAL_ 1761 CRUISE_CANCEL 0 "NOT_PRESSED" 1 "PRESSED" ;
+VAL_ 1761 CRUISE_RESUME 0 "NOT_PRESSED" 1 "PRESSED" ;
 VAL_ 97 btnSpdUp 0 "NOT_PRESSED" 1 "PRESSED" ;
 VAL_ 97 btnSpdDn 0 "NOT_PRESSED" 1 "PRESSED" ;
 VAL_ 97 btnDistNr 0 "NOT_PRESSED" 1 "PRESSED" ;
@@ -354,10 +353,10 @@ VAL_ 110 cmdDispLane4 0 "NO_LANE" 1 "SOLID_LINE" 2 "DASHED_LINE" ;
 VAL_ 110 cmdDispRoadEdgeLeft 0 "NO_LANE" 1 "SOLID_LINE" 2 "DASHED_LINE" ;
 VAL_ 110 cmdDispRoadEdgeRight 0 "NO_LANE" 1 "SOLID_LINE" 2 "DASHED_LINE" ;
 VAL_ 110 cmdDispFollowDistance 0 "VERY_CLOSE" 1 "CLOSE" 2 "MEDIUM" 3 "FAR" 4 "VERY_FAR" 5 "EXTRA_FAR" 6 "MAXIMUM" 7 "AUTO" ;
-VAL_ 111 roadType 0 "UNKNOWN" 1 "HIGHWAY" 2 "CITY_STREET" 3 "PARKING_LOT" 4 "TUNNEL" 5 "BRIDGE" 6 "ROUNDABOUT" 7 "INTERSECTION" 8 "CONSTRUCTION" 9 "SCHOOL_ZONE" 10 "TOLL_BOOTH" 11 "SERVICE_AREA" 12 "RAMP" 13 "PRIVATE_ROAD" 14 "EMERGENCY_LANE" 15 "INVALID" ;
-VAL_ 111 tlState 0 "UNKNOWN" 1 "GREEN" 2 "YELLOW" 3 "RED" ;
-VAL_ 111 obstacle 0 "NO_OBSTACLE" 1 "OBSTACLE_DETECTED" ;
-VAL_ 111 roadValid 0 "INVALID" 1 "VALID" ;
+VAL_ 111 ROAD_TYPE 0 "UNKNOWN" 1 "HIGHWAY" 2 "CITY_STREET" 3 "PARKING_LOT" 4 "TUNNEL" 5 "BRIDGE" 6 "ROUNDABOUT" 7 "INTERSECTION" 8 "CONSTRUCTION" 9 "SCHOOL_ZONE" 10 "TOLL_BOOTH" 11 "SERVICE_AREA" 12 "RAMP" 13 "PRIVATE_ROAD" 14 "EMERGENCY_LANE" 15 "INVALID" ;
+VAL_ 111 TL_STATE 0 "UNKNOWN" 1 "GREEN" 2 "YELLOW" 3 "RED" ;
+VAL_ 111 OBSTACLE 0 "NO_OBSTACLE" 1 "OBSTACLE_DETECTED" ;
+VAL_ 111 ROAD_VALID 0 "INVALID" 1 "VALID" ;
 VAL_ 111 weatherState 0 "UNKNOWN" 1 "CLEAR" 2 "CLOUDY" 3 "LIGHT_RAIN" 4 "HEAVY_RAIN" 5 "SNOW" 6 "FOG" 7 "EXTREME" ;
 VAL_ 111 roadSurface 0 "UNKNOWN" 1 "DRY" 2 "WET" 3 "ICE" 4 "SNOW" 5 "GRAVEL" 6 "DIRT" 7 "CONSTRUCTION" ;
 

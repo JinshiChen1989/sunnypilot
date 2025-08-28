@@ -19,80 +19,80 @@ FINGERPRINTS = {
   CAR.BYD_ATTO3: [
     {
       # Core vehicle state messages
-      96: 6,   # pandaMessage: Vehicle and device identification
-      97: 8,   # userCommand: Driver inputs and button presses
-      98: 8,   # driverState: Driver monitoring and attention tracking
-      99: 8,   # carState: Primary vehicle dynamics (speed, gear, cruise)
-      100: 8,  # carState2: Extended state (doors, charging, belts)
-      101: 8,  # wheelSensor: Individual wheel speed sensors
-      102: 6,  # adasState: Camera-based lead vehicle detection
-      103: 8,  # chassisState: Stability control and chassis systems
-      104: 8,  # powertrainState: Motor/engine and energy management
-      105: 8,  # imuSensor: Inertial measurement unit data
-      
+      1760: 6,   # pandaMessage: Vehicle and device identification
+      1761: 8,   # userCommand: Driver inputs and button presses
+      1762: 8,   # driverState: Driver monitoring and attention tracking
+      1763: 8,   # carState: Primary vehicle dynamics (speed, gear, cruise)
+      1764: 8,  # carState2: Extended state (doors, charging, belts)
+      1765: 8,  # wheelSensor: Individual wheel speed sensors
+      1766: 6,  # adasState: Camera-based lead vehicle detection
+      1767: 8,  # chassisState: Stability control and chassis systems
+      1768: 8,  # powertrainState: Motor/engine and energy management
+      1769: 8,  # imuSensor: Inertial measurement unit data
+
       # Control command messages
-      106: 8,  # longCommand: Primary longitudinal control (50Hz)
-      107: 8,  # longCommand2: Advanced longitudinal features (25Hz)
-      108: 8,  # latCommand: Steering angle/torque control (100Hz)
-      110: 8,  # dispCommand: Display and UI control (10Hz)
-      111: 8,  # visionInfo: Road analysis and environment data (50Hz)
-      
+      1770: 8,  # longCommand: Primary longitudinal control (50Hz)
+      1771: 8,  # longCommand2: Advanced longitudinal features (25Hz)
+      1772: 8,  # latCommand: Steering angle/torque control (100Hz)
+      1777: 8,  # dispCommand: Display and UI control (10Hz)
+      1775: 8,  # visionInfo: Road analysis and environment data (50Hz)
+
       # Model identification
-      112: 6,  # modelIdAtto3: BYD ATTO3 specific identifier
+      1773: 6,  # modelIdAtto3: BYD ATTO3 specific identifier
     },
   ],
-  
+
   # BYD DOLPHIN - Compact city EV (identifier: message 113)
   CAR.BYD_DOLPHIN: [
     {
       # Core vehicle state messages
-      96: 6,   # pandaMessage: Vehicle and device identification
-      97: 8,   # userCommand: Driver inputs and button presses
-      98: 8,   # driverState: Driver monitoring and attention tracking
-      99: 8,   # carState: Primary vehicle dynamics (speed, gear, cruise)
-      100: 8,  # carState2: Extended state (doors, charging, belts)
-      101: 8,  # wheelSensor: Individual wheel speed sensors
-      102: 6,  # adasState: Camera-based lead vehicle detection
-      103: 8,  # chassisState: Stability control and chassis systems
-      104: 8,  # powertrainState: Motor/engine and energy management
-      105: 8,  # imuSensor: Inertial measurement unit data
-      
+      1760: 6,   # pandaMessage: Vehicle and device identification
+      1761: 8,   # userCommand: Driver inputs and button presses
+      1762: 8,   # driverState: Driver monitoring and attention tracking
+      1763: 8,   # carState: Primary vehicle dynamics (speed, gear, cruise)
+      1764: 8,  # carState2: Extended state (doors, charging, belts)
+      1765: 8,  # wheelSensor: Individual wheel speed sensors
+      1766: 6,  # adasState: Camera-based lead vehicle detection
+      1767: 8,  # chassisState: Stability control and chassis systems
+      1768: 8,  # powertrainState: Motor/engine and energy management
+      1769: 8,  # imuSensor: Inertial measurement unit data
+
       # Control command messages
-      106: 8,  # longCommand: Primary longitudinal control (50Hz)
-      107: 8,  # longCommand2: Advanced longitudinal features (25Hz)
-      108: 8,  # latCommand: Steering angle/torque control (100Hz)
-      110: 8,  # dispCommand: Display and UI control (10Hz)
-      111: 8,  # visionInfo: Road analysis and environment data (50Hz)
-      
+      1770: 8,  # longCommand: Primary longitudinal control (50Hz)
+      1771: 8,  # longCommand2: Advanced longitudinal features (25Hz)
+      1772: 8,  # latCommand: Steering angle/torque control (100Hz)
+      1777: 8,  # dispCommand: Display and UI control (10Hz)
+      1775: 8,  # visionInfo: Road analysis and environment data (50Hz)
+
       # Model identification
-      113: 4,  # modelIdDolphin: BYD DOLPHIN specific identifier
+      1774: 4,  # modelIdDolphin: BYD DOLPHIN specific identifier
     },
   ],
-  
+
   # DEEPAL S05 - Performance sedan EV (identifier: message 114)
   CAR.DEEPAL_S05: [
     {
       # Core vehicle state messages
-      96: 6,   # pandaMessage: Vehicle and device identification
-      97: 8,   # userCommand: Driver inputs and button presses
-      98: 8,   # driverState: Driver monitoring and attention tracking
-      99: 8,   # carState: Primary vehicle dynamics (speed, gear, cruise)
-      100: 8,  # carState2: Extended state (doors, charging, belts)
-      101: 8,  # wheelSensor: Individual wheel speed sensors
-      102: 6,  # adasState: Camera-based lead vehicle detection
-      103: 8,  # chassisState: Stability control and chassis systems
-      104: 8,  # powertrainState: Motor/engine and energy management
-      105: 8,  # imuSensor: Inertial measurement unit data
-      
+      1760: 6,   # pandaMessage: Vehicle and device identification
+      1761: 8,   # userCommand: Driver inputs and button presses
+      1762: 8,   # driverState: Driver monitoring and attention tracking
+      1763: 8,   # carState: Primary vehicle dynamics (speed, gear, cruise)
+      1764: 8,  # carState2: Extended state (doors, charging, belts)
+      1765: 8,  # wheelSensor: Individual wheel speed sensors
+      1766: 6,  # adasState: Camera-based lead vehicle detection
+      1767: 8,  # chassisState: Stability control and chassis systems
+      1768: 8,  # powertrainState: Motor/engine and energy management
+      1769: 8,  # imuSensor: Inertial measurement unit data
+
       # Control command messages
-      106: 8,  # longCommand: Primary longitudinal control (50Hz)
-      107: 8,  # longCommand2: Advanced longitudinal features (25Hz)
-      108: 8,  # latCommand: Steering angle/torque control (100Hz)
-      110: 8,  # dispCommand: Display and UI control (10Hz)
-      111: 8,  # visionInfo: Road analysis and environment data (50Hz)
-      
+      1770: 8,  # longCommand: Primary longitudinal control (50Hz)
+      1771: 8,  # longCommand2: Advanced longitudinal features (25Hz)
+      1772: 8,  # latCommand: Steering angle/torque control (100Hz)
+      1777: 8,  # dispCommand: Display and UI control (10Hz)
+      1775: 8,  # visionInfo: Road analysis and environment data (50Hz)
+
       # Model identification
-      114: 8,  # modelIdDeepal: DEEPAL S05 specific identifier
+      1776: 8,  # modelIdDeepal: DEEPAL S05 specific identifier
     },
   ],
 }

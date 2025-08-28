@@ -61,7 +61,7 @@ TRAFFIC_LIGHT_GREEN = 3
 # [Bases ] object
 # =============================================================================
 class CarControllerParams:
-  
+
   # Common baseline parameters shared across all models
   STEER_STEP = 1                         # Steering command step size
   STEER_ERROR_MAX = 350                  # Maximum steering error tolerance (Nm)
@@ -101,20 +101,20 @@ class CarControllerParams:
     # Acceleration limits (0-100km/h in 7.3s)
     self.ACCEL_MAX = 2.0                   # Maximum acceleration (m/s²)
     self.ACCEL_MIN = -3.5                  # Maximum deceleration (m/s²)
-    
+
     # Steering control parameters (aligned with KIA/Hyundai EV standards)
     self.STEER_MAX = 240                   # Maximum steering torque (Nm) - matches EV industry standards
     self.STEER_DELTA_UP = 15               # Torque ramp up rate
     self.STEER_DELTA_DOWN = 22             # Torque ramp down rate
-    
+
     # Steering angle rate limits
     self.ANGLE_RATE_LIMIT_UP = AngleRateLimit(speed_bp=[5, 25], angle_v=[0.4, 0.2])
     self.ANGLE_RATE_LIMIT_DOWN = AngleRateLimit(speed_bp=[5, 25], angle_v=[0.5, 0.28])
-    
+
     # Regenerative braking (60kW max regen power)
     self.REGEN_BRAKE_MAX = 0.38            # Maximum regen strength
     self.REGEN_STRENGTH = 0.75             # Regen feel calibration
-    
+
     # Drivetrain specifications
     self.WHEEL_RADIUS = 0.334              # 215/55R18 tire radius (m)
     self.FINAL_DRIVE_RATIO = 3.36          # Single-speed transmission ratio
@@ -133,20 +133,20 @@ class CarControllerParams:
     # Acceleration limits (0-100km/h in 7.5s)
     self.ACCEL_MAX = 2.3                   # Maximum acceleration (m/s²)
     self.ACCEL_MIN = -3.2                  # ADAS-tuned deceleration (m/s²)
-    
+
     # Steering control parameters (aligned with compact EV standards)
     self.STEER_MAX = 210                   # Maximum steering torque (Nm) - matches compact EV standards
     self.STEER_DELTA_UP = 18               # ADAS-tuned torque ramp up
     self.STEER_DELTA_DOWN = 25             # ADAS-tuned torque ramp down
-    
+
     # Steering angle rate limits
     self.ANGLE_RATE_LIMIT_UP = AngleRateLimit(speed_bp=[5, 25], angle_v=[0.5, 0.25])
     self.ANGLE_RATE_LIMIT_DOWN = AngleRateLimit(speed_bp=[5, 25], angle_v=[0.6, 0.35])
-    
+
     # Regenerative braking (40kW max regen power)
     self.REGEN_BRAKE_MAX = 0.42            # Maximum regen strength
     self.REGEN_STRENGTH = 0.85             # Strong city regen feel
-    
+
     # Drivetrain specifications
     self.WHEEL_RADIUS = 0.318              # 205/60R16 tire radius (m)
     self.FINAL_DRIVE_RATIO = 3.89          # Higher ratio for city efficiency
@@ -165,20 +165,20 @@ class CarControllerParams:
     # Acceleration limits (similar to ATTO3 - same performance class)
     self.ACCEL_MAX = 2.0                   # Maximum acceleration (m/s²) - matches ATTO3
     self.ACCEL_MIN = -3.5                  # Maximum deceleration (m/s²) - matches ATTO3
-    
+
     # Steering control parameters (same as ATTO3)
     self.STEER_MAX = 240                   # Maximum steering torque (Nm) - matches ATTO3
     self.STEER_DELTA_UP = 15               # Torque ramp up rate - matches ATTO3
     self.STEER_DELTA_DOWN = 22             # Torque ramp down rate - matches ATTO3
-    
+
     # Steering angle rate limits (same as ATTO3)
     self.ANGLE_RATE_LIMIT_UP = AngleRateLimit(speed_bp=[5, 25], angle_v=[0.4, 0.2])
     self.ANGLE_RATE_LIMIT_DOWN = AngleRateLimit(speed_bp=[5, 25], angle_v=[0.5, 0.28])
-    
+
     # Regenerative braking (similar to ATTO3)
     self.REGEN_BRAKE_MAX = 0.38            # Maximum regen strength - matches ATTO3
     self.REGEN_STRENGTH = 0.75             # Regen feel calibration - matches ATTO3
-    
+
     # Drivetrain specifications (only tire size differs)
     self.WHEEL_RADIUS = 0.341              # 235/50R19 performance tire radius (m)
     self.FINAL_DRIVE_RATIO = 3.36          # Single-speed transmission ratio - matches ATTO3
@@ -194,24 +194,24 @@ class CarControllerParams:
   # [Returns] None
   # =============================================================================
   def _init_default_params(self):
-    
+
     # Acceleration limits - conservative safe values
     self.ACCEL_MAX = 2.0      # Safe max acceleration (m/s²)
     self.ACCEL_MIN = -3.5     # Safe max deceleration (m/s²)
-    
+
     # Steering parameters - moderate values for safety (CORRECTED)
     self.STEER_MAX = 150      # Safe max steering torque (Nm) - reasonable for EPS
     self.STEER_DELTA_UP = 15  # Conservative torque ramp up rate
     self.STEER_DELTA_DOWN = 25  # Standard torque ramp down rate
-    
+
     # Steering angle rate limits - safe for all vehicle types
     self.ANGLE_RATE_LIMIT_UP = AngleRateLimit(speed_bp=[5, 25], angle_v=[0.4, 0.2])
     self.ANGLE_RATE_LIMIT_DOWN = AngleRateLimit(speed_bp=[5, 25], angle_v=[0.5, 0.3])
-    
+
     # Regenerative braking - moderate values
     self.REGEN_BRAKE_MAX = 0.3  # Standard regen strength
     self.REGEN_STRENGTH = 0.7   # Balanced regen feel
-    
+
     # Drivetrain parameters - generic EV values (CRITICAL: needed for physics calculations)
     self.WHEEL_RADIUS = DEFAULT_WHEEL_RADIUS          # Default tire radius (0.31m)
     self.FINAL_DRIVE_RATIO = DEFAULT_FINAL_DRIVE_RATIO  # Default gear ratio (3.5)
@@ -238,10 +238,10 @@ class BrownPandaFlags(IntFlag):
   # Lateral control method selection
   ANGLE_CONTROL = 16            # Steering angle control (default)
   TORQUE_CONTROL = 32           # Direct steering torque control
-  
+
   # Advanced driving features
   STOP_AND_GO = 64              # Automatic stop and resume capability
-  
+
   # Sensor and monitoring capabilities
   FOUR_WHEEL_SENSORS = 2048     # Individual wheel speed sensors available
 
@@ -259,13 +259,13 @@ class BrownPandaFlags(IntFlag):
 # [Bases ] object
 # =============================================================================
 class CruiseButtons:
-  RESUME_ACCEL = "btnSpdUp"      # Resume cruise / Increase speed
-  DECEL_SET = "btnSpdDn"         # Set cruise / Decrease speed
-  CANCEL = "btnCcCancel"         # Cancel cruise control
-  SET = "btnCcSet"               # Set current speed as cruise target
-  RESUME = "btnCcResume"         # Resume previously set cruise speed
-  GAP_NEAR = "btnDistNr"         # Decrease following distance
-  GAP_FAR = "btnDistFar"         # Increase following distance
+  RESUME_ACCEL = "SPEED_UP_BTN"      # Resume cruise / Increase speed
+  DECEL_SET = "SPEED_DOWN_BTN"         # Set cruise / Decrease speed
+  CANCEL = "CRUISE_CANCEL"         # Cancel cruise control
+  SET = "CRUISE_SET"               # Set current speed as cruise target
+  RESUME = "CRUISE_RESUME"         # Resume previously set cruise speed
+  GAP_NEAR = "DISTANCE_NEAR_BTN"         # Decrease following distance
+  GAP_FAR = "DISTANCE_FAR_BTN"         # Increase following distance
 
 
 # Platform configuration classes
@@ -302,7 +302,7 @@ class BrownPandaCarDocs(CarDocs):
 # -----------------------------------------------------------------------------
 # [Section] Platform Configuration
 # -----------------------------------------------------------------------------
-@dataclass  
+@dataclass
 # =============================================================================
 # [Section] Class
 # [Brief ] Platform configuration wrapper (flags + DBC)
@@ -349,7 +349,7 @@ class CAR(Platforms):
   BYD_ATTO3 = BrownPandaPlatformConfig(
     [BrownPandaCarDocs("BYD ATTO3")],
     CarSpecs(mass=1680, wheelbase=2.72, steerRatio=16.0,
-             centerToFrontRatio=0.4, tireStiffnessFactor=0.8, 
+             centerToFrontRatio=0.4, tireStiffnessFactor=0.8,
              minSteerSpeed=3 * CV.KPH_TO_MS, minEnableSpeed=0),
     flags=(BrownPandaFlags.ANGLE_CONTROL |              # Steering angle control
            BrownPandaFlags.STOP_AND_GO |                # Stop and resume

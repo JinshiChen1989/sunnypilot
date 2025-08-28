@@ -58,7 +58,7 @@ class CarInterface(CarInterfaceBase):
   def _get_params(ret, candidate, fingerprint, car_fw, experimental_long, docs):
     # Basic vehicle identification
     ret.carName = "BrownPanda"
-    
+
     # Safety configuration (hardware-level, following Honda Bosch pattern)
     ret.safetyConfigs = [get_safety_config(car.CarParams.SafetyModel.brownpanda)]
 
@@ -110,7 +110,7 @@ class CarInterface(CarInterfaceBase):
 
     # Longitudinal control (camera-based)
     ret.openpilotLongitudinalControl = True                                 # Use openpilot for speed control
-    ret.stoppingControl = bool(ret.flags & BrownPandaFlags.STOP_AND_GO)     # Can stop/start automatically  
+    ret.stoppingControl = bool(ret.flags & BrownPandaFlags.STOP_AND_GO)     # Can stop/start automatically
     ret.startingState = bool(ret.flags & BrownPandaFlags.STOP_AND_GO)       # Automatic starting capability
     ret.radarUnavailable = True                                             # Camera-only system
 

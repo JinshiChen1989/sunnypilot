@@ -34,7 +34,7 @@ class CanBus(CanBusBase):
   # =============================================================================
   def __init__(self, CP=None, fingerprint=None) -> None:
     super().__init__(CP if fingerprint is None else None, fingerprint)
-    
+
     # Single-bus architecture: all virtual buses map to the same physical bus
     # This simplifies wiring and reduces complexity while maintaining compatibility
     self._pt = self.offset      # Powertrain bus (primary)
@@ -46,7 +46,7 @@ class CanBus(CanBusBase):
   def pt(self) -> int:
     return self._pt
 
-  @property  
+  @property
   def radar(self) -> int:
     return self._radar
 
@@ -90,15 +90,15 @@ def create_lat_command(packer, CAN: CanBusBase, CC, steering_angle: float, steer
     shake_level = max(shake_level, 1)
 
   values = {
-    "cmdSteerAngle": max(min(steering_angle, 3276.7), -3276.8),
-    "cmdSteerTorque": max(min(steering_torque, 327.67), -327.68),
-    "cmdSteerMode": 1 if CC.latActive else 0,
-    "cmdSteerEnable": 1 if CC.latActive else 0,
-    "cmdSteerAlert": steer_alert_level,
-    "cmdSteerShake": shake_level,
-    "cmdLaneActive": 1 if CC.latActive else 0,
-    "cmdLaneEnable": 1 if CC.latActive else 0,
-    "cmdLaneAlert": 1 if steer_alert_level > 0 else 0,
+    "CMD_STEER_ANGLE": max(min(steering_angle, 3276.7), -3276.8),
+    "CMD_STEER_TORQUE": max(min(steering_torque, 327.67), -327.68),
+    "CMD_STEER_MODE": 1 if CC.latActive else 0,
+    "CMD_STEER_ENABLE": 1 if CC.latActive else 0,
+    "CMD_STEER_ALERT": steer_alert_level,
+    "CMD_STEER_SHAKE": shake_level,
+    "CMD_LANE_ACTIVE": 1 if CC.latActive else 0,
+    "CMD_LANE_ENABLE": 1 if CC.latActive else 0,
+    "CMD_LANE_ALERT": 1 if steer_alert_level > 0 else 0,
   }
   return packer.make_can_msg("0x6C_latCommand", CAN.pt, values)
 
@@ -122,10 +122,10 @@ def create_long_command(packer, CAN: CanBusBase, CC, CS, accel: float, torque_co
   brake_pedal = abs(min(accel, 0.0)) * 25.0  # 100% at ~4 m/s² decel
 
   values = {
-    "cmdSpeedTarget": max(min(speed_target, 655.35), 0.0),
-    "cmdTorque": max(min(torque_command, 15475.0), -5000.0),
-    "cmdBrakePressure": max(min(brake_pressure, 1023.984375), 0.0),
-    "cmdPedalBrk": max(min(brake_pedal, 102.0), 0.0),
+    "CMD_SPEED_TARGET": max(min(speed_target, 655.35), 0.0),
+    "CMD_TORQUE": max(min(torque_command, 15475.0), -5000.0),
+    "CMD_BRAKE_PRESSURE": max(min(brake_pressure, 1023.984375), 0.0),
+    "CMD_PEDAL_BRK": max(min(brake_pedal, 102.0), 0.0),
   }
   return packer.make_can_msg("0x6A_longCommand", CAN.pt, values)
 
@@ -145,31 +145,31 @@ def create_long_command2(packer, CAN: CanBusBase, CC, CS, accel: float, stopping
   speed_decel = abs(min(accel, 0.0)) if CC.longActive else 0.0
 
   values = {
-    "cmdSpeedAccel": max(min(speed_accel, 2.75), -10.0),
-    "cmdSpeedDecel": max(min(speed_decel, 2.75), -10.0),
-    "cmdAccelTune": 7,
-    "cmdDecelTune": 7,
+    "CMD_SPEED_ACCEL": max(min(speed_accel, 2.75), -10.0),
+    "CMD_SPEED_DECEL": max(min(speed_decel, 2.75), -10.0),
+    "CMD_ACCEL_TUNE": 7,
+    "CMD_DECEL_TUNE": 7,
 
-    "cmdCruiseEnabled": 1 if (CC.enabled and CS.out.cruiseState.enabled) else 0,
-    "cmdCruiseActive": 1 if CC.longActive else 0,
-    "cmdCruiseResume": 1 if getattr(getattr(CC, 'cruiseControl', None), 'resume', False) else 0,
+    "CMD_CRUISE_ENABLED": 1 if (CC.enabled and CS.out.cruiseState.enabled) else 0,
+    "CMD_CRUISE_ACTIVE": 1 if CC.longActive else 0,
+    "CMD_CRUISE_RESUME": 1 if getattr(getattr(CC, 'cruiseControl', None), 'resume', False) else 0,
 
-    "cmdCruiseSsEn": 1 if hasattr(CC, 'standstill') else 0,
-    "cmdCruiseSsActive": 1 if stopping_counter > 200 else 0,
-    "cmdStandstillResume": 1 if getattr(CS.out, 'vEgo', 0.0) < 0.1 and CC.longActive else 0,
+    "CMD_CRUISE_SS_EN": 1 if hasattr(CC, 'standstill') else 0,
+    "CMD_CRUISE_SS_ACTIVE": 1 if stopping_counter > 200 else 0,
+    "CMD_STANDSTILL_RESUME": 1 if getattr(CS.out, 'vEgo', 0.0) < 0.1 and CC.longActive else 0,
 
-    "cmdRegenEn": 1 if hasattr(params, 'REGEN_STRENGTH') else 0,
-    "cmdRegenKer": 1 if hasattr(params, 'REGEN_BRAKE_MAX') else 0,
+    "CMD_REGEN_EN": 1 if hasattr(params, 'REGEN_STRENGTH') else 0,
+    "CMD_REGEN_KER": 1 if hasattr(params, 'REGEN_BRAKE_MAX') else 0,
 
-    "cmdAccControllable": 1 if CC.longActive else 0,
-    "cmdAccOverride": 0,
-    "cmdReqActiveLow": 0,
+    "CMD_ACC_CONTROLLABLE": 1 if CC.longActive else 0,
+    "CMD_ACC_OVERRIDE": 0,
+    "CMD_REQ_ACTIVE_LOW": 0,
 
-    "cmdIdleStopEn": 1 if stopping_counter > 200 else 0,
-    "cmdBrakeComp": max(min(abs(min(accel, 0.0)) * getattr(params, 'REGEN_BRAKE_MAX', 0.3), 1.0), 0.0),
-    "cmdFcwAlert": 1 if getattr(getattr(CC, 'hudControl', None), 'visualAlert', None) == VisualAlert.fcw else 0,
-    "cmdAebReq": 0,
-    "cmdBrakePump": 1 if (accel < getattr(params, 'ACCEL_MIN', -3.5) * 0.5) else 0,
+    "CMD_IDLE_STOP_EN": 1 if stopping_counter > 200 else 0,
+    "CMD_BRAKE_COMP": max(min(abs(min(accel, 0.0)) * getattr(params, 'REGEN_BRAKE_MAX', 0.3), 1.0), 0.0),
+    "CMD_FCW_ALERT": 1 if getattr(getattr(CC, 'hudControl', None), 'visualAlert', None) == VisualAlert.fcw else 0,
+    "CMD_AEB_REQ": 0,
+    "CMD_BRAKE_PUMP": 1 if (accel < getattr(params, 'ACCEL_MIN', -3.5) * 0.5) else 0,
   }
   return packer.make_can_msg("0x6B_longCommand2", CAN.pt, values)
 
@@ -187,13 +187,13 @@ def create_vision_info(packer, CAN: CanBusBase, CC, CS):
   # Build and pack visionInfo (environment/road analysis)
   # Defaults; can be sourced from model outputs later
   values = {
-    "roadType": 2,
-    "tlState": 0,
-    "obstacle": 0,
-    "roadValid": 1,
-    "curv": 0.0,
-    "laneW": 3.7,
-    "laneOffs": 0.0,
+    "ROAD_TYPE": 2,
+    "TL_STATE": 0,
+    "OBSTACLE": 0,
+    "ROAD_VALID": 1,
+    "CURV": 0.0,
+    "LANE_W": 3.7,
+    "LANE_OFFS": 0.0,
   }
   return packer.make_can_msg("0x6F_visionInfo", CAN.pt, values)
 
@@ -227,31 +227,31 @@ def create_disp_command(packer, CAN: CanBusBase, CC, CS):
   follow_distance = getattr(hud, 'leadDistanceBars', 2)
 
   values = {
-    "cmdDispCcEn": 1 if CC.enabled else 0,
-    "cmdDispCcActive": 1 if CC.longActive else 0,
-    "cmdDispLnEn": 1 if CC.latActive else 0,
-    "cmdDispLnActive": 1 if CC.latActive else 0,
+    "CMD_DISP_CC_EN": 1 if CC.enabled else 0,
+    "CMD_DISP_CC_ACTIVE": 1 if CC.longActive else 0,
+    "CMD_DISP_LN_EN": 1 if CC.latActive else 0,
+    "CMD_DISP_LN_ACTIVE": 1 if CC.latActive else 0,
 
-    "cmdDispSoundAlert": sound_alert,
+    "CMD_DISP_SOUND_ALERT": sound_alert,
 
-    "cmdDispLeadC": lead_center,
-    "cmdDispLeadL": lead_left,
-    "cmdDispLeadR": lead_right,
+    "CMD_DISP_LEAD_C": lead_center,
+    "CMD_DISP_LEAD_L": lead_left,
+    "CMD_DISP_LEAD_R": lead_right,
 
-    "cmdDispDepartLeft": depart_left,
-    "cmdDispDepartRight": depart_right,
+    "CMD_DISP_DEPART_LEFT": depart_left,
+    "CMD_DISP_DEPART_RIGHT": depart_right,
 
-    "cmdDispLane1": left_lane,
-    "cmdDispLane2": center_lanes,
-    "cmdDispLane3": center_lanes,
-    "cmdDispLane4": right_lane,
+    "CMD_DISP_LANE1": left_lane,
+    "CMD_DISP_LANE2": center_lanes,
+    "CMD_DISP_LANE3": center_lanes,
+    "CMD_DISP_LANE4": right_lane,
 
-    "cmdDispRoadEdgeLeft": 1 if (CC.latActive and left_lane) else 0,
-    "cmdDispRoadEdgeRight": 1 if (CC.latActive and right_lane) else 0,
+    "CMD_DISP_ROAD_EDGE_LEFT": 1 if (CC.latActive and left_lane) else 0,
+    "CMD_DISP_ROAD_EDGE_RIGHT": 1 if (CC.latActive and right_lane) else 0,
 
-    "cmdDispFollowDistance": max(min(follow_distance, 7), 0),
-    "cmdDispSpeed": max(min(hud_speed, 655.35), 0.0),
-    "cmdDispPassThrough": 0,
+    "CMD_DISP_FOLLOW_DISTANCE": max(min(follow_distance, 7), 0),
+    "CMD_DISP_SPEED": max(min(hud_speed, 655.35), 0.0),
+    "CMD_DISP_PASS_THROUGH": 0,
   }
 
   return packer.make_can_msg("0x6E_dispCommand", CAN.pt, values)
