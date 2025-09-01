@@ -126,6 +126,7 @@ struct LongitudinalPlanSP @0xf35cc4560bbf6ec2 {
 
   events @1 :List(OnroadEventSP.Event);
   slc @2 :SpeedLimitControl;
+  visionTurnSpeedControl @4 :VisionTurnSpeedControl;
 
   struct DynamicExperimentalControl {
     state @0 :DynamicExperimentalControlState;
@@ -159,6 +160,20 @@ struct LongitudinalPlanSP @0xf35cc4560bbf6ec2 {
     preActive @2;
     adapting @3; # Reducing speed to match new speed limit.
     active @4; # Cruising at speed limit.
+  }
+
+  struct VisionTurnSpeedControl {
+    state @0 :VisionTurnSpeedControlState;
+    velocity @1 :Float32;
+    currentLateralAccel @2 :Float32;
+    maxPredictedLateralAccel @3 :Float32;
+
+    enum VisionTurnSpeedControlState {
+      disabled @0; # No predicted substantial turn on vision range or feature disabled.
+      entering @1; # A substantial turn is predicted ahead, adapting speed to turn comfort levels.
+      turning @2; # Actively turning. Managing acceleration to provide a roll on turn feeling.
+      leaving @3; # Road ahead straightens. Start to allow positive acceleration.
+    }
   }
 }
 

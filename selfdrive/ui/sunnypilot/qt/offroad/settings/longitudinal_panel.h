@@ -32,6 +32,8 @@ private:
   ScrollViewSP *cruisePanelScroller = nullptr;
   QWidget *cruisePanelScreen = nullptr;
   CustomAccIncrement *customAccIncrement = nullptr;
+
+  ParamControlSP *visionTurnSpeedControl = nullptr;
   SpeedLimitControlSubpanel *slcScreen;
   SpeedLimitControl *slcControl;
 
