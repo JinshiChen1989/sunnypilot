@@ -223,8 +223,8 @@ void HudRenderer::drawSpeedLimitSigns(QPainter &p, const QRect &surface_rect) {
   QRect sign_rect(sign_x, sign_y, sign_width, sign_height);
 
   // Check if SLC is inactive or controller is not active
-  bool is_slc_inactive = (slc_state == cereal::LongitudinalPlanSP::SpeedLimitControlState::INACTIVE ||
-                         slc_state == cereal::LongitudinalPlanSP::SpeedLimitControlState::TEMP_INACTIVE);
+  bool is_slc_inactive = (slc_state == cereal::LongitudinalPlanSP::SpeedLimitControlState::INACTIVE);
+                         // || slc_state == cereal::LongitudinalPlanSP::SpeedLimitControlState::TEMP_INACTIVE);
   bool is_controller_inactive = (status == STATUS_DISENGAGED);
   bool should_show_inactive = is_slc_inactive || is_controller_inactive;
 
@@ -433,10 +433,10 @@ void HudRenderer::drawSLCStateIndicator(QPainter &p, const QRect &surface_rect) 
   switch (slc_state) {
     case cereal::LongitudinalPlanSP::SpeedLimitControlState::INACTIVE:
       return; // Don't show anything
-    case cereal::LongitudinalPlanSP::SpeedLimitControlState::TEMP_INACTIVE:
-      stateText = tr("IGNORED");
-      stateColor = QColor(255, 165, 0, 255);
-      break;
+    // case cereal::LongitudinalPlanSP::SpeedLimitControlState::TEMP_INACTIVE:
+    //   stateText = tr("IGNORED");
+    //   stateColor = QColor(255, 165, 0, 255);
+    //   break;
     case cereal::LongitudinalPlanSP::SpeedLimitControlState::PRE_ACTIVE:
       stateText = tr("PREPARING");
       stateColor = QColor(255, 255, 0, 255);
