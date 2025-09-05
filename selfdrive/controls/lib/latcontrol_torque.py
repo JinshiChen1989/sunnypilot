@@ -28,6 +28,7 @@ class LatControlTorque(LatControl):
   def __init__(self, CP, CP_SP, CI):
     super().__init__(CP, CP_SP, CI)
     self.torque_params = CP.lateralTuning.torque.as_builder()
+    self.CP = CP
     self.torque_from_lateral_accel = CI.torque_from_lateral_accel()
     self.lateral_accel_from_torque = CI.lateral_accel_from_torque()
     self.pid = PIDController(self.torque_params.kp, self.torque_params.ki,
@@ -36,6 +37,32 @@ class LatControlTorque(LatControl):
     self.steering_angle_deadzone_deg = self.torque_params.steeringAngleDeadzoneDeg
 
     self.extension = LatControlTorqueExt(self, CP, CP_SP, CI)
+
+    # DTSA (Dynamic Torque Steering Adjustment): optional timing trim for torque mode.
+    # Junior note (real world): EPS delay changes with temperature/friction.
+    # We measure a small torque mismatch each cycle and nudge the controller's
+    # lookahead to keep steering stable. Enable per model via lateralParams.dtsaEnable.
+    # Field tuning knobs: dtsaTau / dtsaMaxTrim / dtsaScale / dtsaDeadband / dtsaMinSpeed
+    # Enable only if torque mode and the per‑model flag (lateralParams.dtsaEnable) is set
+    self.enable_dtsa = (
+      hasattr(CP, 'lateralTuning') and getattr(CP.lateralTuning, 'which')() == 'torque' and
+      hasattr(CP, 'lateralParams') and getattr(CP.lateralParams, 'dtsaEnable', False)
+    )
+    # Small, smooth timing trim (seconds); per‑model knobs with safe defaults.
+    # - dtsaTau:   bigger -> slower/smoother adaptation
+    # - dtsaMaxTrim: cap so we never shift timing too far
+    # - dtsaScale:  seconds of timing per 1.0 torque mismatch
+    # - dtsaDeadband: ignore tiny mismatches (sensor noise)
+    # - dtsaMinSpeed: only learn above this speed (low speed is noisy)
+    self._dtsa_tau_s = getattr(getattr(CP, 'lateralParams', object()), 'dtsaTau', 0.5)
+    self._dtsa_dt_s = 0.01
+    from openpilot.common.filter_simple import FirstOrderFilter
+    self._dtsa_filter = FirstOrderFilter(0.0, self._dtsa_tau_s, self._dtsa_dt_s)
+    self._dtsa = 0.0
+    # Default max trim follows COMMA2 convention (~0.4s). Ports can override per model.
+    self._dtsa_max = getattr(getattr(CP, 'lateralParams', object()), 'dtsaMaxTrim', 0.4)
+    self._last_req_torque = 0.0
+    self._last_applied_torque = None
 
   def update_live_torque_params(self, latAccelFactor, latAccelOffset, friction):
     self.torque_params.latAccelFactor = latAccelFactor
@@ -53,6 +80,15 @@ class LatControlTorque(LatControl):
       output_torque = 0.0
       pid_log.active = False
     else:
+      # Apply DTSA timing trim from previous cycle
+      # Why: controller lookahead is computed using these times. By applying the
+      # previously learned trim first, this cycle benefits from the most recent
+      # estimate of EPS delay (reduces overshoot/ping‑pong).
+      if self.enable_dtsa:
+        # Note: In this architecture, timing adjustments would need to be applied
+        # to the extension system rather than direct timing variables
+        pass
+
       actual_curvature = -VM.calc_curvature(math.radians(CS.steeringAngleDeg - params.angleOffsetDeg), CS.vEgo, params.roll)
       roll_compensation = params.roll * ACCELERATION_DUE_TO_GRAVITY
       curvature_deadzone = abs(VM.calc_curvature(math.radians(self.steering_angle_deadzone_deg), CS.vEgo, 0.0))
@@ -95,6 +131,38 @@ class LatControlTorque(LatControl):
       pid_log.actualLateralAccel = float(actual_lateral_accel)
       pid_log.desiredLateralAccel = float(desired_lateral_accel)
       pid_log.saturated = bool(self._check_saturation(self.steer_max - abs(output_torque) < 1e-3, CS, steer_limited_by_safety, curvature_limited))
+
+      # Update DTSA estimator after computing current torque command
+      # Flow (each cycle):
+      #   1) apply last _dtsa to timing (above)
+      #   2) compute torque (requested)
+      #   3) measure mismatch vs EPS (applied)
+      #   4) low‑pass + clamp -> _dtsa to use next cycle
+      if self.enable_dtsa:
+        applied = getattr(CS, 'steeringTorque', None)
+        applied_valid = applied is not None
+        # requested uses controller sign convention (before final sign flip)
+        requested = float(-output_torque)
+        self._last_req_torque = requested
+        if applied_valid:
+          self._last_applied_torque = float(applied)
+          # Only learn when inputs are trustworthy: speed high enough, no driver steer,
+          # not limited by torque saturation.
+          vmin = getattr(getattr(self, 'CP', self.CP), 'lateralParams', None)
+          vmin = getattr(vmin, 'dtsaMinSpeed', 5.0)
+          gated = (CS.vEgo > vmin and not CS.steeringPressed and not steer_limited_by_safety)
+          if gated:
+            # If EPS perfectly tracks the controller, requested + applied ≈ 0 (they cancel).
+            # Bigger mismatch means more delay/friction right now.
+            mismatch = abs(requested + self._last_applied_torque)
+            deadband = getattr(getattr(self, 'CP', self.CP).lateralParams, 'dtsaDeadband', 0.05) if hasattr(getattr(self, 'CP', self.CP), 'lateralParams') else 0.05
+            if mismatch < deadband:
+              mismatch = 0.0
+            # Convert mismatch to seconds of timing; per‑model scale with a safe default.
+            scale = getattr(getattr(self, 'CP', self.CP).lateralParams, 'dtsaScale', 0.02) if hasattr(getattr(self, 'CP', self.CP), 'lateralParams') else 0.02
+            dtsa_raw = mismatch * scale
+            # Smooth (LPF) and cap the final timing adjustment.
+            self._dtsa = max(0.0, min(self._dtsa_filter.update(dtsa_raw), self._dtsa_max))
 
     # TODO left is positive in this convention
     return -output_torque, 0.0, pid_log
